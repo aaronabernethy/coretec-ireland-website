@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Specialty Oil & Gas Products",
   description:
-    "Cortec VpCI corrosion protection products for oil and gas applications. Pipeline preservation, vessel mothballing, hydrostatic testing and equipment layup. Available from Cortec Ireland.",
+    "Cortec\u00AE VpCI\u00AE corrosion protection products for oil and gas applications. Pipeline preservation, vessel mothballing, hydrostatic testing and equipment layup. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
@@ -19,7 +19,7 @@ const featuredProducts = [
   {
     name: "VpCI\u00AE-707",
     description:
-      "Mothballing compound for vessels, tanks, heat exchangers and process equipment during extended shutdown periods. Forms a persistent protective layer on all internal metal surfaces, with VpCI vapour phase protection reaching into voids, dead legs and vapour spaces. Dramatically reduces re-commissioning time and cost.",
+      "Mothballing compound for vessels, tanks, heat exchangers and process equipment during extended shutdown periods. Forms a persistent protective layer on all internal metal surfaces, with VpCI® vapour phase protection reaching into voids, dead legs and vapour spaces. Dramatically reduces re-commissioning time and cost.",
   },
   {
     name: "VpCI\u00AE-708",
@@ -34,7 +34,7 @@ const featuredProducts = [
   {
     name: "Cor-Pak\u00AE VpCI\u00AE Tank Inserts",
     description:
-      "Large-format VpCI emitter devices designed to be placed inside empty tanks, vessels and large enclosures. Release VpCI vapour continuously to protect internal surfaces during dry layup without the need for nitrogen blanketing or dehumidification equipment.",
+      "Large-format VpCI® emitter devices designed to be placed inside empty tanks, vessels and large enclosures. Release VpCI® vapour continuously to protect internal surfaces during dry layup without the need for nitrogen blanketing or dehumidification equipment.",
   },
 ];
 
@@ -80,7 +80,7 @@ export default function SpecialtyOilGasPage() {
               replacement.
             </p>
             <p className="text-grey-600 text-base leading-relaxed mb-4">
-              Cortec VpCI products for oil and gas provide dual-phase corrosion
+              Cortec® VpCI® products for oil and gas provide dual-phase corrosion
               protection \u2014 inhibiting corrosion in both the liquid phase
               (where water contacts metal) and the vapour phase (where moisture
               in the air above the waterline attacks exposed surfaces). This
@@ -121,7 +121,7 @@ export default function SpecialtyOilGasPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Industries Served"
-            subtitle="Cortec oil and gas products are specified by integrity engineers, project managers and preservation specialists across the energy and process sectors."
+            subtitle="Cortec® oil and gas products are specified by integrity engineers, project managers and preservation specialists across the energy and process sectors."
           />
           <div className="flex flex-wrap justify-center gap-4">
             {industriesServed.map((industry) => (
@@ -141,7 +141,7 @@ export default function SpecialtyOilGasPage() {
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8">
-            Why Cortec for Oil & Gas?
+            Why Cortec® for Oil & Gas?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -151,11 +151,11 @@ export default function SpecialtyOilGasPage() {
               },
               {
                 title: "Faster Re-Commissioning",
-                text: "Many Cortec preservation products can remain in the system during start-up, eliminating draining, flushing and refilling steps. Days off the schedule.",
+                text: "Many Cortec® preservation products can remain in the system during start-up, eliminating draining, flushing and refilling steps. Days off the schedule.",
               },
               {
                 title: "No Nitrogen Blanketing",
-                text: "VpCI tank inserts and vapour-phase products protect dry-stored equipment without nitrogen generators, regulators or continuous monitoring.",
+                text: "VpCI® tank inserts and vapour-phase products protect dry-stored equipment without nitrogen generators, regulators or continuous monitoring.",
               },
               {
                 title: "Personnel Safety",
@@ -188,7 +188,7 @@ export default function SpecialtyOilGasPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Featured Products"
-            subtitle="The core Cortec product range for oil and gas corrosion protection, available from stock in Ireland."
+            subtitle="The core Cortec® product range for oil and gas corrosion protection, available from stock in Ireland."
           />
           <div className="space-y-12">
             {featuredProducts.map((product) => (
@@ -219,7 +219,7 @@ export default function SpecialtyOilGasPage() {
           <div className="max-w-2xl mx-auto text-center">
             <SectionHeading
               title="Request a Quote or Datasheet"
-              subtitle="For a full quote or technical datasheet on any Cortec oil and gas product, contact our team."
+              subtitle="For a full quote or technical datasheet on any Cortec® oil and gas product, contact our team."
             />
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -241,7 +241,7 @@ export default function SpecialtyOilGasPage() {
 
       <CTABanner
         title="Need Corrosion Protection for Pipeline or Equipment Preservation?"
-        subtitle="Our team will recommend the right Cortec product for your oil and gas preservation needs."
+        subtitle="Our team will recommend the right Cortec® product for your oil and gas preservation needs."
         primaryCTA={{ text: "Talk to Our Team", href: "/contact" }}
       />
     </main>

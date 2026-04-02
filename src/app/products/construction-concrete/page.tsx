@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "MCI\u00AE Construction & Concrete Products",
   description:
-    "Cortec MCI Migrating Corrosion Inhibitors for concrete and construction. Protect reinforcing steel in bridges, parking structures, marine infrastructure and historical buildings. Available from Cortec Ireland.",
+    "Cortec\u00AE MCI\u00AE Migrating Corrosion Inhibitors for concrete and construction. Protect reinforcing steel in bridges, parking structures, marine infrastructure and historical buildings. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
@@ -24,7 +24,7 @@ const featuredProducts = [
   {
     name: "MCI\u00AE-2018",
     description:
-      "Concrete sealer with integrated Migrating Corrosion Inhibitor technology. Seals the concrete surface against moisture and chloride ingress while simultaneously migrating inward to protect the rebar. Combines surface protection with internal corrosion inhibition in a single application.",
+      "Concrete sealer with integrated Migrating Corrosion Inhibitor™ technology. Seals the concrete surface against moisture and chloride ingress while simultaneously migrating inward to protect the rebar. Combines surface protection with internal corrosion inhibition in a single application.",
   },
   {
     name: "MCI\u00AE-2019",
@@ -34,7 +34,7 @@ const featuredProducts = [
   {
     name: "MCI\u00AE-2020 Repair Mortar",
     description:
-      "Corrosion-inhibiting repair mortar for patching and restoring damaged concrete. Contains MCI technology that migrates beyond the repair area to protect surrounding rebar that may be at risk. Addresses the common &quot;ring anode&quot; problem where repairs to one area can accelerate corrosion in adjacent zones.",
+      "Corrosion-inhibiting repair mortar for patching and restoring damaged concrete. Contains MCI® technology that migrates beyond the repair area to protect surrounding rebar that may be at risk. Addresses the common &quot;ring anode&quot; problem where repairs to one area can accelerate corrosion in adjacent zones.",
   },
 ];
 
@@ -72,22 +72,22 @@ export default function ConstructionConcretePage() {
           <SectionHeading title="What These Products Do" centered={false} />
           <div className="max-w-3xl">
             <p className="text-grey-600 text-base leading-relaxed mb-4">
-              Cortec MCI (Migrating Corrosion Inhibitor) products are designed
+              Cortec® MCI® (Migrating Corrosion Inhibitor) products are designed
               specifically for reinforced concrete structures. They work by
               migrating through the concrete pore structure \u2014 both as a
               vapour and through capillary action \u2014 to reach the embedded
-              reinforcing steel. Once at the rebar surface, MCI molecules form a
+              reinforcing steel. Once at the rebar surface, MCI® molecules form a
               thin protective layer that inhibits both anodic and cathodic
               corrosion reactions.
             </p>
             <p className="text-grey-600 text-base leading-relaxed mb-4">
-              For new construction, MCI admixtures are added directly to the
+              For new construction, MCI® admixtures are added directly to the
               concrete mix. For existing structures, surface-applied treatments
               penetrate through the concrete cover to reach the rebar without
               requiring demolition, overlays or cathodic protection systems.
             </p>
             <p className="text-grey-600 text-base leading-relaxed">
-              Independent studies have demonstrated that MCI technology can
+              Independent studies have demonstrated that MCI® technology can
               extend the service life of reinforced concrete structures by 3 to
               5 times compared to untreated concrete. This represents enormous
               savings in lifecycle cost, particularly for infrastructure assets
@@ -120,7 +120,7 @@ export default function ConstructionConcretePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Industries Served"
-            subtitle="MCI products are specified by structural engineers, architects, asset owners and contractors across the built environment."
+            subtitle="MCI® products are specified by structural engineers, architects, asset owners and contractors across the built environment."
           />
           <div className="flex flex-wrap justify-center gap-4">
             {industriesServed.map((industry) => (
@@ -140,7 +140,7 @@ export default function ConstructionConcretePage() {
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8">
-            Why Cortec MCI\u00AE Technology?
+            Why Cortec® MCI\u00AE Technology?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -150,7 +150,7 @@ export default function ConstructionConcretePage() {
               },
               {
                 title: "No Demolition Required",
-                text: "Surface-applied MCI treatments penetrate existing concrete to protect the rebar. No need to remove sound concrete, install anodes or apply overlays.",
+                text: "Surface-applied MCI® treatments penetrate existing concrete to protect the rebar. No need to remove sound concrete, install anodes or apply overlays.",
               },
               {
                 title: "Addresses Ring Anode Effect",
@@ -166,7 +166,7 @@ export default function ConstructionConcretePage() {
               },
               {
                 title: "Cost Effective",
-                text: "The cost of MCI treatment is a fraction of the cost of premature repair or replacement. Lifecycle cost analysis consistently favours MCI-treated structures.",
+                text: "The cost of MCI® treatment is a fraction of the cost of premature repair or replacement. Lifecycle cost analysis consistently favours MCI®-treated structures.",
               },
             ].map((item) => (
               <div key={item.title}>
@@ -187,7 +187,7 @@ export default function ConstructionConcretePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Featured Products"
-            subtitle="The core Cortec MCI product range for construction and concrete protection, available from stock in Ireland."
+            subtitle="The core Cortec® MCI® product range for construction and concrete protection, available from stock in Ireland."
           />
           <div className="space-y-12">
             {featuredProducts.map((product) => (
@@ -218,7 +218,7 @@ export default function ConstructionConcretePage() {
           <div className="max-w-2xl mx-auto text-center">
             <SectionHeading
               title="Request a Quote or Datasheet"
-              subtitle="For a full quote or technical datasheet on any Cortec MCI construction product, contact our team."
+              subtitle="For a full quote or technical datasheet on any Cortec® MCI® construction product, contact our team."
             />
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -240,7 +240,7 @@ export default function ConstructionConcretePage() {
 
       <CTABanner
         title="Need Corrosion Protection for a Concrete Structure?"
-        subtitle="Our team will recommend the right MCI product for your construction or repair project."
+        subtitle="Our team will recommend the right MCI® product for your construction or repair project."
         primaryCTA={{ text: "Talk to Our Team", href: "/contact" }}
       />
     </main>

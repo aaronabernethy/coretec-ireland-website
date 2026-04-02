@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { tm } from "@/lib/trademark";
 
 interface HeroSectionProps {
   title: string;
@@ -20,10 +21,10 @@ export default function HeroSection({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
         <div className="max-w-3xl">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight tracking-tight">
-            {title}
+            {tm(title)}
           </h1>
           <p className="mt-6 text-base sm:text-lg lg:text-xl text-grey-300 leading-relaxed max-w-2xl">
-            {subtitle}
+            {tm(subtitle)}
           </p>
           <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4">
             <Link

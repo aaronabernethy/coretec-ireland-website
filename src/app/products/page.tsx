@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Products",
   description:
-    "Explore the full range of Cortec VpCI and MCI corrosion inhibitor products. Films, papers, emitters, coatings, liquids, construction solutions and specialty oil and gas products — all available from Ireland's exclusive Cortec distributor.",
+    "Explore the full range of Cortec\u00AE VpCI\u00AE and MCI\u00AE corrosion inhibitor products. Films, papers, emitters, coatings, liquids, construction solutions and specialty oil and gas products — all available from Ireland's exclusive Cortec distributor.",
 };
 
 const productCategories = [
@@ -21,13 +21,13 @@ const productCategories = [
   {
     title: "VpCI\u00AE Papers & Wraps",
     description:
-      "Kraft-based papers treated with multi-metal VpCI technology for interleaving, wrapping and lining applications. Ideal for protecting individual parts, stacked metal sheets and crated components during storage and transit.",
+      "Kraft-based papers treated with multi-metal VpCI® technology for interleaving, wrapping and lining applications. Ideal for protecting individual parts, stacked metal sheets and crated components during storage and transit.",
     href: "/products/vci-papers",
   },
   {
     title: "VpCI\u00AE Emitters & Diffusers",
     description:
-      "Self-contained corrosion inhibitor devices that release VpCI molecules into enclosed spaces. No surface contact required — simply place inside electrical cabinets, shipping containers, storage vaults or equipment housings.",
+      "Self-contained corrosion inhibitor devices that release VpCI® molecules into enclosed spaces. No surface contact required — simply place inside electrical cabinets, shipping containers, storage vaults or equipment housings.",
     href: "/products/vci-emitters",
   },
   {
@@ -60,8 +60,8 @@ export default function ProductsPage() {
   return (
     <main>
       <HeroSection
-        title="Cortec VpCI\u00AE Product Range"
-        subtitle="As Ireland's exclusive authorised Cortec distributor, we supply the complete range of VpCI\u00AE and MCI\u00AE corrosion inhibitor products. Every product is manufactured by Cortec Corporation \u2014 the world leader in vapour phase corrosion inhibitor technology."
+        title="Cortec® VpCI\u00AE Product Range"
+        subtitle="As Ireland's exclusive authorised Cortec® distributor, we supply the complete range of VpCI\u00AE and MCI\u00AE corrosion inhibitor products. Every product is manufactured by Cortec® Corporation \u2014 the world leader in vapour phase corrosion inhibitor technology."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Full Product Catalog ↗", href: "https://www.cortecvci.com/products/" }}
       />
@@ -71,7 +71,7 @@ export default function ProductsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Product Categories"
-            subtitle="Browse our full range of Cortec corrosion protection solutions. Each category addresses a specific packaging, coating, treatment or structural need."
+            subtitle="Browse our full range of Cortec® corrosion protection solutions. Each category addresses a specific packaging, coating, treatment or structural need."
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {productCategories.map((category) => (
@@ -92,7 +92,7 @@ export default function ProductsPage() {
           <div className="max-w-3xl mx-auto text-center">
             <SectionHeading
               title="Not Sure Which Product You Need?"
-              subtitle="With hundreds of Cortec products across multiple categories, choosing the right solution can be daunting. That is where our technical team comes in."
+              subtitle="With hundreds of Cortec® products across multiple categories, choosing the right solution can be daunting. That is where our technical team comes in."
             />
             <p className="text-grey-600 text-base leading-relaxed mb-4">
               Our technical team will assess your corrosion challenge and
@@ -117,7 +117,7 @@ export default function ProductsPage() {
 
       <CTABanner
         title="Need a Product Datasheet or Quote?"
-        subtitle="Our team can provide datasheets, technical specifications, and competitive quotes for any Cortec product."
+        subtitle="Our team can provide datasheets, technical specifications, and competitive quotes for any Cortec® product."
         primaryCTA={{ text: "Contact Us", href: "/contact" }}
       />
     </main>

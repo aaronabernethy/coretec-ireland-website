@@ -1,3 +1,5 @@
+import { tm } from "@/lib/trademark";
+
 interface SectionHeadingProps {
   title: string;
   subtitle?: string;
@@ -12,7 +14,7 @@ export default function SectionHeading({
   return (
     <div className={`mb-10 sm:mb-12 ${centered ? "text-center" : "text-left"}`}>
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-navy-900 tracking-tight">
-        {title}
+        {tm(title)}
       </h2>
       {subtitle && (
         <p
@@ -20,7 +22,7 @@ export default function SectionHeading({
             centered ? "max-w-2xl mx-auto" : "max-w-2xl"
           }`}
         >
-          {subtitle}
+          {tm(subtitle)}
         </p>
       )}
     </div>

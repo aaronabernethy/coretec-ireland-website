@@ -206,7 +206,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-navy-800 py-6">
           <p className="text-center text-xs text-grey-500">
-            &copy; 2024 Corrosion Engineering Cortec Ireland Ltd. All rights reserved.
+            &copy; 2026 Corrosion Engineering Cortec Ireland Ltd. All rights reserved.
           </p>
         </div>
       </div>

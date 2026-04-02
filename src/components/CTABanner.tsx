@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { tm } from "@/lib/trademark";
 
 interface CTABannerProps {
   title: string;
@@ -14,10 +15,10 @@ export default function CTABanner({ title, subtitle, primaryCTA, phone }: CTABan
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="text-center lg:text-left">
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
-              {title}
+              {tm(title)}
             </h2>
             <p className="mt-3 text-base sm:text-lg text-steel-100 max-w-2xl">
-              {subtitle}
+              {tm(subtitle)}
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-4 flex-shrink-0">

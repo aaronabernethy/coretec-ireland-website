@@ -7,14 +7,14 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "VpCI\u00AE Papers & Wraps",
   description:
-    "Cortec VpCI corrosion-inhibiting papers and wraps for interleaving, wrapping and lining applications. Multi-metal protection in kraft paper form. Available from Cortec Ireland.",
+    "Cortec\u00AE VpCI\u00AE corrosion-inhibiting papers and wraps for interleaving, wrapping and lining applications. Multi-metal protection in kraft paper form. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
   {
     name: "VpCI\u00AE-146 Paper",
     description:
-      "The flagship multi-metal VpCI kraft paper. Protects ferrous and non-ferrous metals with a single paper. Available in rolls and sheets. Ideal for wrapping individual parts, interleaving between stacked metal sheets and lining crates for shipment.",
+      "The flagship multi-metal VpCI® kraft paper. Protects ferrous and non-ferrous metals with a single paper. Available in rolls and sheets. Ideal for wrapping individual parts, interleaving between stacked metal sheets and lining crates for shipment.",
   },
   {
     name: "CorShield\u00AE VpCI\u00AE-146",
@@ -29,7 +29,7 @@ const featuredProducts = [
   {
     name: "Cor-Pak\u00AE Cohesive Paper",
     description:
-      "Self-adhering VpCI paper that sticks to itself without tape or adhesive. Wraps stay in place during handling and transit. Ideal for wrapping cylindrical parts such as shafts, tubes and rolls.",
+      "Self-adhering VpCI® paper that sticks to itself without tape or adhesive. Wraps stay in place during handling and transit. Ideal for wrapping cylindrical parts such as shafts, tubes and rolls.",
   },
 ];
 
@@ -66,20 +66,20 @@ export default function VciPapersPage() {
           <SectionHeading title="What These Products Do" centered={false} />
           <div className="max-w-3xl">
             <p className="text-grey-600 text-base leading-relaxed mb-4">
-              VpCI papers are standard kraft papers that have been treated with
-              Cortec&apos;s Vapour Phase Corrosion Inhibitor chemistry. When wrapped
+              VpCI® papers are standard kraft papers that have been treated with
+              Cortec®&apos;s Vapour Phase Corrosion Inhibitor chemistry. When wrapped
               around a metal part or placed inside a package, the paper releases
-              VpCI molecules that form a thin, invisible protective layer on all
+              VpCI® molecules that form a thin, invisible protective layer on all
               nearby metal surfaces.
             </p>
             <p className="text-grey-600 text-base leading-relaxed mb-4">
-              Unlike traditional oiled papers or wax wraps, VpCI papers leave no
+              Unlike traditional oiled papers or wax wraps, VpCI® papers leave no
               residue on the protected parts. When the paper is removed, the
               metal surface is clean, dry and ready for use, assembly or coating
               with no intermediate cleaning step.
             </p>
             <p className="text-grey-600 text-base leading-relaxed">
-              VpCI papers protect both ferrous metals (carbon steel, stainless
+              VpCI® papers protect both ferrous metals (carbon steel, stainless
               steel, cast iron) and non-ferrous metals (aluminium, copper, brass,
               zinc). Certified compostable options are available for organisations
               with sustainability commitments.
@@ -110,7 +110,7 @@ export default function VciPapersPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Industries Served"
-            subtitle="VpCI papers are used wherever metal parts need clean, residue-free corrosion protection during storage, transit and interplant handling."
+            subtitle="VpCI® papers are used wherever metal parts need clean, residue-free corrosion protection during storage, transit and interplant handling."
           />
           <div className="flex flex-wrap justify-center gap-4">
             {industriesServed.map((industry) => (
@@ -130,13 +130,13 @@ export default function VciPapersPage() {
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8">
-            Why Cortec VpCI\u00AE Papers?
+            Why Cortec® VpCI\u00AE Papers?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 title: "No Residue, No Cleanup",
-                text: "Unlike oiled papers, VpCI papers leave parts clean and dry. No degreasing required before use, assembly, painting or coating.",
+                text: "Unlike oiled papers, VpCI® papers leave parts clean and dry. No degreasing required before use, assembly, painting or coating.",
               },
               {
                 title: "Multi-Metal in One Paper",
@@ -148,7 +148,7 @@ export default function VciPapersPage() {
               },
               {
                 title: "Easy to Use",
-                text: "No special training or equipment needed. Wrap, interleave or line with VpCI paper just as you would with standard kraft paper.",
+                text: "No special training or equipment needed. Wrap, interleave or line with VpCI® paper just as you would with standard kraft paper.",
               },
               {
                 title: "Non-Toxic & Non-Hazardous",
@@ -177,7 +177,7 @@ export default function VciPapersPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Featured Products"
-            subtitle="The most widely used Cortec VpCI papers, available from stock in Ireland."
+            subtitle="The most widely used Cortec® VpCI® papers, available from stock in Ireland."
           />
           <div className="space-y-12">
             {featuredProducts.map((product) => (
@@ -208,7 +208,7 @@ export default function VciPapersPage() {
           <div className="max-w-2xl mx-auto text-center">
             <SectionHeading
               title="Request a Quote or Datasheet"
-              subtitle="For a full quote or technical datasheet on any Cortec VpCI paper or wrap product, contact our team."
+              subtitle="For a full quote or technical datasheet on any Cortec® VpCI® paper or wrap product, contact our team."
             />
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -230,7 +230,7 @@ export default function VciPapersPage() {
 
       <CTABanner
         title="Need Help Choosing the Right VpCI\u00AE Paper?"
-        subtitle="Our team will recommend the right VpCI paper or wrap for your application."
+        subtitle="Our team will recommend the right VpCI® paper or wrap for your application."
         primaryCTA={{ text: "Talk to Our Team", href: "/contact" }}
       />
     </main>

@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "VpCI\u00AE Liquids & Additives",
   description:
-    "Cortec VpCI liquids and additives for water treatment, metalworking fluids, lubricants and industrial cleaning. Built-in corrosion inhibition for process fluids. Available from Cortec Ireland.",
+    "Cortec\u00AE VpCI\u00AE liquids and additives for water treatment, metalworking fluids, lubricants and industrial cleaning. Built-in corrosion inhibition for process fluids. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
@@ -19,12 +19,12 @@ const featuredProducts = [
   {
     name: "VpCI\u00AE-337",
     description:
-      "Additive for paints, coatings and primers that adds VpCI corrosion protection to the finished coating system. Enhances the anti-corrosion performance of existing coating formulations without affecting their physical or aesthetic properties.",
+      "Additive for paints, coatings and primers that adds VpCI® corrosion protection to the finished coating system. Enhances the anti-corrosion performance of existing coating formulations without affecting their physical or aesthetic properties.",
   },
   {
     name: "M-645",
     description:
-      "High-performance metalworking fluid with built-in VpCI corrosion inhibition. Provides lubrication and cooling during machining, grinding and forming operations while simultaneously protecting the workpiece and machine tool from corrosion between operations.",
+      "High-performance metalworking fluid with built-in VpCI® corrosion inhibition. Provides lubrication and cooling during machining, grinding and forming operations while simultaneously protecting the workpiece and machine tool from corrosion between operations.",
   },
   {
     name: "EcoLine\u00AE Cutting Fluids",
@@ -34,7 +34,7 @@ const featuredProducts = [
   {
     name: "VpCI\u00AE-414",
     description:
-      "Cleaner and corrosion inhibitor in one product. Removes soils, oils and contaminants from metal surfaces while depositing a thin VpCI protective layer. Ideal for cleaning between manufacturing steps where parts need both cleaning and temporary rust prevention.",
+      "Cleaner and corrosion inhibitor in one product. Removes soils, oils and contaminants from metal surfaces while depositing a thin VpCI® protective layer. Ideal for cleaning between manufacturing steps where parts need both cleaning and temporary rust prevention.",
   },
 ];
 
@@ -72,14 +72,14 @@ export default function LiquidsAdditivesPage() {
           <SectionHeading title="What These Products Do" centered={false} />
           <div className="max-w-3xl">
             <p className="text-grey-600 text-base leading-relaxed mb-4">
-              Cortec VpCI liquids and additives bring corrosion inhibition
+              Cortec® VpCI® liquids and additives bring corrosion inhibition
               directly into the fluids and processes that are already part of
               your operations. Rather than applying corrosion protection as a
               separate step, these products build it into the water treatment,
               metalworking, cleaning or coating process itself.
             </p>
             <p className="text-grey-600 text-base leading-relaxed mb-4">
-              VpCI liquids work in both the liquid phase (protecting submerged
+              VpCI® liquids work in both the liquid phase (protecting submerged
               surfaces) and the vapour phase (protecting surfaces above the
               waterline). This dual-phase action is particularly valuable in
               systems where both liquid-contacted and vapour-space surfaces need
@@ -118,7 +118,7 @@ export default function LiquidsAdditivesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Industries Served"
-            subtitle="VpCI liquids and additives are used across industries that operate process fluids, water systems and metalworking equipment."
+            subtitle="VpCI® liquids and additives are used across industries that operate process fluids, water systems and metalworking equipment."
           />
           <div className="flex flex-wrap justify-center gap-4">
             {industriesServed.map((industry) => (
@@ -138,7 +138,7 @@ export default function LiquidsAdditivesPage() {
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8">
-            Why Cortec VpCI\u00AE Liquids?
+            Why Cortec® VpCI\u00AE Liquids?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -156,7 +156,7 @@ export default function LiquidsAdditivesPage() {
               },
               {
                 title: "Biobased & Biodegradable",
-                text: "EcoLine cutting fluids and many VpCI liquids are formulated from renewable resources and are readily biodegradable.",
+                text: "EcoLine cutting fluids and many VpCI® liquids are formulated from renewable resources and are readily biodegradable.",
               },
               {
                 title: "Replaces Multiple Products",
@@ -185,7 +185,7 @@ export default function LiquidsAdditivesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Featured Products"
-            subtitle="The most widely used Cortec VpCI liquids and additives, available from stock in Ireland."
+            subtitle="The most widely used Cortec® VpCI® liquids and additives, available from stock in Ireland."
           />
           <div className="space-y-12">
             {featuredProducts.map((product) => (
@@ -216,7 +216,7 @@ export default function LiquidsAdditivesPage() {
           <div className="max-w-2xl mx-auto text-center">
             <SectionHeading
               title="Request a Quote or Datasheet"
-              subtitle="For a full quote or technical datasheet on any Cortec VpCI liquid or additive, contact our team."
+              subtitle="For a full quote or technical datasheet on any Cortec® VpCI® liquid or additive, contact our team."
             />
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -238,7 +238,7 @@ export default function LiquidsAdditivesPage() {
 
       <CTABanner
         title="Need a Process Fluid with Built-In Corrosion Protection?"
-        subtitle="Our team will recommend the right VpCI liquid or additive for your application."
+        subtitle="Our team will recommend the right VpCI® liquid or additive for your application."
         primaryCTA={{ text: "Talk to Our Team", href: "/contact" }}
       />
     </main>

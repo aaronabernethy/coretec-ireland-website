@@ -25,4 +25,10 @@ body {
   a {
     color: inherit;
   }
+  sup {
+    font-size: 0.55em;
+    line-height: 0;
+    vertical-align: super;
+    font-weight: 400;
+  }
 }

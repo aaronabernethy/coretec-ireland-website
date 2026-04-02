@@ -7,7 +7,7 @@ import SectionHeading from "@/components/SectionHeading";
 export const metadata: Metadata = {
   title: "VpCI\u00AE Technology",
   description:
-    "Learn how Cortec's Vapour Phase Corrosion Inhibitors (VpCI) protect metals more effectively, more safely, and more sustainably than traditional methods like oils, greases, and desiccants.",
+    "Learn how Cortec\u00AE's Vapour Phase Corrosion Inhibitors (VpCI\u00AE) protect metals more effectively, more safely, and more sustainably than traditional methods like oils, greases, and desiccants.",
 };
 
 const comparisonData = [
@@ -78,12 +78,12 @@ function ComparisonCell({ value }: { value: boolean | string }) {
 }
 
 const productCategories = [
-  { label: "VCI Films & Bags", href: "/products/vci-films-bags", description: "Shrink films, stretch films, bags, and tubing infused with VpCI molecules for packaging protection." },
-  { label: "VCI Papers", href: "/products/vci-papers", description: "Kraft papers and interleaving sheets that release VpCI to protect metal parts during storage and shipping." },
-  { label: "VCI Emitters", href: "/products/vci-emitters", description: "Compact devices that release VpCI into enclosed spaces such as electrical cabinets and equipment housings." },
-  { label: "Coatings & Rust Preventatives", href: "/products/coatings-rust-preventatives", description: "Liquid coatings and rust preventative sprays enhanced with VpCI for long-term outdoor and indoor protection." },
-  { label: "Liquids & Additives", href: "/products/liquids-additives", description: "Water treatment additives, cleaning solutions, and metalworking fluids incorporating VpCI technology." },
-  { label: "Construction & Concrete", href: "/products/construction-concrete", description: "MCI products for protecting rebar and embedded metals in concrete structures." },
+  { label: "VCI Films & Bags", href: "/products/vci-films-bags", description: "Shrink films, stretch films, bags, and tubing infused with VpCI® molecules for packaging protection." },
+  { label: "VCI Papers", href: "/products/vci-papers", description: "Kraft papers and interleaving sheets that release VpCI® to protect metal parts during storage and shipping." },
+  { label: "VCI Emitters", href: "/products/vci-emitters", description: "Compact devices that release VpCI® into enclosed spaces such as electrical cabinets and equipment housings." },
+  { label: "Coatings & Rust Preventatives", href: "/products/coatings-rust-preventatives", description: "Liquid coatings and rust preventative sprays enhanced with VpCI® for long-term outdoor and indoor protection." },
+  { label: "Liquids & Additives", href: "/products/liquids-additives", description: "Water treatment additives, cleaning solutions, and metalworking fluids incorporating VpCI® technology." },
+  { label: "Construction & Concrete", href: "/products/construction-concrete", description: "MCI® products for protecting rebar and embedded metals in concrete structures." },
   { label: "Specialty Oil & Gas", href: "/products/specialty-oil-gas", description: "Specialised formulations for pipelines, tanks, and equipment in the oil and gas sector." },
 ];
 
@@ -93,7 +93,7 @@ export default function TechnologyPage() {
       {/* Hero */}
       <HeroSection
         title="Understanding VpCI\u00AE Technology"
-        subtitle="How Cortec's Vapour Phase Corrosion Inhibitors protect metals more effectively, more safely, and more sustainably than traditional methods."
+        subtitle="How Cortec®'s Vapour Phase Corrosion Inhibitors protect metals more effectively, more safely, and more sustainably than traditional methods."
         primaryCTA={{ text: "Talk to an Expert", href: "/contact" }}
         secondaryCTA={{ text: "How VCI Works ↗", href: "https://www.cortecvci.com/how-vci-works/" }}
       />
@@ -123,7 +123,7 @@ export default function TechnologyPage() {
                   Much of this cost is preventable with the right protection strategy.
                   The challenge is that many traditional corrosion prevention methods
                   are messy, expensive to apply and remove, harmful to the
-                  environment, and only partially effective. VpCI technology changes
+                  environment, and only partially effective. VpCI® technology changes
                   this equation entirely.
                 </p>
               </div>
@@ -173,7 +173,7 @@ export default function TechnologyPage() {
                 The electrochemical nature of corrosion means that wherever metal is
                 exposed to air and moisture, degradation begins. Traditional
                 protection methods attempt to create a physical barrier between the
-                metal and its environment. VpCI technology takes a fundamentally
+                metal and its environment. VpCI® technology takes a fundamentally
                 different approach.
               </p>
             </div>
@@ -215,7 +215,7 @@ export default function TechnologyPage() {
 
                 {/* VpCI Source - left side */}
                 <rect x="120" y="200" width="100" height="70" rx="8" fill="#E8640C" />
-                <text x="170" y="230" textAnchor="middle" fill="#FFFFFF" fontSize="11" fontWeight="700">VpCI</text>
+                <text x="170" y="230" textAnchor="middle" fill="#FFFFFF" fontSize="11" fontWeight="700">VpCI®</text>
                 <text x="170" y="248" textAnchor="middle" fill="#FFFFFF" fontSize="11" fontWeight="700">SOURCE</text>
                 <text x="170" y="290" textAnchor="middle" fill="#E8640C" fontSize="10" fontWeight="600">(Film / Emitter / Liquid)</text>
 
@@ -261,7 +261,7 @@ export default function TechnologyPage() {
 
                 {/* Labels */}
                 <line x1="240" y1="120" x2="400" y2="120" stroke="#1E5EA8" strokeWidth="1.5" strokeDasharray="4 3" />
-                <text x="320" y="112" textAnchor="middle" fill="#1E5EA8" fontSize="11" fontWeight="600">VpCI molecules travel through air</text>
+                <text x="320" y="112" textAnchor="middle" fill="#1E5EA8" fontSize="11" fontWeight="600">VpCI® molecules travel through air</text>
 
                 <line x1="400" y1="285" x2="400" y2="270" stroke="#1E5EA8" strokeWidth="1.5" />
                 <text x="400" y="265" textAnchor="middle" fill="#1E5EA8" fontSize="11" fontWeight="600">Thin protective molecular layer</text>
@@ -276,8 +276,8 @@ export default function TechnologyPage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
             <div className="space-y-6 text-grey-700 leading-relaxed">
               <p>
-                VpCI (Vapour Phase Corrosion Inhibitor) molecules are released from
-                Cortec products — whether that is a film, an emitter device, or a
+                VpCI® (Vapour Phase Corrosion Inhibitor) molecules are released from
+                Cortec® products — whether that is a film, an emitter device, or a
                 liquid formulation — and travel through the air to reach all metal
                 surfaces within an enclosed space. This includes recesses, crevices,
                 internal cavities, and hard-to-reach areas that sprays and coatings
@@ -293,15 +293,15 @@ export default function TechnologyPage() {
             <div className="space-y-6 text-grey-700 leading-relaxed">
               <p>
                 Unlike oils and greases that must be physically applied to every
-                surface, VpCI molecules do the work themselves — migrating through
-                the air to find and protect all exposed metal. This is why VpCI is
+                surface, VpCI® molecules do the work themselves — migrating through
+                the air to find and protect all exposed metal. This is why VpCI® is
                 particularly effective for complex assemblies, electronics,
                 machinery with internal components, and any situation where complete
                 surface coverage is difficult to achieve manually.
               </p>
               <p>
                 When the protected item is unwrapped or the emitter is removed, the
-                VpCI molecules dissipate harmlessly, leaving the metal clean and
+                VpCI® molecules dissipate harmlessly, leaving the metal clean and
                 ready to use — no cleaning or degreasing required. This eliminates
                 an entire process step and the associated costs, chemicals, and waste.
               </p>
@@ -322,7 +322,7 @@ export default function TechnologyPage() {
               <thead>
                 <tr className="bg-navy-900 text-white">
                   <th className="text-left px-6 py-4 text-sm font-semibold">Feature</th>
-                  <th className="text-center px-6 py-4 text-sm font-semibold bg-steel-500">VpCI Technology</th>
+                  <th className="text-center px-6 py-4 text-sm font-semibold bg-steel-500">VpCI® Technology</th>
                   <th className="text-center px-6 py-4 text-sm font-semibold">Oils &amp; Greases</th>
                   <th className="text-center px-6 py-4 text-sm font-semibold">Desiccants</th>
                   <th className="text-center px-6 py-4 text-sm font-semibold">Paint / Coatings</th>
@@ -368,18 +368,18 @@ export default function TechnologyPage() {
                 </span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-6">
-                MCI Technology
+                MCI® Technology
               </h2>
               <div className="space-y-6 text-grey-700 leading-relaxed">
                 <p>
-                  Migrating Corrosion Inhibitors (MCI) apply the same core principle
-                  as VpCI but are specifically engineered for the construction
-                  industry. MCI molecules are designed to migrate through concrete —
+                  Migrating Corrosion Inhibitors (MCI®) apply the same core principle
+                  as VpCI® but are specifically engineered for the construction
+                  industry. MCI® molecules are designed to migrate through concrete —
                   penetrating pores and capillaries to reach the embedded steel
                   reinforcement (rebar) within.
                 </p>
                 <p>
-                  Once they reach the rebar surface, MCI molecules form the same
+                  Once they reach the rebar surface, MCI® molecules form the same
                   type of protective molecular layer, preventing the electrochemical
                   corrosion process that causes rebar to expand and crack the
                   surrounding concrete. This technology can be applied to new
@@ -399,7 +399,7 @@ export default function TechnologyPage() {
             </div>
             <div className="bg-grey-100 rounded-2xl p-8 sm:p-10">
               <h3 className="text-lg font-bold text-navy-900 mb-6">
-                How MCI Differs from VpCI
+                How MCI® Differs from VpCI®
               </h3>
               <div className="space-y-4">
                 <div className="flex gap-4">
@@ -407,7 +407,7 @@ export default function TechnologyPage() {
                     <span className="text-steel-500 font-bold text-sm">V</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-navy-900">VpCI</p>
+                    <p className="font-semibold text-navy-900">VpCI®</p>
                     <p className="text-sm text-grey-600">
                       Travels through air to protect metals in enclosed spaces.
                       Used in packaging, storage, and equipment protection.
@@ -419,7 +419,7 @@ export default function TechnologyPage() {
                     <span className="text-orange-500 font-bold text-sm">M</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-navy-900">MCI</p>
+                    <p className="font-semibold text-navy-900">MCI®</p>
                     <p className="text-sm text-grey-600">
                       Migrates through concrete to protect embedded rebar and
                       steel. Used in construction, infrastructure, and repair.
@@ -431,8 +431,8 @@ export default function TechnologyPage() {
                     <span className="font-semibold text-navy-900">Same principle: </span>
                     Both technologies use corrosion-inhibiting molecules that travel
                     to the metal surface and form a protective molecular layer. The
-                    difference is the medium they travel through — air (VpCI) or
-                    concrete (MCI).
+                    difference is the medium they travel through — air (VpCI®) or
+                    concrete (MCI®).
                   </p>
                 </div>
               </div>
@@ -446,7 +446,7 @@ export default function TechnologyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="How the Technology is Delivered"
-            subtitle="VpCI and MCI technology is incorporated into a wide range of product formats, each designed for specific applications and environments."
+            subtitle="VpCI® and MCI® technology is incorporated into a wide range of product formats, each designed for specific applications and environments."
           />
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {productCategories.map((category) => (
@@ -476,7 +476,7 @@ export default function TechnologyPage() {
       {/* CTA Banner */}
       <CTABanner
         title="Want to See VpCI\u00AE Technology in Action?"
-        subtitle="Our team can demonstrate how VpCI technology will solve your specific corrosion challenges."
+        subtitle="Our team can demonstrate how VpCI® technology will solve your specific corrosion challenges."
         primaryCTA={{ text: "Request a Demonstration", href: "/contact" }}
         phone="+44 (0)7752 498985"
       />
