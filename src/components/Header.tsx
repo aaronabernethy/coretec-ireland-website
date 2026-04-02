@@ -186,7 +186,7 @@ export default function Header() {
             ))}
             <Link
               href="/contact?quote=true"
-              className="ml-2 inline-flex items-center px-5 py-2.5 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2"
+              className="ml-2 inline-flex items-center px-5 py-2.5 bg-orange-500 hover:bg-orange-600 text-navy-900 text-sm font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2"
             >
               Get a Quote
             </Link>
@@ -320,7 +320,7 @@ export default function Header() {
             <div className="pt-4">
               <Link
                 href="/contact?quote=true"
-                className="block w-full text-center px-5 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors"
+                className="block w-full text-center px-5 py-3 bg-orange-500 hover:bg-orange-600 text-navy-900 font-semibold rounded-lg transition-colors"
                 onClick={closeMobile}
               >
                 Get a Quote

@@ -258,7 +258,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={submitting}
-          className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 bg-orange-500 hover:bg-orange-600 disabled:bg-orange-300 disabled:cursor-not-allowed text-white font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2"
+          className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 bg-orange-500 hover:bg-orange-600 disabled:bg-orange-300 disabled:cursor-not-allowed text-navy-900 font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2"
         >
           {submitting ? (
             <>

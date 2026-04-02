@@ -129,7 +129,7 @@ export default function ArticlePage({ params }: ArticlePageProps) {
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center px-6 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-colors"
+                className="inline-flex items-center px-6 py-3 bg-orange-500 text-navy-900 font-semibold rounded-lg hover:bg-orange-600 transition-colors"
               >
                 Discuss This With Our Team
               </Link>

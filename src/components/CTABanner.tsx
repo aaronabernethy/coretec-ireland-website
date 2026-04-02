@@ -23,7 +23,7 @@ export default function CTABanner({ title, subtitle, primaryCTA, phone }: CTABan
           <div className="flex flex-col sm:flex-row items-center gap-4 flex-shrink-0">
             <Link
               href={primaryCTA.href}
-              className="inline-flex items-center justify-center px-7 py-3.5 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors text-base focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2 focus:ring-offset-steel-500 whitespace-nowrap"
+              className="inline-flex items-center justify-center px-7 py-3.5 bg-orange-500 hover:bg-orange-600 text-navy-900 font-semibold rounded-lg transition-colors text-base focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2 focus:ring-offset-steel-500 whitespace-nowrap"
             >
               {primaryCTA.text}
             </Link>
