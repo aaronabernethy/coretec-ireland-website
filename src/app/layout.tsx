@@ -14,11 +14,11 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Cortec Ireland | Ireland's Exclusive Cortec VpCI® Corrosion Protection Specialists",
-    template: "%s | Cortec Ireland",
+    default: "Corrosion Engineering – Cortec Ireland Ltd | Ireland's Exclusive Cortec VpCI® Specialists",
+    template: "%s | Corrosion Engineering – Cortec Ireland",
   },
   description:
-    "Corrosion Engineering Cortec Ireland Ltd — Ireland's only authorised distributor of Cortec Corporation VpCI® corrosion inhibitor products. ISO 9001, ISO 14001 & ISO/IEC 17025 certified.",
+    "Corrosion Engineering – Cortec Ireland Ltd. Ireland's only authorised distributor of Cortec Corporation VpCI® corrosion inhibitor products. ISO 9001, ISO 14001 & ISO/IEC 17025 certified.",
   keywords: [
     "corrosion protection",
     "VpCI",

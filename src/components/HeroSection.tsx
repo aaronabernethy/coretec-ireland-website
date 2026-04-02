@@ -33,12 +33,23 @@ export default function HeroSection({
               {primaryCTA.text}
             </Link>
             {secondaryCTA && (
-              <Link
-                href={secondaryCTA.href}
-                className="inline-flex items-center justify-center px-7 py-3.5 border-2 border-white text-white hover:bg-white hover:text-navy-900 font-semibold rounded-lg transition-colors text-base focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-navy-900"
-              >
-                {secondaryCTA.text}
-              </Link>
+              secondaryCTA.href.startsWith("http") ? (
+                <a
+                  href={secondaryCTA.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-7 py-3.5 border-2 border-white text-white hover:bg-white hover:text-navy-900 font-semibold rounded-lg transition-colors text-base focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-navy-900"
+                >
+                  {secondaryCTA.text}
+                </a>
+              ) : (
+                <Link
+                  href={secondaryCTA.href}
+                  className="inline-flex items-center justify-center px-7 py-3.5 border-2 border-white text-white hover:bg-white hover:text-navy-900 font-semibold rounded-lg transition-colors text-base focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-navy-900"
+                >
+                  {secondaryCTA.text}
+                </Link>
+              )
             )}
           </div>
         </div>

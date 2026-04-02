@@ -25,9 +25,9 @@ const industryLinks = [
 const companyLinks = [
   { label: "About", href: "/about" },
   { label: "Technology", href: "/technology" },
+  { label: "Case Histories", href: "/case-histories" },
   { label: "Sustainability", href: "/sustainability" },
   { label: "Resources", href: "/resources" },
-  { label: "Articles", href: "/articles" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -39,15 +39,18 @@ export default function Footer() {
         <div className="py-12 lg:py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Logo and tagline */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <Link href="/" className="inline-flex items-center gap-3" aria-label="Cortec Ireland home">
+            <Link href="/" className="inline-flex items-center gap-3" aria-label="Corrosion Engineering Cortec Ireland home">
               <Image
                 src="/images/logo.png"
-                alt="Cortec Ireland"
+                alt="Corrosion Engineering – Cortec Ireland Ltd"
                 width={48}
                 height={48}
                 className="h-12 w-auto"
               />
-              <span className="text-xl font-bold tracking-tight">CORTEC IRELAND</span>
+              <span className="flex flex-col">
+                <span className="text-base font-bold tracking-tight leading-tight">CORROSION ENGINEERING</span>
+                <span className="text-xs font-semibold text-steel-300 tracking-tight">CORTEC IRELAND LTD</span>
+              </span>
             </Link>
             <p className="mt-2 text-sm text-grey-300 leading-relaxed">
               Corrosion Protection Specialists

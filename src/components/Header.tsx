@@ -27,11 +27,14 @@ const industryLinks = [
 
 const navLinks = [
   { label: "Technology", href: "/technology" },
+  { label: "Case Histories", href: "/case-histories" },
   { label: "Sustainability", href: "/sustainability" },
-  { label: "Resources", href: "/resources" },
-  { label: "Articles", href: "/articles" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
+];
+
+const externalLinks = [
+  { label: "What's New", href: "https://www.cortecvci.com/whats-new/" },
 ];
 
 function ChevronDown({ className }: { className?: string }) {
@@ -137,20 +140,23 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3" aria-label="Cortec Ireland home">
+          <Link href="/" className="flex items-center gap-3" aria-label="Corrosion Engineering Cortec Ireland home">
             <Image
               src="/images/logo.png"
-              alt="Cortec Ireland"
+              alt="Corrosion Engineering – Cortec Ireland Ltd"
               width={52}
               height={52}
               className="h-11 w-auto lg:h-13"
               priority
             />
             <span className="flex flex-col">
-              <span className="text-base lg:text-lg font-bold text-navy-900 tracking-tight leading-tight">
-                CORTEC IRELAND
+              <span className="text-sm lg:text-base font-bold text-navy-900 tracking-tight leading-tight">
+                CORROSION ENGINEERING
               </span>
-              <span className="text-[10px] lg:text-xs text-grey-500 font-medium tracking-wide uppercase">
+              <span className="text-[10px] lg:text-xs font-semibold text-steel-500 tracking-tight leading-tight">
+                CORTEC IRELAND LTD
+              </span>
+              <span className="hidden lg:block text-[9px] text-grey-500 font-medium tracking-wide uppercase mt-0.5">
                 Corrosion Protection Specialists
               </span>
             </span>
@@ -183,6 +189,17 @@ export default function Header() {
               >
                 {link.label}
               </Link>
+            ))}
+            {externalLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-navy-900 hover:text-steel-500 transition-colors py-2"
+              >
+                {link.label} ↗
+              </a>
             ))}
             <Link
               href="/contact?quote=true"
