@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    question: "What is VpCI\u00AE technology?",
+    question: "What is VpCI® technology?",
     answer:
-      "VpCI\u00AE stands for Vapour Phase Corrosion Inhibitor. It\u2019s a technology developed by Cortec Corporation that protects metals by releasing invisible, non-toxic molecules that form a protective molecular layer on metal surfaces. Unlike oils and greases, VpCI leaves no residue and requires no cleanup.",
+      "VpCI® stands for Vapour Phase Corrosion Inhibitor. It\u2019s a technology developed by Cortec Corporation that protects metals by releasing invisible, non-toxic molecules that form a protective molecular layer on metal surfaces. Unlike oils and greases, VpCI leaves no residue and requires no cleanup.",
   },
   {
     question: "What metals does VpCI protect?",
@@ -32,9 +32,9 @@ const faqs = [
       "Yes. Cortec VpCI products are non-toxic, non-hazardous, and safe for handlers. Many are USDA Certified Biobased and some are FDA compliant for food-contact applications. Full safety data is available for every product.",
   },
   {
-    question: "What is MCI\u00AE technology?",
+    question: "What is MCI® technology?",
     answer:
-      "MCI\u00AE stands for Migrating Corrosion Inhibitor, designed specifically for concrete and construction. MCI molecules migrate through the concrete matrix to reach and protect embedded reinforcing steel (rebar) from corrosion.",
+      "MCI® stands for Migrating Corrosion Inhibitor, designed specifically for concrete and construction. MCI molecules migrate through the concrete matrix to reach and protect embedded reinforcing steel (rebar) from corrosion.",
   },
   {
     question: "Can I get samples before ordering?",

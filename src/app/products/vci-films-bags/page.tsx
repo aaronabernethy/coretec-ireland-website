@@ -5,34 +5,34 @@ import SectionHeading from "@/components/SectionHeading";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "VpCI\u00AE-126 Films, Bags & Shrink Films",
+  title: "VpCI®-126 Films, Bags & Shrink Films",
   description:
     "Cortec VpCI films, bags and shrink films for corrosion-free packaging and storage of metal parts. Multi-metal protection with no oils, no residue and no cleanup. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
   {
-    name: "VpCI\u00AE-126 Blue Film",
+    name: "VpCI®-126 Blue Film",
     description:
       "The industry standard multi-metal VpCI film. Protects ferrous and non-ferrous metals simultaneously. Available as bags, sheeting, tubing and custom fabrications. Up to 5 years of corrosion protection in sealed packaging.",
   },
   {
-    name: "VpCI\u00AE-126 HP",
+    name: "VpCI®-126 HP",
     description:
       "Heavy-duty version of the VpCI-126 for demanding applications. Thicker gauge polyethylene with enhanced puncture resistance, ideal for heavy castings, machined parts and assemblies with sharp edges.",
   },
   {
-    name: "EcoShield\u00AE VpCI\u00AE-144",
+    name: "EcoShield® VpCI®-144",
     description:
       "USDA Certified Biobased film made from renewable resources. Delivers the same multi-metal VpCI protection as conventional films while meeting sustainability and environmental procurement requirements.",
   },
   {
-    name: "Cor-Pak\u00AE VpCI\u00AE Stretch Film",
+    name: "Cor-Pak® VpCI® Stretch Film",
     description:
       "Stretch wrap film infused with VpCI technology for pallet wrapping and bundling. Combines load containment with corrosion protection in a single step, eliminating the need for separate VpCI packaging inside the wrap.",
   },
   {
-    name: "MilCorr\u00AE VpCI\u00AE Shrink Film",
+    name: "MilCorr® VpCI® Shrink Film",
     description:
       "Military-grade shrink film that meets MIL-PRF-22019 requirements. Heat-shrinkable for tight, conforming enclosures around large equipment, vehicles and outdoor storage. UV-stabilised for extended outdoor exposure.",
   },
@@ -60,8 +60,8 @@ export default function VciFilmsBagsPage() {
   return (
     <main>
       <HeroSection
-        title="VpCI\u00AE-126 Films, Bags & Shrink Films"
-        subtitle="High-performance polyethylene films infused with Cortec\u00AE's Vapour Phase Corrosion Inhibitor technology. No oils, no residue, no cleanup required."
+        title="VpCI®-126 Films, Bags & Shrink Films"
+        subtitle="High-performance polyethylene films infused with Cortec®'s Vapour Phase Corrosion Inhibitor technology. No oils, no residue, no cleanup required."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
@@ -142,7 +142,7 @@ export default function VciFilmsBagsPage() {
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8">
-            Why Cortec VpCI\u00AE Films?
+            Why Cortec VpCI® Films?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -241,7 +241,7 @@ export default function VciFilmsBagsPage() {
       </section>
 
       <CTABanner
-        title="Need Help Choosing the Right VpCI\u00AE Film?"
+        title="Need Help Choosing the Right VpCI® Film?"
         subtitle="Our team will recommend the right VpCI film, bag, or shrink film for your application."
         primaryCTA={{ text: "Talk to Our Team", href: "/contact" }}
       />

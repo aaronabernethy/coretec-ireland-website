@@ -5,9 +5,9 @@ import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
-  title: "VpCI\u00AE Technology",
+  title: "VpCI® Technology",
   description:
-    "Learn how Cortec\u00AE's Vapour Phase Corrosion Inhibitors (VpCI\u00AE) protect metals more effectively, more safely, and more sustainably than traditional methods like oils, greases, and desiccants.",
+    "Learn how Cortec®'s Vapour Phase Corrosion Inhibitors (VpCI®) protect metals more effectively, more safely, and more sustainably than traditional methods like oils, greases, and desiccants.",
 };
 
 const comparisonData = [
@@ -92,7 +92,7 @@ export default function TechnologyPage() {
     <>
       {/* Hero */}
       <HeroSection
-        title="Understanding VpCI\u00AE Technology"
+        title="Understanding VpCI® Technology"
         subtitle="How Cortec®'s Vapour Phase Corrosion Inhibitors protect metals more effectively, more safely, and more sustainably than traditional methods."
         primaryCTA={{ text: "Talk to an Expert", href: "/contact" }}
         secondaryCTA={{ text: "How VCI Works ↗", href: "https://www.cortecvci.com/how-vci-works/" }}
@@ -185,7 +185,7 @@ export default function TechnologyPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="How VpCI\u00AE Works"
+            title="How VpCI® Works"
             subtitle="A fundamentally different approach to corrosion protection."
           />
 
@@ -314,7 +314,7 @@ export default function TechnologyPage() {
       <section className="py-20 bg-grey-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="VpCI\u00AE vs Traditional Methods"
+            title="VpCI® vs Traditional Methods"
             subtitle="See how Vapour Phase Corrosion Inhibitor technology compares to conventional corrosion protection approaches."
           />
           <div className="overflow-x-auto">
@@ -475,7 +475,7 @@ export default function TechnologyPage() {
 
       {/* CTA Banner */}
       <CTABanner
-        title="Want to See VpCI\u00AE Technology in Action?"
+        title="Want to See VpCI® Technology in Action?"
         subtitle="Our team can demonstrate how VpCI® technology will solve your specific corrosion challenges."
         primaryCTA={{ text: "Request a Demonstration", href: "/contact" }}
         phone="+44 (0)7752 498985"

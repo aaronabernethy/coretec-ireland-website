@@ -248,23 +248,23 @@ export default function SustainabilityPage() {
               ISO 14001:2015
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-6">
-              Cortec\u00AE Corporation: Environmental Management Certified
+              Cortec® Corporation: Environmental Management Certified
             </h2>
             <div className="space-y-5 text-grey-700 leading-relaxed">
               <p>
-                Cortec\u00AE Corporation holds ISO 14001:2015 certification for environmental
+                Cortec® Corporation holds ISO 14001:2015 certification for environmental
                 management. This internationally recognised standard requires a systematic
                 approach to identifying, managing, and reducing environmental impact across
                 all manufacturing operations.
               </p>
               <p>
-                Cortec\u00AE&apos;s environmental management system covers everything from raw
+                Cortec®&apos;s environmental management system covers everything from raw
                 material sourcing and manufacturing to packaging and distribution. It ensures
                 that sustainability is not an afterthought but a structured, audited part of
                 how their products are developed and produced.
               </p>
               <p>
-                As their authorised distributor in Ireland, Cortec\u00AE&apos;s ISO 14001
+                As their authorised distributor in Ireland, Cortec®&apos;s ISO 14001
                 certification gives our clients confidence that their corrosion protection
                 supply chain is managed responsibly from manufacturer to end user.
               </p>

@@ -8,24 +8,24 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Products",
   description:
-    "Explore the full range of Cortec\u00AE VpCI\u00AE and MCI\u00AE corrosion inhibitor products. Films, papers, emitters, coatings, liquids, construction solutions and specialty oil and gas products — all available from Ireland's exclusive Cortec distributor.",
+    "Explore the full range of Cortec® VpCI® and MCI® corrosion inhibitor products. Films, papers, emitters, coatings, liquids, construction solutions and specialty oil and gas products — all available from Ireland's exclusive Cortec distributor.",
 };
 
 const productCategories = [
   {
-    title: "VpCI\u00AE Films, Bags & Shrink Films",
+    title: "VpCI® Films, Bags & Shrink Films",
     description:
       "High-performance polyethylene films infused with Vapour Phase Corrosion Inhibitors. Available as bags, sheeting, tubing and shrink film for wrapping, packaging and long-term storage of metal parts and assemblies.",
     href: "/products/vci-films-bags",
   },
   {
-    title: "VpCI\u00AE Papers & Wraps",
+    title: "VpCI® Papers & Wraps",
     description:
       "Kraft-based papers treated with multi-metal VpCI® technology for interleaving, wrapping and lining applications. Ideal for protecting individual parts, stacked metal sheets and crated components during storage and transit.",
     href: "/products/vci-papers",
   },
   {
-    title: "VpCI\u00AE Emitters & Diffusers",
+    title: "VpCI® Emitters & Diffusers",
     description:
       "Self-contained corrosion inhibitor devices that release VpCI® molecules into enclosed spaces. No surface contact required — simply place inside electrical cabinets, shipping containers, storage vaults or equipment housings.",
     href: "/products/vci-emitters",
@@ -37,13 +37,13 @@ const productCategories = [
     href: "/products/coatings-rust-preventatives",
   },
   {
-    title: "VpCI\u00AE Liquids & Additives",
+    title: "VpCI® Liquids & Additives",
     description:
       "Corrosion-inhibiting additives for water treatment, metalworking fluids, lubricants and cleaning solutions. Drop-in protection for closed-loop systems, boilers, hydrostatic testing and industrial cleaning operations.",
     href: "/products/liquids-additives",
   },
   {
-    title: "MCI\u00AE Construction & Concrete",
+    title: "MCI® Construction & Concrete",
     description:
       "Migrating Corrosion Inhibitors designed to protect reinforcing steel embedded in concrete. Admixtures, surface treatments and repair mortars that extend the service life of bridges, parking structures and marine infrastructure.",
     href: "/products/construction-concrete",
@@ -60,8 +60,8 @@ export default function ProductsPage() {
   return (
     <main>
       <HeroSection
-        title="Cortec® VpCI\u00AE Product Range"
-        subtitle="As Ireland's exclusive authorised Cortec® distributor, we supply the complete range of VpCI\u00AE and MCI\u00AE corrosion inhibitor products. Every product is manufactured by Cortec® Corporation \u2014 the world leader in vapour phase corrosion inhibitor technology."
+        title="Cortec® VpCI® Product Range"
+        subtitle="As Ireland's exclusive authorised Cortec® distributor, we supply the complete range of VpCI® and MCI® corrosion inhibitor products. Every product is manufactured by Cortec® Corporation \u2014 the world leader in vapour phase corrosion inhibitor technology."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Full Product Catalog ↗", href: "https://www.cortecvci.com/products/" }}
       />

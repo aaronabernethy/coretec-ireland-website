@@ -7,7 +7,7 @@ import SectionHeading from "@/components/SectionHeading";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Corrosion Engineering \u2013 Cortec Ireland Ltd is Ireland\u2019s exclusive authorised distributor of Cortec\u00AE Corporation VpCI\u00AE products. Established in 1982, we provide specialist corrosion protection consultancy backed by Cortec\u00AE\u2019s ISO 9001, ISO 14001, and ISO/IEC 17025 certifications.",
+    "Corrosion Engineering \u2013 Cortec Ireland Ltd is Ireland\u2019s exclusive authorised distributor of Cortec® Corporation VpCI® products. Established in 1982, we provide specialist corrosion protection consultancy backed by Cortec®\u2019s ISO 9001, ISO 14001, and ISO/IEC 17025 certifications.",
 };
 
 export default function AboutPage() {
@@ -16,7 +16,7 @@ export default function AboutPage() {
       {/* Hero */}
       <HeroSection
         title="Ireland\u2019s Corrosion Protection Authority"
-        subtitle="As the exclusive authorised distributor of Cortec\u00AE Corporation products in Ireland, we bring decades of specialist corrosion engineering expertise to every project we undertake."
+        subtitle="As the exclusive authorised distributor of Cortec® Corporation products in Ireland, we bring decades of specialist corrosion engineering expertise to every project we undertake."
         primaryCTA={{ text: "Get in Touch", href: "/contact" }}
         secondaryCTA={{ text: "Explore Our Products", href: "/products" }}
       />
@@ -26,28 +26,28 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Our Story"
-            subtitle="A specialist consultancy built on deep expertise and a singular focus on Cortec\u00AE corrosion protection technology."
+            subtitle="A specialist consultancy built on deep expertise and a singular focus on Cortec® corrosion protection technology."
           />
           <div className="max-w-3xl space-y-6 text-grey-700 leading-relaxed">
             <p>
               Corrosion Engineering &ndash; Cortec Ireland Ltd was established in 1982
-              to serve as Ireland&apos;s dedicated specialist in Cortec\u00AE Corporation&apos;s
+              to serve as Ireland&apos;s dedicated specialist in Cortec® Corporation&apos;s
               corrosion protection products. Unlike general industrial distributors
               who carry thousands of products across dozens of categories, we operate
-              with a singular focus: we sell exclusively Cortec\u00AE products, and nothing else.
+              with a singular focus: we sell exclusively Cortec® products, and nothing else.
             </p>
             <p>
               This is not a limitation &mdash; it is our greatest strength. By dedicating
               our entire operation to a single manufacturer&apos;s product range, we
               have developed an unmatched depth of knowledge across the full
-              portfolio of over 400 Cortec\u00AE anti-corrosion products. We understand every
+              portfolio of over 400 Cortec® anti-corrosion products. We understand every
               formulation, every application method, and every industry use case.
             </p>
             <p>
               We operate as a specialist corrosion protection consultancy. When
               clients come to us, we do not simply take an order. We work closely
               with them to understand their specific corrosion challenges, assess
-              their environment and materials, and recommend the precise Cortec\u00AE
+              their environment and materials, and recommend the precise Cortec®
               solution that will deliver the best results. In many cases, we visit
               sites in person to evaluate conditions before making a recommendation.
             </p>
@@ -60,7 +60,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="What Makes Us Different"
-            subtitle="Three qualities set Cortec\u00AE Ireland apart from any other corrosion protection supplier in the market."
+            subtitle="Three qualities set Cortec® Ireland apart from any other corrosion protection supplier in the market."
           />
           <div className="grid md:grid-cols-3 gap-8">
             {/* Specialist Focus */}
@@ -74,8 +74,8 @@ export default function AboutPage() {
                 Specialist Focus
               </h3>
               <p className="text-grey-600 leading-relaxed">
-                We sell exclusively Cortec\u00AE products &mdash; nothing else. This singular
-                focus gives us unmatched depth of knowledge across the entire Cortec\u00AE
+                We sell exclusively Cortec® products &mdash; nothing else. This singular
+                focus gives us unmatched depth of knowledge across the entire Cortec®
                 portfolio of over 400 anti-corrosion products. When you work
                 with us, you are working with specialists, not generalists.
               </p>
@@ -93,7 +93,7 @@ export default function AboutPage() {
               </h3>
               <p className="text-grey-600 leading-relaxed">
                 We do not just take orders. We visit your site, assess your
-                corrosion challenges first-hand, and recommend the right Cortec\u00AE
+                corrosion challenges first-hand, and recommend the right Cortec®
                 solution for your specific environment and materials. Every
                 recommendation is backed by technical expertise and real-world
                 experience.
@@ -111,7 +111,7 @@ export default function AboutPage() {
                 Technical Testing
               </h3>
               <p className="text-grey-600 leading-relaxed">
-                Cortec\u00AE&apos;s ISO/IEC 17025 accredited laboratory testing capability means
+                Cortec®&apos;s ISO/IEC 17025 accredited laboratory testing capability means
                 we can verify product performance under conditions that match your
                 real-world environment. Very few corrosion protection distributors
                 have access to this accreditation &mdash; it gives our clients confidence
@@ -126,38 +126,38 @@ export default function AboutPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="The Cortec\u00AE Partnership"
-            subtitle="Exclusively authorised by the world leader in VpCI\u00AE technology."
+            title="The Cortec® Partnership"
+            subtitle="Exclusively authorised by the world leader in VpCI® technology."
           />
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-6 text-grey-700 leading-relaxed">
               <p>
                 Corrosion Engineering &ndash; Cortec Ireland Ltd holds exclusive
-                authorisation from Cortec\u00AE Corporation, headquartered in St.&nbsp;Paul,
+                authorisation from Cortec® Corporation, headquartered in St.&nbsp;Paul,
                 Minnesota, USA, to distribute their full range of corrosion protection
                 products throughout Ireland. We also supply and support clients across
                 Great Britain. This is not a reseller arrangement &mdash; it is a direct
                 partnership with the manufacturer, giving us unmediated access to
-                Cortec\u00AE&apos;s technical resources, product development teams, and
+                Cortec®&apos;s technical resources, product development teams, and
                 application engineers.
               </p>
               <p>
-                Our European supply chain operates through EcoCortec, Cortec\u00AE
+                Our European supply chain operates through EcoCortec, Cortec®
                 Corporation&apos;s manufacturing and distribution facility in Croatia.
                 This ensures efficient delivery across Ireland and Great Britain while
                 maintaining the same exacting quality standards as products manufactured
-                at Cortec\u00AE&apos;s US facilities.
+                at Cortec®&apos;s US facilities.
               </p>
               <p>
-                With over 45 years of research and development, Cortec\u00AE Corporation
+                With over 45 years of research and development, Cortec® Corporation
                 has built a portfolio of more than 400 products spanning every
                 corrosion protection need. They are the world&apos;s leading manufacturer
-                of VpCI\u00AE (Vapour Phase Corrosion Inhibitor) technology &mdash; a
+                of VpCI® (Vapour Phase Corrosion Inhibitor) technology &mdash; a
                 fundamentally different and superior approach to preventing corrosion.
               </p>
             </div>
             <div className="bg-navy-900 rounded-2xl p-10 text-white">
-              <h3 className="text-2xl font-bold mb-8">Cortec\u00AE Corporation at a Glance</h3>
+              <h3 className="text-2xl font-bold mb-8">Cortec® Corporation at a Glance</h3>
               <div className="space-y-6">
                 <div className="border-b border-navy-700 pb-4">
                   <p className="text-3xl font-bold text-orange-400">45+</p>
@@ -165,11 +165,11 @@ export default function AboutPage() {
                 </div>
                 <div className="border-b border-navy-700 pb-4">
                   <p className="text-3xl font-bold text-orange-400">400+</p>
-                  <p className="text-grey-300 mt-1">Anti-corrosion products in the Cortec\u00AE portfolio</p>
+                  <p className="text-grey-300 mt-1">Anti-corrosion products in the Cortec® portfolio</p>
                 </div>
                 <div className="border-b border-navy-700 pb-4">
                   <p className="text-3xl font-bold text-orange-400">#1</p>
-                  <p className="text-grey-300 mt-1">World leader in VpCI\u00AE technology</p>
+                  <p className="text-grey-300 mt-1">World leader in VpCI® technology</p>
                 </div>
                 <div>
                   <p className="text-3xl font-bold text-orange-400">90+</p>
@@ -185,8 +185,8 @@ export default function AboutPage() {
       <section className="py-20 bg-grey-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="Cortec\u00AE Corporation Certifications"
-            subtitle="Cortec\u00AE Corporation holds triple ISO certification &mdash; quality, environmental, and laboratory standards that underpin every product we supply."
+            title="Cortec® Corporation Certifications"
+            subtitle="Cortec® Corporation holds triple ISO certification &mdash; quality, environmental, and laboratory standards that underpin every product we supply."
           />
           <div className="grid md:grid-cols-3 gap-8">
             {/* ISO 9001 */}
@@ -198,7 +198,7 @@ export default function AboutPage() {
                 Quality Management
               </h3>
               <p className="text-grey-600 leading-relaxed">
-                Cortec\u00AE Corporation holds ISO 9001:2015 certification, ensuring
+                Cortec® Corporation holds ISO 9001:2015 certification, ensuring
                 that every product in their range is manufactured and quality-controlled
                 to internationally recognised standards. As their authorised distributor,
                 this certification extends to every product we supply.
@@ -214,7 +214,7 @@ export default function AboutPage() {
                 Environmental Management
               </h3>
               <p className="text-grey-600 leading-relaxed">
-                Cortec\u00AE Corporation&apos;s ISO 14001:2015 certification demonstrates a
+                Cortec® Corporation&apos;s ISO 14001:2015 certification demonstrates a
                 systematic commitment to minimising environmental impact across all
                 manufacturing operations. This reflects their broader investment in
                 biobased and sustainable corrosion protection chemistry.
@@ -230,8 +230,8 @@ export default function AboutPage() {
                 Laboratory Testing
               </h3>
               <p className="text-grey-600 leading-relaxed">
-                Cortec\u00AE Corporation&apos;s ISO/IEC 17025 accredited laboratory is the
-                gold standard for testing laboratories. It means Cortec\u00AE&apos;s testing
+                Cortec® Corporation&apos;s ISO/IEC 17025 accredited laboratory is the
+                gold standard for testing laboratories. It means Cortec®&apos;s testing
                 results are technically valid, accurate, and internationally recognised
                 &mdash; giving clients confidence that product recommendations are
                 backed by rigorous, independent science.
@@ -251,15 +251,15 @@ export default function AboutPage() {
             />
             <div className="space-y-6 text-grey-700 leading-relaxed text-left sm:text-center">
               <p>
-                Cortec\u00AE&apos;s product range is built on a foundation of environmental
+                Cortec®&apos;s product range is built on a foundation of environmental
                 responsibility. Many of their corrosion inhibitors are formulated from
-                biobased, renewable raw materials. VpCI\u00AE films and packaging
+                biobased, renewable raw materials. VpCI® films and packaging
                 products include biodegradable and compostable options that perform
                 as well as &mdash; or better than &mdash; traditional petroleum-based alternatives.
               </p>
               <p>
                 By helping clients switch from oils, greases, and solvent-based
-                coatings to clean, dry VpCI\u00AE technology, we eliminate the need for
+                coatings to clean, dry VpCI® technology, we eliminate the need for
                 hazardous degreasing and cleaning processes. This reduces waste,
                 lowers VOC emissions, and helps organisations meet their ESG targets
                 without sacrificing corrosion protection performance.

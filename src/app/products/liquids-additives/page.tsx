@@ -5,19 +5,19 @@ import SectionHeading from "@/components/SectionHeading";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "VpCI\u00AE Liquids & Additives",
+  title: "VpCI® Liquids & Additives",
   description:
-    "Cortec\u00AE VpCI\u00AE liquids and additives for water treatment, metalworking fluids, lubricants and industrial cleaning. Built-in corrosion inhibition for process fluids. Available from Cortec Ireland.",
+    "Cortec® VpCI® liquids and additives for water treatment, metalworking fluids, lubricants and industrial cleaning. Built-in corrosion inhibition for process fluids. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
   {
-    name: "VpCI\u00AE-649",
+    name: "VpCI®-649",
     description:
       "Multi-metal corrosion inhibitor for boiler systems, closed-loop cooling water and hydrotest water. Provides vapour phase and liquid phase protection simultaneously. A single product replaces multiple individual inhibitors, simplifying treatment programmes and reducing inventory.",
   },
   {
-    name: "VpCI\u00AE-337",
+    name: "VpCI®-337",
     description:
       "Additive for paints, coatings and primers that adds VpCI® corrosion protection to the finished coating system. Enhances the anti-corrosion performance of existing coating formulations without affecting their physical or aesthetic properties.",
   },
@@ -27,12 +27,12 @@ const featuredProducts = [
       "High-performance metalworking fluid with built-in VpCI® corrosion inhibition. Provides lubrication and cooling during machining, grinding and forming operations while simultaneously protecting the workpiece and machine tool from corrosion between operations.",
   },
   {
-    name: "EcoLine\u00AE Cutting Fluids",
+    name: "EcoLine® Cutting Fluids",
     description:
       "Biobased metalworking fluids formulated from renewable vegetable oils. USDA Certified Biobased products that deliver excellent cutting and grinding performance with built-in corrosion protection and a significantly lower environmental footprint.",
   },
   {
-    name: "VpCI\u00AE-414",
+    name: "VpCI®-414",
     description:
       "Cleaner and corrosion inhibitor in one product. Removes soils, oils and contaminants from metal surfaces while depositing a thin VpCI® protective layer. Ideal for cleaning between manufacturing steps where parts need both cleaning and temporary rust prevention.",
   },
@@ -60,7 +60,7 @@ export default function LiquidsAdditivesPage() {
   return (
     <main>
       <HeroSection
-        title="VpCI\u00AE Liquids & Additives"
+        title="VpCI® Liquids & Additives"
         subtitle="Drop-in corrosion inhibitors for water treatment, metalworking fluids, lubricants and cleaning solutions. Built-in protection for every industrial process that involves metal and liquid."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
@@ -138,7 +138,7 @@ export default function LiquidsAdditivesPage() {
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8">
-            Why Cortec® VpCI\u00AE Liquids?
+            Why Cortec® VpCI® Liquids?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[

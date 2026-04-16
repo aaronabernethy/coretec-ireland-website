@@ -12,27 +12,27 @@ export const metadata: Metadata = {
 
 const featuredProducts = [
   {
-    name: "VpCI\u00AE-368",
+    name: "VpCI®-368",
     description:
       "Removable VpCI coating that forms a tough, transparent protective film. Easily peeled or washed off when protection is no longer needed. Ideal for machined surfaces, tooling and precision components that must remain clean and ready for use after depreservation.",
   },
   {
-    name: "VpCI\u00AE-369",
+    name: "VpCI®-369",
     description:
       "Non-removable, permanent VpCI coating for long-term outdoor exposure and aggressive environments. Provides a durable barrier against moisture, salt spray, industrial pollutants and UV radiation. Suitable for structural steel, equipment frames and outdoor installations.",
   },
   {
-    name: "VpCI\u00AE-391 Water-Based Coating",
+    name: "VpCI®-391 Water-Based Coating",
     description:
       "Water-based VpCI coating with low VOC content. Provides excellent corrosion protection without the environmental and safety concerns of solvent-based products. Meets strict regulatory requirements for enclosed space application and environmentally sensitive areas.",
   },
   {
-    name: "Nano VpCI\u00AE Coatings",
+    name: "Nano VpCI® Coatings",
     description:
       "Advanced nanotechnology-enhanced coatings that combine an ultra-thin barrier with VpCI vapour phase protection. Extremely thin dry film thickness with exceptional corrosion resistance. Ideal for precision components where dimensional tolerances are critical.",
   },
   {
-    name: "EcoLine\u00AE Biobased Rust Preventatives",
+    name: "EcoLine® Biobased Rust Preventatives",
     description:
       "Rust preventatives formulated from biobased, renewable raw materials. USDA Certified Biobased products that provide effective temporary corrosion protection for metalworking, storage and transit applications. Available as sprays, dips and wipe-on formulations.",
   },
@@ -60,7 +60,7 @@ export default function CoatingsRustPreventativesPage() {
     <main>
       <HeroSection
         title="Coatings & Rust Preventatives"
-        subtitle="Spray-on, dip and brush-on coatings that stop corrosion in its tracks. Removable and permanent options, water-based and solvent-based formulations, biobased alternatives \u2014 all with built-in VpCI\u00AE technology."
+        subtitle="Spray-on, dip and brush-on coatings that stop corrosion in its tracks. Removable and permanent options, water-based and solvent-based formulations, biobased alternatives \u2014 all with built-in VpCI® technology."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />

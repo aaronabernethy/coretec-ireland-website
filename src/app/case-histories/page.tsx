@@ -103,7 +103,7 @@ export default async function CaseHistoriesPage() {
           <div className="max-w-2xl mb-12">
             <p className="text-sm font-semibold text-steel-500 uppercase tracking-wider mb-2">Local Projects</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-navy-900">
-              {tm("Cortec\u00AE VpCI\u00AE in Action \u2014 Ireland & Northern Ireland")}
+              {tm("Cortec® VpCI® in Action \u2014 Ireland & Northern Ireland")}
             </h2>
             <p className="mt-4 text-lg text-grey-600">
               The following case histories were carried out with the direct involvement of Corrosion Engineering – Cortec Ireland Ltd.

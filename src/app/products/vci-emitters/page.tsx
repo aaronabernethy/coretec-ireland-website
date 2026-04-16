@@ -5,34 +5,34 @@ import SectionHeading from "@/components/SectionHeading";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "VpCI\u00AE Emitters & Diffusers",
+  title: "VpCI® Emitters & Diffusers",
   description:
     "Cortec VpCI emitters and diffusers for corrosion protection inside enclosed spaces. No contact required \u2014 simply place inside electrical cabinets, containers, vaults and equipment housings. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
   {
-    name: "VpCI\u00AE-105 Emitter Cups",
+    name: "VpCI®-105 Emitter Cups",
     description:
       "Self-adhesive emitter cups that mount inside enclosures and release VpCI molecules continuously. Ideal for electrical panels, junction boxes, control cabinets and instrument housings. Each cup protects up to 5 cubic feet of enclosed space for up to 2 years.",
   },
   {
-    name: "VpCI\u00AE-111 Emitter Strips",
+    name: "VpCI®-111 Emitter Strips",
     description:
       "Flexible emitter strips that can be cut to length and placed inside narrow or irregularly shaped enclosures. Suitable for conduit boxes, cable trays, tool drawers and small storage containers. Easy to install with a peel-and-stick adhesive backing.",
   },
   {
-    name: "Cor-Pak\u00AE VpCI\u00AE-137 Pouches",
+    name: "Cor-Pak® VpCI®-137 Pouches",
     description:
       "Permeable pouches filled with VpCI powder or foam. Available in multiple sizes to protect enclosed volumes from a few cubic feet to entire shipping containers. Simply drop a pouch into the package or enclosure \u2014 no opening or activation required.",
   },
   {
-    name: "VpCI\u00AE-101 Device",
+    name: "VpCI®-101 Device",
     description:
       "Purpose-built corrosion inhibitor device for electrical and electronic enclosures. Designed to protect sensitive electronics, circuit boards, connectors and relay contacts from corrosion without interfering with electrical performance.",
   },
   {
-    name: "EcoEmitter\u00AE",
+    name: "EcoEmitter®",
     description:
       "Biobased emitter made from renewable materials. USDA Certified Biobased product that provides the same VpCI protection as conventional emitters while meeting green procurement and sustainability requirements.",
   },
@@ -60,7 +60,7 @@ export default function VciEmittersPage() {
   return (
     <main>
       <HeroSection
-        title="VpCI\u00AE Emitters & Diffusers"
+        title="VpCI® Emitters & Diffusers"
         subtitle="Corrosion protection for enclosed spaces without surface contact. Simply place a VpCI emitter inside any enclosure and let the vapour phase inhibitors do the work \u2014 protecting every metal surface within reach."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
@@ -138,7 +138,7 @@ export default function VciEmittersPage() {
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8">
-            Why Cortec VpCI\u00AE Emitters?
+            Why Cortec VpCI® Emitters?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[

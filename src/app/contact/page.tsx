@@ -14,7 +14,7 @@ const contactReasons = [
   "Requesting datasheets or SDS documents",
   "Getting a quote for your project",
   "Arranging an on-site corrosion assessment",
-  "Technical support for Cortec\u00AE products you\u2019re already using",
+  "Technical support for Cortec® products you\u2019re already using",
 ];
 
 export default function ContactPage() {

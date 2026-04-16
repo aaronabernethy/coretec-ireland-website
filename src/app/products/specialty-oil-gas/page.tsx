@@ -7,32 +7,32 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Specialty Oil & Gas Products",
   description:
-    "Cortec\u00AE VpCI\u00AE corrosion protection products for oil and gas applications. Pipeline preservation, vessel mothballing, hydrostatic testing and equipment layup. Available from Cortec Ireland.",
+    "Cortec® VpCI® corrosion protection products for oil and gas applications. Pipeline preservation, vessel mothballing, hydrostatic testing and equipment layup. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
   {
-    name: "VpCI\u00AE-705",
+    name: "VpCI®-705",
     description:
       "Pipeline preservation additive for long-term layup and mothballing. Provides both liquid phase and vapour phase corrosion protection for carbon steel, stainless steel and multi-metal piping systems. A single fill-and-leave treatment protects the entire pipeline \u2014 including areas above the waterline that conventional liquid inhibitors cannot reach.",
   },
   {
-    name: "VpCI\u00AE-707",
+    name: "VpCI®-707",
     description:
       "Mothballing compound for vessels, tanks, heat exchangers and process equipment during extended shutdown periods. Forms a persistent protective layer on all internal metal surfaces, with VpCI® vapour phase protection reaching into voids, dead legs and vapour spaces. Dramatically reduces re-commissioning time and cost.",
   },
   {
-    name: "VpCI\u00AE-708",
+    name: "VpCI®-708",
     description:
       "Hydrostatic test water additive that provides corrosion protection during and after pressure testing. Prevents flash rusting and pitting that commonly occurs when test water remains in contact with carbon steel. Eliminates the need for immediate drying or nitrogen purging after testing.",
   },
   {
-    name: "VpCI\u00AE-649",
+    name: "VpCI®-649",
     description:
       "Multi-metal corrosion inhibitor for closed-loop water systems, glycol systems and cooling circuits. Provides long-term protection for systems that must remain filled during idle periods. Effective on carbon steel, copper, aluminium and mixed-metal systems.",
   },
   {
-    name: "Cor-Pak\u00AE VpCI\u00AE Tank Inserts",
+    name: "Cor-Pak® VpCI® Tank Inserts",
     description:
       "Large-format VpCI® emitter devices designed to be placed inside empty tanks, vessels and large enclosures. Release VpCI® vapour continuously to protect internal surfaces during dry layup without the need for nitrogen blanketing or dehumidification equipment.",
   },

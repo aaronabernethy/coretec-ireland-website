@@ -5,34 +5,34 @@ import SectionHeading from "@/components/SectionHeading";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "MCI\u00AE Construction & Concrete Products",
+  title: "MCI® Construction & Concrete Products",
   description:
-    "Cortec\u00AE MCI\u00AE Migrating Corrosion Inhibitors for concrete and construction. Protect reinforcing steel in bridges, parking structures, marine infrastructure and historical buildings. Available from Cortec Ireland.",
+    "Cortec® MCI® Migrating Corrosion Inhibitors for concrete and construction. Protect reinforcing steel in bridges, parking structures, marine infrastructure and historical buildings. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
   {
-    name: "MCI\u00AE-2005",
+    name: "MCI®-2005",
     description:
       "Migrating Corrosion Inhibitor admixture for new concrete. Added directly to the concrete mix during batching, MCI-2005 migrates through the concrete matrix to reach embedded reinforcing steel and form a protective molecular layer. Provides long-term corrosion protection for the entire service life of the structure.",
   },
   {
-    name: "MCI\u00AE-2006",
+    name: "MCI®-2006",
     description:
       "Surface-applied Migrating Corrosion Inhibitor for existing concrete structures. Applied as a liquid to the concrete surface, MCI-2006 penetrates through the concrete cover to reach the rebar and form a protective layer. Ideal for extending the service life of structures already in service without the need for demolition or overlay.",
   },
   {
-    name: "MCI\u00AE-2018",
+    name: "MCI®-2018",
     description:
       "Concrete sealer with integrated Migrating Corrosion Inhibitor™ technology. Seals the concrete surface against moisture and chloride ingress while simultaneously migrating inward to protect the rebar. Combines surface protection with internal corrosion inhibition in a single application.",
   },
   {
-    name: "MCI\u00AE-2019",
+    name: "MCI®-2019",
     description:
       "Topical corrosion inhibitor treatment for concrete surfaces exposed to chloride attack. Applied as a spray or brush-on treatment, it penetrates into the concrete to provide corrosion protection for the embedded reinforcement. Particularly effective for bridge decks, marine structures and de-icing salt exposure.",
   },
   {
-    name: "MCI\u00AE-2020 Repair Mortar",
+    name: "MCI®-2020 Repair Mortar",
     description:
       "Corrosion-inhibiting repair mortar for patching and restoring damaged concrete. Contains MCI® technology that migrates beyond the repair area to protect surrounding rebar that may be at risk. Addresses the common &quot;ring anode&quot; problem where repairs to one area can accelerate corrosion in adjacent zones.",
   },
@@ -60,7 +60,7 @@ export default function ConstructionConcretePage() {
   return (
     <main>
       <HeroSection
-        title="MCI\u00AE Construction & Concrete Products"
+        title="MCI® Construction & Concrete Products"
         subtitle="Migrating Corrosion Inhibitors that travel through concrete to protect embedded reinforcing steel. For new construction, repair and rehabilitation \u2014 extending the service life of structures by 3 to 5 times."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
@@ -140,7 +140,7 @@ export default function ConstructionConcretePage() {
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8">
-            Why Cortec® MCI\u00AE Technology?
+            Why Cortec® MCI® Technology?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[

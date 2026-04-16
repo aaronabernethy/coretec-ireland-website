@@ -5,29 +5,29 @@ import SectionHeading from "@/components/SectionHeading";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "VpCI\u00AE Papers & Wraps",
+  title: "VpCI® Papers & Wraps",
   description:
-    "Cortec\u00AE VpCI\u00AE corrosion-inhibiting papers and wraps for interleaving, wrapping and lining applications. Multi-metal protection in kraft paper form. Available from Cortec Ireland.",
+    "Cortec® VpCI® corrosion-inhibiting papers and wraps for interleaving, wrapping and lining applications. Multi-metal protection in kraft paper form. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
   {
-    name: "VpCI\u00AE-146 Paper",
+    name: "VpCI®-146 Paper",
     description:
       "The flagship multi-metal VpCI® kraft paper. Protects ferrous and non-ferrous metals with a single paper. Available in rolls and sheets. Ideal for wrapping individual parts, interleaving between stacked metal sheets and lining crates for shipment.",
   },
   {
-    name: "CorShield\u00AE VpCI\u00AE-146",
+    name: "CorShield® VpCI®-146",
     description:
       "USDA Certified Biobased version of the VpCI-146. Manufactured from renewable resources and certified compostable. Delivers the same multi-metal corrosion protection while meeting environmental procurement standards.",
   },
   {
-    name: "VpCI\u00AE-148 Creped Paper",
+    name: "VpCI®-148 Creped Paper",
     description:
       "Creped kraft paper that stretches and conforms to irregular shapes. Excellent for wrapping complex parts, threaded components and assemblies with protruding features. The crepe texture provides cushioning as well as corrosion protection.",
   },
   {
-    name: "Cor-Pak\u00AE Cohesive Paper",
+    name: "Cor-Pak® Cohesive Paper",
     description:
       "Self-adhering VpCI® paper that sticks to itself without tape or adhesive. Wraps stay in place during handling and transit. Ideal for wrapping cylindrical parts such as shafts, tubes and rolls.",
   },
@@ -54,7 +54,7 @@ export default function VciPapersPage() {
   return (
     <main>
       <HeroSection
-        title="VpCI\u00AE Papers & Wraps"
+        title="VpCI® Papers & Wraps"
         subtitle="Kraft-based corrosion-inhibiting papers for wrapping, interleaving and lining. The simplest way to protect metal parts during storage and transit \u2014 just wrap and go."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
@@ -130,7 +130,7 @@ export default function VciPapersPage() {
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8">
-            Why Cortec® VpCI\u00AE Papers?
+            Why Cortec® VpCI® Papers?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -229,7 +229,7 @@ export default function VciPapersPage() {
       </section>
 
       <CTABanner
-        title="Need Help Choosing the Right VpCI\u00AE Paper?"
+        title="Need Help Choosing the Right VpCI® Paper?"
         subtitle="Our team will recommend the right VpCI® paper or wrap for your application."
         primaryCTA={{ text: "Talk to Our Team", href: "/contact" }}
       />
