@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
+import { tm } from "@/lib/trademark";
 import { client } from "../.././../sanity/lib/client";
 import { caseStudiesQuery } from "../.././../sanity/lib/queries";
 
@@ -102,7 +103,7 @@ export default async function CaseHistoriesPage() {
           <div className="max-w-2xl mb-12">
             <p className="text-sm font-semibold text-steel-500 uppercase tracking-wider mb-2">Local Projects</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-navy-900">
-              Cortec® VpCI® in Action — Ireland & Northern Ireland
+              {tm("Cortec\u00AE VpCI\u00AE in Action \u2014 Ireland & Northern Ireland")}
             </h2>
             <p className="mt-4 text-lg text-grey-600">
               The following case histories were carried out with the direct involvement of Corrosion Engineering – Cortec Ireland Ltd.
@@ -144,7 +145,7 @@ export default async function CaseHistoriesPage() {
                               key={p}
                               className="inline-block px-3 py-1 bg-navy-50 text-navy-900 text-xs font-semibold rounded-full border border-navy-200"
                             >
-                              {p}
+                              {tm(p)}
                             </span>
                           ))}
                         </div>
@@ -198,7 +199,7 @@ export default async function CaseHistoriesPage() {
             <p className="text-sm font-semibold text-steel-500 uppercase tracking-wider mb-2">Global Library</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-navy-900">Hundreds More Case Histories</h2>
             <p className="mt-4 text-lg text-grey-600 leading-relaxed">
-              Cortec® Corporation maintains an extensive library of case histories covering every major industry and application — from pipeline preservation to aerospace component storage. Browse the full global collection at corteccasehistories.com.
+              Cortec<sup>®</sup> Corporation maintains an extensive library of case histories covering every major industry and application &mdash; from pipeline preservation to aerospace component storage. Browse the full global collection at corteccasehistories.com.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <a

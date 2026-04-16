@@ -63,7 +63,7 @@ export default function VciEmittersPage() {
         title="VpCI\u00AE Emitters & Diffusers"
         subtitle="Corrosion protection for enclosed spaces without surface contact. Simply place a VpCI emitter inside any enclosure and let the vapour phase inhibitors do the work \u2014 protecting every metal surface within reach."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
-        secondaryCTA={{ text: "Download Datasheet", href: "/contact?subject=datasheet" }}
+        secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
 
       {/* What These Products Do */}

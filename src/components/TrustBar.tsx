@@ -37,11 +37,11 @@ function CheckIcon() {
 }
 
 const trustItems = [
-  { icon: <ShieldIcon />, label: "ISO 9001" },
-  { icon: <ShieldIcon />, label: "ISO 14001" },
-  { icon: <ShieldIcon />, label: "ISO/IEC 17025" },
+  { icon: <ShieldIcon />, label: "Cortec\u00AE ISO 9001" },
+  { icon: <ShieldIcon />, label: "Cortec\u00AE ISO 14001" },
+  { icon: <ShieldIcon />, label: "Cortec\u00AE ISO/IEC 17025" },
   { icon: <CheckIcon />, label: "Exclusive Irish Distributor" },
-  { icon: <CheckIcon />, label: "Cortec Authorised" },
+  { icon: <CheckIcon />, label: "Cortec\u00AE Authorised" },
 ];
 
 export default function TrustBar() {

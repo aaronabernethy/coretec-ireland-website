@@ -5,7 +5,7 @@ import SectionHeading from "@/components/SectionHeading";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "VpCI\u00AE Films, Bags & Shrink Films",
+  title: "VpCI\u00AE-126 Films, Bags & Shrink Films",
   description:
     "Cortec VpCI films, bags and shrink films for corrosion-free packaging and storage of metal parts. Multi-metal protection with no oils, no residue and no cleanup. Available from Cortec Ireland.",
 };
@@ -60,10 +60,10 @@ export default function VciFilmsBagsPage() {
   return (
     <main>
       <HeroSection
-        title="VpCI\u00AE Films, Bags & Shrink Films"
-        subtitle="High-performance polyethylene films infused with Cortec's Vapour Phase Corrosion Inhibitor technology. Wrap it, bag it, shrink it \u2014 and forget about corrosion. No oils, no residue, no cleanup required."
+        title="VpCI\u00AE-126 Films, Bags & Shrink Films"
+        subtitle="High-performance polyethylene films infused with Cortec\u00AE's Vapour Phase Corrosion Inhibitor technology. No oils, no residue, no cleanup required."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
-        secondaryCTA={{ text: "Download Datasheet", href: "/contact?subject=datasheet" }}
+        secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
 
       {/* What These Products Do */}

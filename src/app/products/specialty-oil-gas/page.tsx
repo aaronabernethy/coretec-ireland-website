@@ -63,7 +63,7 @@ export default function SpecialtyOilGasPage() {
         title="Specialty Oil & Gas Products"
         subtitle="Purpose-built corrosion protection for pipeline preservation, vessel mothballing, hydrostatic testing and equipment layup. Safe for personnel, environmentally compliant, and proven to reduce re-commissioning time and cost."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
-        secondaryCTA={{ text: "Download Datasheet", href: "/contact?subject=datasheet" }}
+        secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
 
       {/* What These Products Do */}

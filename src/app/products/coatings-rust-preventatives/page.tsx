@@ -62,7 +62,7 @@ export default function CoatingsRustPreventativesPage() {
         title="Coatings & Rust Preventatives"
         subtitle="Spray-on, dip and brush-on coatings that stop corrosion in its tracks. Removable and permanent options, water-based and solvent-based formulations, biobased alternatives \u2014 all with built-in VpCI\u00AE technology."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
-        secondaryCTA={{ text: "Download Datasheet", href: "/contact?subject=datasheet" }}
+        secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
 
       {/* What These Products Do */}

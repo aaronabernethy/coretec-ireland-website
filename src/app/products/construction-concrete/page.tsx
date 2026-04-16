@@ -63,7 +63,7 @@ export default function ConstructionConcretePage() {
         title="MCI\u00AE Construction & Concrete Products"
         subtitle="Migrating Corrosion Inhibitors that travel through concrete to protect embedded reinforcing steel. For new construction, repair and rehabilitation \u2014 extending the service life of structures by 3 to 5 times."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
-        secondaryCTA={{ text: "Download Datasheet", href: "/contact?subject=datasheet" }}
+        secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
 
       {/* What These Products Do */}

@@ -145,20 +145,6 @@ export default function ConstructionPage() {
         </div>
       </section>
 
-      {/* Case Study Placeholder */}
-      <section className="bg-grey-100 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white border-2 border-dashed border-steel-500 rounded-lg p-8 text-center">
-            <p className="text-lg font-semibold text-navy-900">
-              [CASE STUDY — to be added: project in construction industry]
-            </p>
-            <p className="mt-2 text-base text-steel-500">
-              We are preparing a detailed case study from a construction client. Contact us to discuss your specific requirements in the meantime.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <CTABanner
         title="Tell Us About Your Corrosion Challenge"
         subtitle="Our corrosion protection specialists will recommend the right MCI solution for your construction project."

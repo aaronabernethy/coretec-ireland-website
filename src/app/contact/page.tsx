@@ -51,7 +51,7 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-navy-900 mb-4">
                   Belfast Head Office
                 </h3>
-                <div className="flex items-center gap-3 text-grey-700 mb-4">
+                <div className="flex items-center gap-3 text-grey-700">
                   <svg className="w-5 h-5 text-steel-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
@@ -62,11 +62,6 @@ export default function ContactPage() {
                     +44 (0)7752 498985
                   </a>
                 </div>
-                <div className="bg-grey-200 rounded-lg aspect-video flex items-center justify-center">
-                  <p className="text-grey-500 text-sm text-center px-4">
-                    MAP — Belfast office location to be embedded
-                  </p>
-                </div>
               </div>
 
               {/* Dublin */}
@@ -74,7 +69,7 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-navy-900 mb-4">
                   Dublin Office
                 </h3>
-                <div className="flex items-center gap-3 text-grey-700 mb-4">
+                <div className="flex items-center gap-3 text-grey-700">
                   <svg className="w-5 h-5 text-steel-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
@@ -84,11 +79,6 @@ export default function ContactPage() {
                   >
                     +353 (0)87 2637 278
                   </a>
-                </div>
-                <div className="bg-grey-200 rounded-lg aspect-video flex items-center justify-center">
-                  <p className="text-grey-500 text-sm text-center px-4">
-                    MAP — Dublin office location to be embedded
-                  </p>
                 </div>
               </div>
 
@@ -104,8 +94,7 @@ export default function ContactPage() {
               <div className="border-l-4 border-steel-500 pl-6 py-2">
                 <h4 className="font-bold text-navy-900 mb-1">Prefer to Talk?</h4>
                 <p className="text-grey-600 leading-relaxed">
-                  Call us directly — our technical team can often provide immediate
-                  guidance over the phone.
+                  Call us directly — we can often help immediately over the phone.
                 </p>
               </div>
             </div>

@@ -248,26 +248,25 @@ export default function SustainabilityPage() {
               ISO 14001:2015
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-6">
-              Environmental Management Certified
+              Cortec\u00AE Corporation: Environmental Management Certified
             </h2>
             <div className="space-y-5 text-grey-700 leading-relaxed">
               <p>
-                Cortec Ireland holds ISO 14001:2015 certification for environmental management.
-                This internationally recognised standard requires a systematic approach to
-                identifying, managing, and reducing our environmental impact across all
-                operations.
+                Cortec\u00AE Corporation holds ISO 14001:2015 certification for environmental
+                management. This internationally recognised standard requires a systematic
+                approach to identifying, managing, and reducing environmental impact across
+                all manufacturing operations.
               </p>
               <p>
-                Our environmental management system covers everything from product sourcing
-                and storage to packaging, delivery, and waste management. It ensures that
-                sustainability is not an afterthought but a structured, audited part of how
-                we operate every day.
+                Cortec\u00AE&apos;s environmental management system covers everything from raw
+                material sourcing and manufacturing to packaging and distribution. It ensures
+                that sustainability is not an afterthought but a structured, audited part of
+                how their products are developed and produced.
               </p>
               <p>
-                Combined with Cortec Corporation&apos;s own environmental credentials and
-                biobased product range, our ISO 14001 certification gives clients confidence
-                that their corrosion protection supply chain is managed responsibly from
-                manufacturer to end user.
+                As their authorised distributor in Ireland, Cortec\u00AE&apos;s ISO 14001
+                certification gives our clients confidence that their corrosion protection
+                supply chain is managed responsibly from manufacturer to end user.
               </p>
             </div>
           </div>

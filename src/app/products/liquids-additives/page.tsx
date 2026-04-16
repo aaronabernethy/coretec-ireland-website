@@ -63,7 +63,7 @@ export default function LiquidsAdditivesPage() {
         title="VpCI\u00AE Liquids & Additives"
         subtitle="Drop-in corrosion inhibitors for water treatment, metalworking fluids, lubricants and cleaning solutions. Built-in protection for every industrial process that involves metal and liquid."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
-        secondaryCTA={{ text: "Download Datasheet", href: "/contact?subject=datasheet" }}
+        secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
 
       {/* What These Products Do */}
