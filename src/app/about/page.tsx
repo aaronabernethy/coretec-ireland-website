@@ -15,7 +15,7 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <HeroSection
-        title="Ireland Corrosion Protection Authority"
+        title="Ireland's Corrosion Protection Authority"
         subtitle="As the exclusive authorised distributor of Cortec® Corporation products in Ireland, we bring decades of specialist corrosion engineering expertise to every project we undertake."
         primaryCTA={{ text: "Get in Touch", href: "/contact" }}
         secondaryCTA={{ text: "Explore Our Products", href: "/products" }}

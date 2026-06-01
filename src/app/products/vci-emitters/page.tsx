@@ -53,7 +53,7 @@ export default function VciEmittersPage() {
     <main>
       <HeroSection
         title="VpCI® Emitters & Devices"
-        subtitle="Corrosion protection for enclosed spaces without surface contact. Simply place a VpCI emitter inside any enclosure and let the vapour phase inhibitors do the work \u2014 protecting everything within the enclosed space, even those hard to reach surfaces."
+        subtitle="Corrosion protection for enclosed spaces without surface contact. Simply place a VpCI emitter inside any enclosure and let the vapour phase inhibitors do the work; protecting everything within the enclosed space, even those hard to reach surfaces."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
@@ -68,7 +68,7 @@ export default function VciEmittersPage() {
               continuously release Vapour Phase Corrosion Inhibitor molecules
               into the surrounding air space. The molecules travel by natural
               diffusion, reaching every exposed metal surface within the enclosed
-              volume \u2014 including recesses, crevices and surfaces that are
+              volume including recesses, crevices and surfaces that are
               impossible to reach with conventional coatings or sprays.
             </p>
             <p className="text-grey-600 text-base leading-relaxed mb-4">

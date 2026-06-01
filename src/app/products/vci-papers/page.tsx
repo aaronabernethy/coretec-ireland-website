@@ -47,7 +47,7 @@ export default function VciPapersPage() {
     <main>
       <HeroSection
         title="VpCI® Papers & Wraps"
-        subtitle="Kraft-based corrosion-inhibiting papers for wrapping, interleaving and lining. The simplest way to protect metal parts during storage and transit \u2014 just wrap and go."
+        subtitle="Kraft-based corrosion-inhibiting papers for wrapping, interleaving and lining. The simplest way to protect metal parts during storage and transit: just wrap and go."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
