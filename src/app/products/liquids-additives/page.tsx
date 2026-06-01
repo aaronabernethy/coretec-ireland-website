@@ -48,14 +48,6 @@ const keyApplications = [
   "Fog and spray applications for hard-to-reach interior surfaces",
 ];
 
-const industriesServed = [
-  { name: "Energy & Power Generation", href: "/industries/energy" },
-  { name: "Oil & Gas", href: "/industries/oil-gas" },
-  { name: "Metalworking & Manufacturing", href: "/industries/manufacturing" },
-  { name: "Marine & Offshore", href: "/industries/marine" },
-  { name: "Water & Utilities", href: "/industries/water-utilities" },
-];
-
 export default function LiquidsAdditivesPage() {
   return (
     <main>

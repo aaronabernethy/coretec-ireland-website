@@ -42,14 +42,6 @@ const keyApplications = [
   "Cushioning and corrosion protection in a single layer",
 ];
 
-const industriesServed = [
-  { name: "Metalworking & Manufacturing", href: "/industries/manufacturing" },
-  { name: "Automotive & Transport", href: "/industries/automotive" },
-  { name: "Aerospace & Defence", href: "/industries/aerospace" },
-  { name: "Marine & Offshore", href: "/industries/marine" },
-  { name: "General Engineering", href: "/industries/manufacturing" },
-];
-
 export default function VciPapersPage() {
   return (
     <main>

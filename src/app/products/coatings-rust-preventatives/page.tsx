@@ -47,14 +47,6 @@ const keyApplications = [
   "Corrosion prevention for metal parts in uncontrolled warehouse environments",
 ];
 
-const industriesServed = [
-  { name: "Metalworking & Manufacturing", href: "/industries/manufacturing" },
-  { name: "Energy & Power Generation", href: "/industries/energy" },
-  { name: "Marine & Offshore", href: "/industries/marine" },
-  { name: "Automotive & Transport", href: "/industries/automotive" },
-  { name: "Construction & Infrastructure", href: "/industries/construction" },
-];
-
 export default function CoatingsRustPreventativesPage() {
   return (
     <main>

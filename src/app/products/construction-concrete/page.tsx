@@ -48,14 +48,6 @@ const keyApplications = [
   "Balcony, facade and exposed slab corrosion prevention",
 ];
 
-const industriesServed = [
-  { name: "Construction & Infrastructure", href: "/industries/construction" },
-  { name: "Marine & Offshore", href: "/industries/marine" },
-  { name: "Water & Utilities", href: "/industries/water-utilities" },
-  { name: "Energy & Power Generation", href: "/industries/energy" },
-  { name: "Heritage & Conservation", href: "/industries/heritage" },
-];
-
 export default function ConstructionConcretePage() {
   return (
     <main>

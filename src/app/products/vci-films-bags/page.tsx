@@ -48,14 +48,6 @@ const keyApplications = [
   "Interplant transfer of work-in-progress metal assemblies",
 ];
 
-const industriesServed = [
-  { name: "Automotive & Transport", href: "/industries/automotive" },
-  { name: "Aerospace & Defence", href: "/industries/aerospace" },
-  { name: "Metalworking & Manufacturing", href: "/industries/manufacturing" },
-  { name: "Marine & Offshore", href: "/industries/marine" },
-  { name: "Energy & Power Generation", href: "/industries/energy" },
-];
-
 export default function VciFilmsBagsPage() {
   return (
     <main>

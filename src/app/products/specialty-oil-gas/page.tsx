@@ -48,14 +48,6 @@ const keyApplications = [
   "Closed-loop system treatment for glycol, cooling water and fire water systems",
 ];
 
-const industriesServed = [
-  { name: "Oil & Gas", href: "/industries/oil-gas" },
-  { name: "Energy & Power Generation", href: "/industries/energy" },
-  { name: "Marine & Offshore", href: "/industries/marine" },
-  { name: "Water & Utilities", href: "/industries/water-utilities" },
-  { name: "Petrochemical & Process", href: "/industries/petrochemical" },
-];
-
 export default function SpecialtyOilGasPage() {
   return (
     <main>

@@ -48,14 +48,6 @@ const keyApplications = [
   "Turbine housings and generator enclosures during shutdown periods",
 ];
 
-const industriesServed = [
-  { name: "Energy & Power Generation", href: "/industries/energy" },
-  { name: "Marine & Offshore", href: "/industries/marine" },
-  { name: "Aerospace & Defence", href: "/industries/aerospace" },
-  { name: "Electronics & Telecoms", href: "/industries/electronics" },
-  { name: "Metalworking & Manufacturing", href: "/industries/manufacturing" },
-];
-
 export default function VciEmittersPage() {
   return (
     <main>
