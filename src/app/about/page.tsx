@@ -15,7 +15,7 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <HeroSection
-        title="Ireland\u2019s Corrosion Protection Authority"
+        title="Ireland Corrosion Protection Authority"
         subtitle="As the exclusive authorised distributor of Cortec® Corporation products in Ireland, we bring decades of specialist corrosion engineering expertise to every project we undertake."
         primaryCTA={{ text: "Get in Touch", href: "/contact" }}
         secondaryCTA={{ text: "Explore Our Products", href: "/products" }}
@@ -31,10 +31,11 @@ export default function AboutPage() {
           <div className="max-w-3xl space-y-6 text-grey-700 leading-relaxed">
             <p>
               Corrosion Engineering &ndash; Cortec Ireland Ltd was established in 1982
-              to serve as Ireland&apos;s dedicated specialist in Cortec® Corporation&apos;s
-              corrosion protection products. Unlike general industrial distributors
-              who carry thousands of products across dozens of categories, we operate
-              with a singular focus: we sell exclusively Cortec® products, and nothing else.
+              to serve as a dedicated specialist in Cortec® Corporation&apos;s corrosion
+              protection products, covering both Northern Ireland and the Republic of
+              Ireland. Unlike general industrial distributors who carry thousands of
+              products across dozens of categories, we operate with a singular focus:
+              we sell exclusively Cortec® products, and nothing else.
             </p>
             <p>
               This is not a limitation &mdash; it is our greatest strength. By dedicating

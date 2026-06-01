@@ -117,27 +117,6 @@ export default function VciFilmsBagsPage() {
         </div>
       </section>
 
-      {/* Industries Served */}
-      <section className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            title="Industries Served"
-            subtitle="VpCI films and bags are used across a wide range of sectors where metal parts require reliable, residue-free corrosion protection during storage and transit."
-          />
-          <div className="flex flex-wrap justify-center gap-4">
-            {industriesServed.map((industry) => (
-              <Link
-                key={industry.href}
-                href={industry.href}
-                className="px-6 py-3 bg-grey-100 hover:bg-steel-500 hover:text-white text-navy-900 font-medium rounded-lg transition-colors text-sm"
-              >
-                {industry.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Why Cortec */}
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -188,8 +167,8 @@ export default function VciFilmsBagsPage() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="Featured Products"
-            subtitle="The most widely specified Cortec VpCI films and bags, available from stock in Ireland."
+            title="Products"
+            subtitle="The full range of Cortec VpCI films, bags and shrink films."
           />
           <div className="space-y-12">
             {featuredProducts.map((product) => (

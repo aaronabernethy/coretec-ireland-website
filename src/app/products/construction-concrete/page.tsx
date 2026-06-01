@@ -115,27 +115,6 @@ export default function ConstructionConcretePage() {
         </div>
       </section>
 
-      {/* Industries Served */}
-      <section className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            title="Industries Served"
-            subtitle="MCI® products are specified by structural engineers, architects, asset owners and contractors across the built environment."
-          />
-          <div className="flex flex-wrap justify-center gap-4">
-            {industriesServed.map((industry) => (
-              <Link
-                key={industry.name}
-                href={industry.href}
-                className="px-6 py-3 bg-grey-100 hover:bg-steel-500 hover:text-white text-navy-900 font-medium rounded-lg transition-colors text-sm"
-              >
-                {industry.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Why Cortec */}
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -186,8 +165,8 @@ export default function ConstructionConcretePage() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="Featured Products"
-            subtitle="The core Cortec® MCI® product range for construction and concrete protection, available from stock in Ireland."
+            title="Products"
+            subtitle="The Cortec® MCI® product range for construction and concrete protection."
           />
           <div className="space-y-12">
             {featuredProducts.map((product) => (

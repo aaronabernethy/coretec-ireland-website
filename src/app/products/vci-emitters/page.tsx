@@ -5,9 +5,9 @@ import SectionHeading from "@/components/SectionHeading";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "VpCI® Emitters & Diffusers",
+  title: "VpCI® Emitters & Devices",
   description:
-    "Cortec VpCI emitters and diffusers for corrosion protection inside enclosed spaces. No contact required \u2014 simply place inside electrical cabinets, containers, vaults and equipment housings. Available from Cortec Ireland.",
+    "Cortec VpCI emitters and devices for corrosion protection inside enclosed spaces. No contact required \u2014 simply place inside electrical cabinets, containers, vaults and equipment housings. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
@@ -60,8 +60,8 @@ export default function VciEmittersPage() {
   return (
     <main>
       <HeroSection
-        title="VpCI® Emitters & Diffusers"
-        subtitle="Corrosion protection for enclosed spaces without surface contact. Simply place a VpCI emitter inside any enclosure and let the vapour phase inhibitors do the work \u2014 protecting every metal surface within reach."
+        title="VpCI® Emitters & Devices"
+        subtitle="Corrosion protection for enclosed spaces without surface contact. Simply place a VpCI emitter inside any enclosure and let the vapour phase inhibitors do the work \u2014 protecting everything within the enclosed space, even those hard to reach surfaces."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
@@ -72,7 +72,7 @@ export default function VciEmittersPage() {
           <SectionHeading title="What These Products Do" centered={false} />
           <div className="max-w-3xl">
             <p className="text-grey-600 text-base leading-relaxed mb-4">
-              VpCI emitters and diffusers are self-contained devices that
+              VpCI emitters and devices are self-contained units that
               continuously release Vapour Phase Corrosion Inhibitor molecules
               into the surrounding air space. The molecules travel by natural
               diffusion, reaching every exposed metal surface within the enclosed
@@ -110,27 +110,6 @@ export default function VciEmittersPage() {
               </li>
             ))}
           </ul>
-        </div>
-      </section>
-
-      {/* Industries Served */}
-      <section className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            title="Industries Served"
-            subtitle="VpCI emitters are used wherever electrical, electronic or metal equipment needs corrosion protection inside closed enclosures."
-          />
-          <div className="flex flex-wrap justify-center gap-4">
-            {industriesServed.map((industry) => (
-              <Link
-                key={industry.name}
-                href={industry.href}
-                className="px-6 py-3 bg-grey-100 hover:bg-steel-500 hover:text-white text-navy-900 font-medium rounded-lg transition-colors text-sm"
-              >
-                {industry.name}
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -184,8 +163,8 @@ export default function VciEmittersPage() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="Featured Products"
-            subtitle="The most popular Cortec VpCI emitters and diffusers, available from stock in Ireland."
+            title="Products"
+            subtitle="The full range of Cortec VpCI emitters and devices."
           />
           <div className="space-y-12">
             {featuredProducts.map((product) => (
@@ -216,7 +195,7 @@ export default function VciEmittersPage() {
           <div className="max-w-2xl mx-auto text-center">
             <SectionHeading
               title="Request a Quote or Datasheet"
-              subtitle="For a full quote or technical datasheet on any Cortec VpCI emitter or diffuser product, contact our team."
+              subtitle="For a full quote or technical datasheet on any Cortec VpCI emitter or device product, contact our team."
             />
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

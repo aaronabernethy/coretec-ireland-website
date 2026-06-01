@@ -113,27 +113,6 @@ export default function LiquidsAdditivesPage() {
         </div>
       </section>
 
-      {/* Industries Served */}
-      <section className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            title="Industries Served"
-            subtitle="VpCI® liquids and additives are used across industries that operate process fluids, water systems and metalworking equipment."
-          />
-          <div className="flex flex-wrap justify-center gap-4">
-            {industriesServed.map((industry) => (
-              <Link
-                key={industry.name}
-                href={industry.href}
-                className="px-6 py-3 bg-grey-100 hover:bg-steel-500 hover:text-white text-navy-900 font-medium rounded-lg transition-colors text-sm"
-              >
-                {industry.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Why Cortec */}
       <section className="bg-navy-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -184,8 +163,8 @@ export default function LiquidsAdditivesPage() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            title="Featured Products"
-            subtitle="The most widely used Cortec® VpCI® liquids and additives, available from stock in Ireland."
+            title="Products"
+            subtitle="The full range of Cortec® VpCI® liquids and additives."
           />
           <div className="space-y-12">
             {featuredProducts.map((product) => (

@@ -25,7 +25,7 @@ const productCategories = [
     href: "/products/vci-papers",
   },
   {
-    title: "VpCI® Emitters & Diffusers",
+    title: "VpCI® Emitters & Devices",
     description:
       "Self-contained corrosion inhibitor devices that release VpCI® molecules into enclosed spaces. No surface contact required — simply place inside electrical cabinets, shipping containers, storage vaults or equipment housings.",
     href: "/products/vci-emitters",
@@ -82,6 +82,39 @@ export default function ProductsPage() {
                 href={category.href}
               />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Total Corrosion Control Brochure */}
+      <section className="bg-navy-900 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div>
+              <p className="text-sm font-semibold text-orange-400 uppercase tracking-wider mb-2">
+                Complete Product Guide
+              </p>
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
+                Total Corrosion Control
+              </h2>
+              <p className="text-grey-300 text-base leading-relaxed max-w-xl">
+                Download the Cortec® Total Corrosion Control brochure for a
+                comprehensive overview of the entire product range — from VpCI®
+                packaging films and emitters to MCI® construction solutions and
+                specialty oil &amp; gas products.
+              </p>
+            </div>
+            <a
+              href="/Cortec_GenBroch.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 inline-flex items-center gap-3 px-8 py-4 bg-orange-500 hover:bg-orange-600 text-navy-900 text-lg font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Download Brochure
+            </a>
           </div>
         </div>
       </section>
