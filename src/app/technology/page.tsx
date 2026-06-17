@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
-import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
@@ -473,13 +472,6 @@ export default function TechnologyPage() {
         </div>
       </section>
 
-      {/* CTA Banner */}
-      <CTABanner
-        title="Want to See VpCI® Technology in Action?"
-        subtitle="Our team can demonstrate how VpCI® technology will solve your specific corrosion challenges."
-        primaryCTA={{ text: "Request a Demonstration", href: "/contact" }}
-        phone="+44 (0)7752 498985"
-      />
     </>
   );
 }

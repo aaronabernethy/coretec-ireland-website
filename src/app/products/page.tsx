@@ -105,7 +105,7 @@ export default function ProductsPage() {
               </p>
             </div>
             <a
-              href="/Cortec_GenBroch.pdf"
+              href="https://www.cortecvci.com/Publications/Brochures/General/Cortec_GenBroch.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-shrink-0 inline-flex items-center gap-3 px-8 py-4 bg-orange-500 hover:bg-orange-600 text-navy-900 text-lg font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2"
