@@ -14,7 +14,7 @@ const faqs = [
   {
     question: "What is VpCI® technology?",
     answer:
-      "VpCI® stands for Vapour Phase Corrosion Inhibitor. It\u2019s a technology developed by Cortec Corporation that protects metals by releasing invisible, non-toxic molecules that form a protective molecular layer on metal surfaces. Unlike oils and greases, VpCI leaves no residue and requires no cleanup.",
+      "VpCI® stands for Vapour Phase Corrosion Inhibitor. It’s a technology developed by Cortec Corporation that protects metals by releasing invisible, non-toxic molecules that form a protective molecular layer on metal surfaces. Unlike oils and greases, VpCI leaves no residue and requires no cleanup.",
   },
   {
     question: "What metals does VpCI protect?",
@@ -24,7 +24,7 @@ const faqs = [
   {
     question: "How long does VpCI protection last?",
     answer:
-      "Protection duration depends on the product and conditions. VpCI films and papers typically protect for 12\u201324 months in sealed packaging. Emitters can last 1\u20132 years in enclosed spaces. Coatings provide protection for years depending on exposure conditions.",
+      "Protection duration depends on the product and conditions. VpCI films and papers typically protect for 12–24 months in sealed packaging. Emitters can last 1–2 years in enclosed spaces. Coatings provide protection for years depending on exposure conditions.",
   },
   {
     question: "Are Cortec products safe to use?",
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: "Can I get samples before ordering?",
     answer:
-      "Yes. We\u2019re happy to provide product samples for evaluation. Contact our team with your application details and we\u2019ll arrange samples of the most suitable products.",
+      "Yes. We’re happy to provide product samples for evaluation. Contact our team with your application details and we’ll arrange samples of the most suitable products.",
   },
   {
     question: "Do you provide on-site consultation?",
@@ -49,12 +49,12 @@ const faqs = [
   {
     question: "How do I know which product I need?",
     answer:
-      "Contact our team with details of what you\u2019re protecting, the environment, and the duration of protection needed. We\u2019ll recommend the right product \u2014 that\u2019s what our consultancy approach is all about.",
+      "Contact our team with details of what you’re protecting, the environment, and the duration of protection needed. We’ll recommend the right product — that’s what our consultancy approach is all about.",
   },
   {
     question: "What is ISO/IEC 17025 and why does it matter?",
     answer:
-      "ISO/IEC 17025 is the international standard for testing and calibration laboratories. Our accreditation means our testing results are technically valid and internationally recognised \u2014 giving you confidence that our product recommendations are based on rigorous, verified data.",
+      "ISO/IEC 17025 is the international standard for testing and calibration laboratories. Our accreditation means our testing results are technically valid and internationally recognised — giving you confidence that our product recommendations are based on rigorous, verified data.",
   },
   {
     question: "Do you deliver across all of Ireland?",

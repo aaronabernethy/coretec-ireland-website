@@ -7,7 +7,7 @@ import SectionHeading from "@/components/SectionHeading";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Corrosion Engineering \u2013 Cortec Ireland Ltd is Ireland\u2019s exclusive authorised distributor of Cortec® Corporation VpCI® products. Established in 1982, we provide specialist corrosion protection consultancy backed by Cortec®\u2019s ISO 9001, ISO 14001, and ISO/IEC 17025 certifications.",
+    "Corrosion Engineering – Cortec Ireland Ltd is Ireland’s exclusive authorised distributor of Cortec® Corporation VpCI® products. Established in 1982, we provide specialist corrosion protection consultancy backed by Cortec®’s ISO 9001, ISO 14001, and ISO/IEC 17025 certifications.",
 };
 
 export default function AboutPage() {
@@ -280,7 +280,7 @@ export default function AboutPage() {
 
       {/* CTA Banner */}
       <CTABanner
-        title="Ready to Work With Ireland\u2019s Corrosion Experts?"
+        title="Ready to Work With Ireland’s Corrosion Experts?"
         subtitle="Get in touch to discuss your corrosion protection challenges with our specialist team."
         primaryCTA={{ text: "Contact Us Today", href: "/contact" }}
         phone="+44 (0)7752 498985"

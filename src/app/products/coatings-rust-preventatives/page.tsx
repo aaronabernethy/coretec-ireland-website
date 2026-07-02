@@ -36,6 +36,21 @@ const featuredProducts = [
     description:
       "Rust preventatives formulated from biobased, renewable raw materials. USDA Certified Biobased products that provide effective temporary corrosion protection for metalworking, storage and transit applications. Available as sprays, dips and wipe-on formulations.",
   },
+  {
+    name: "EcoShield® 386 Water-Based Coating",
+    description:
+      "Water-based acrylic VpCI® topcoat that provides a tough, UV-resistant protective film for indoor and outdoor exposure. Low VOC and available in clear or coloured finishes for long-term protection of structural steel and equipment.",
+  },
+  {
+    name: "EcoCorr® Water-Based Rust Preventative",
+    description:
+      "Water-based rust preventative powered by Nano VpCI® technology. Provides long-term indoor and covered-storage protection with a thin, non-tacky film that is easy to apply and free from solvents and heavy metals.",
+  },
+  {
+    name: "EcoAir® Tool & Die Rust Preventative",
+    description:
+      "Biobased aerosol rust preventative for tools, dies, moulds and machined surfaces. Uses a non-flammable, VOC-compliant air-powered spray to deposit a protective VpCI® film between production runs and during storage.",
+  },
 ];
 
 const keyApplications = [
@@ -43,7 +58,7 @@ const keyApplications = [
   "Temporary rust prevention for parts awaiting assembly or further processing",
   "Long-term outdoor protection for structural steel and equipment",
   "Preserving metal surfaces during extended plant shutdowns and mothballing",
-  "Protecting metal in transit \u2014 especially for overseas shipment",
+  "Protecting metal in transit — especially for overseas shipment",
   "Corrosion prevention for metal parts in uncontrolled warehouse environments",
 ];
 
@@ -52,7 +67,7 @@ export default function CoatingsRustPreventativesPage() {
     <main>
       <HeroSection
         title="Coatings & Rust Preventatives"
-        subtitle="Spray-on, dip and brush-on coatings that stop corrosion in its tracks. Removable and permanent options, water-based and solvent-based formulations, biobased alternatives \u2014 all with built-in VpCI® technology."
+        subtitle="Spray-on, dip and brush-on coatings that stop corrosion in its tracks. Removable and permanent options, water-based and solvent-based formulations, biobased alternatives — all with built-in VpCI® technology."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
@@ -74,7 +89,7 @@ export default function CoatingsRustPreventativesPage() {
               This dual-action approach delivers superior protection compared to
               conventional barrier coatings alone. Even if the coating is
               scratched or damaged, the VpCI molecules continue to protect the
-              exposed metal at the point of damage \u2014 a level of
+              exposed metal at the point of damage — a level of
               self-healing capability that standard coatings cannot match.
             </p>
             <p className="text-grey-600 text-base leading-relaxed">
@@ -165,7 +180,7 @@ export default function CoatingsRustPreventativesPage() {
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
                 <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE \u2014 Cortec {product.name}]
+                  [PRODUCT IMAGE — Cortec {product.name}]
                 </div>
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
@@ -177,6 +192,17 @@ export default function CoatingsRustPreventativesPage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-14 text-center">
+            <a
+              href="https://www.cortecvci.com/products/vpci-high-performance-coatings/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-steel-500 hover:text-steel-600 font-semibold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-steel-300 focus:ring-offset-2 rounded"
+            >
+              Browse the full VpCI® coatings range on cortecvci.com
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </section>

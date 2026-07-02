@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "VpCI® Emitters & Devices",
   description:
-    "Cortec VpCI emitters and devices for corrosion protection inside enclosed spaces. No contact required \u2014 simply place inside electrical cabinets, containers, vaults and equipment housings. Available from Cortec Ireland.",
+    "Cortec VpCI emitters and devices for corrosion protection inside enclosed spaces. No contact required — simply place inside electrical cabinets, containers, vaults and equipment housings. Available from Cortec Ireland.",
 };
 
 const featuredProducts = [
@@ -24,7 +24,7 @@ const featuredProducts = [
   {
     name: "Cor-Pak® VpCI®-137 Pouches",
     description:
-      "Permeable pouches filled with VpCI powder or foam. Available in multiple sizes to protect enclosed volumes from a few cubic feet to entire shipping containers. Simply drop a pouch into the package or enclosure \u2014 no opening or activation required.",
+      "Permeable pouches filled with VpCI powder or foam. Available in multiple sizes to protect enclosed volumes from a few cubic feet to entire shipping containers. Simply drop a pouch into the package or enclosure — no opening or activation required.",
   },
   {
     name: "VpCI®-101 Device",
@@ -35,6 +35,21 @@ const featuredProducts = [
     name: "EcoEmitter®",
     description:
       "Biobased emitter made from renewable materials. USDA Certified Biobased product that provides the same VpCI protection as conventional emitters while meeting green procurement and sustainability requirements.",
+  },
+  {
+    name: "VpCI®-308 Pouch",
+    description:
+      "Large-capacity VpCI pouch for protecting bigger enclosed volumes such as large control cabinets, crates and shipping containers. A single pouch releases VpCI molecules to protect the entire enclosed space for up to two years.",
+  },
+  {
+    name: "Corrosorber® Pouch",
+    description:
+      "Activated pouch that captures corrosive gases such as hydrogen sulphide and sulphur dioxide from the air inside enclosures. Used alongside VpCI emitters to protect electronics and metals in aggressive or polluted atmospheres.",
+  },
+  {
+    name: "DesiCorr® VpCI® Pouches",
+    description:
+      "Dual-action pouch combining a desiccant with VpCI protection. Absorbs excess moisture while releasing corrosion inhibitors, providing complete protection inside sealed packaging without the drawbacks of desiccant alone.",
   },
 ];
 
@@ -165,7 +180,7 @@ export default function VciEmittersPage() {
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
                 <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE \u2014 Cortec {product.name}]
+                  [PRODUCT IMAGE — Cortec {product.name}]
                 </div>
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
@@ -177,6 +192,17 @@ export default function VciEmittersPage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-14 text-center">
+            <a
+              href="https://www.cortecvci.com/products/vpci-packaging-products/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-steel-500 hover:text-steel-600 font-semibold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-steel-300 focus:ring-offset-2 rounded"
+            >
+              Browse the full VpCI® packaging range on cortecvci.com
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </section>

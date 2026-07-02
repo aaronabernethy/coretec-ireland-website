@@ -36,6 +36,21 @@ const featuredProducts = [
     description:
       "Cleaner and corrosion inhibitor in one product. Removes soils, oils and contaminants from metal surfaces while depositing a thin VpCI® protective layer. Ideal for cleaning between manufacturing steps where parts need both cleaning and temporary rust prevention.",
   },
+  {
+    name: "VpCI®-648",
+    description:
+      "Concentrated multi-metal corrosion inhibitor for closed-loop cooling and heating systems. Protects mixed-metal systems containing steel, copper, aluminium and solder against corrosion during operation and idle periods.",
+  },
+  {
+    name: "VpCI®-649 BD Winterized",
+    description:
+      "Ready-to-use, winterized formulation of VpCI®-649 for hydrostatic testing and closed systems in cold conditions. Provides freeze protection alongside vapour and liquid phase corrosion inhibition.",
+  },
+  {
+    name: "G-6 Corrosion Inhibitor",
+    description:
+      "General-purpose liquid corrosion inhibitor additive for water-based systems and process fluids. Builds corrosion protection directly into cleaning, cooling and treatment solutions without a separate application step.",
+  },
 ];
 
 const keyApplications = [
@@ -75,7 +90,7 @@ export default function LiquidsAdditivesPage() {
               surfaces) and the vapour phase (protecting surfaces above the
               waterline). This dual-phase action is particularly valuable in
               systems where both liquid-contacted and vapour-space surfaces need
-              protection \u2014 such as boilers, storage tanks and partially
+              protection — such as boilers, storage tanks and partially
               filled pipelines.
             </p>
             <p className="text-grey-600 text-base leading-relaxed">
@@ -165,7 +180,7 @@ export default function LiquidsAdditivesPage() {
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
                 <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE \u2014 Cortec {product.name}]
+                  [PRODUCT IMAGE — Cortec {product.name}]
                 </div>
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
@@ -177,6 +192,17 @@ export default function LiquidsAdditivesPage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-14 text-center">
+            <a
+              href="https://www.cortecvci.com/products/vpci-water-treatment-products/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-steel-500 hover:text-steel-600 font-semibold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-steel-300 focus:ring-offset-2 rounded"
+            >
+              Browse the full VpCI® water treatment &amp; additives range on cortecvci.com
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </section>

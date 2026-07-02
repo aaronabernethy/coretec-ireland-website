@@ -36,6 +36,21 @@ const featuredProducts = [
     description:
       "Corrosion-inhibiting repair mortar for patching and restoring damaged concrete. Contains MCI® technology that migrates beyond the repair area to protect surrounding rebar that may be at risk. Addresses the common &quot;ring anode&quot; problem where repairs to one area can accelerate corrosion in adjacent zones.",
   },
+  {
+    name: "MCI®-2021 Concrete Sealer",
+    description:
+      "Water-repellent silane/siloxane sealer with integrated MCI® technology. Reduces water and chloride ingress at the concrete surface while migrating inward to protect embedded reinforcement, extending the life of exposed structures.",
+  },
+  {
+    name: "MCI®-2039 High-Performance Repair Mortar",
+    description:
+      "Single-component, corrosion-inhibiting repair mortar for restoring spalled and damaged concrete. Contains MCI® technology that protects both the repaired area and the surrounding reinforcement against future corrosion.",
+  },
+  {
+    name: "MCI®-309 Corrosion-Inhibiting Powder",
+    description:
+      "Dry MCI® powder for protecting reinforcing steel and post-tensioning systems inside voids, ducts and hollow structural sections. Releases migrating corrosion inhibitors that reach metal surfaces liquid treatments cannot access.",
+  },
 ];
 
 const keyApplications = [
@@ -53,7 +68,7 @@ export default function ConstructionConcretePage() {
     <main>
       <HeroSection
         title="MCI® Construction & Concrete Products"
-        subtitle="Migrating Corrosion Inhibitors that travel through concrete to protect embedded reinforcing steel. For new construction, repair and rehabilitation \u2014 extending the service life of structures by 3 to 5 times."
+        subtitle="Migrating Corrosion Inhibitors that travel through concrete to protect embedded reinforcing steel. For new construction, repair and rehabilitation — extending the service life of structures by 3 to 5 times."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
       />
@@ -66,8 +81,8 @@ export default function ConstructionConcretePage() {
             <p className="text-grey-600 text-base leading-relaxed mb-4">
               Cortec® MCI® (Migrating Corrosion Inhibitor) products are designed
               specifically for reinforced concrete structures. They work by
-              migrating through the concrete pore structure \u2014 both as a
-              vapour and through capillary action \u2014 to reach the embedded
+              migrating through the concrete pore structure — both as a
+              vapour and through capillary action — to reach the embedded
               reinforcing steel. Once at the rebar surface, MCI® molecules form a
               thin protective layer that inhibits both anodic and cathodic
               corrosion reactions.
@@ -116,7 +131,7 @@ export default function ConstructionConcretePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "3\u20135x Service Life Extension",
+                title: "3–5x Service Life Extension",
                 text: "Independent testing demonstrates that MCI-treated concrete can last 3 to 5 times longer than untreated concrete before corrosion-induced deterioration occurs.",
               },
               {
@@ -167,7 +182,7 @@ export default function ConstructionConcretePage() {
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
                 <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE \u2014 Cortec {product.name}]
+                  [PRODUCT IMAGE — Cortec {product.name}]
                 </div>
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
@@ -179,6 +194,17 @@ export default function ConstructionConcretePage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-14 text-center">
+            <a
+              href="https://www.cortecvci.com/products/concrete/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-steel-500 hover:text-steel-600 font-semibold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-steel-300 focus:ring-offset-2 rounded"
+            >
+              Browse the full MCI® concrete range on cortecvci.com
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </section>

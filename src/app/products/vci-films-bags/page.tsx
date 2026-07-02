@@ -36,6 +36,21 @@ const featuredProducts = [
     description:
       "Military-grade shrink film that meets MIL-PRF-22019 requirements. Heat-shrinkable for tight, conforming enclosures around large equipment, vehicles and outdoor storage. UV-stabilised for extended outdoor exposure.",
   },
+  {
+    name: "EcoSonic® VpCI®-125 ESD Film & Bags",
+    description:
+      "Static-dissipative VpCI film for packaging electronics and ESD-sensitive components. Combines electrostatic discharge protection with multi-metal corrosion inhibition in a single film, protecting circuit boards, connectors and assemblies during storage and transit.",
+  },
+  {
+    name: "VpCI®-130 Series Foam",
+    description:
+      "VpCI-emitting polyurethane foam that cushions delicate parts while releasing corrosion inhibitors into the surrounding space. Ideal for lining cases, trays and containers where both physical protection and corrosion protection are required.",
+  },
+  {
+    name: "EcoWeave® VpCI® Fabric",
+    description:
+      "Heavy-duty woven VpCI fabric with high tear and puncture resistance. Designed for wrapping large, heavy or awkwardly shaped items and for reusable protective covers in demanding storage and transport conditions.",
+  },
 ];
 
 const keyApplications = [
@@ -71,7 +86,7 @@ export default function VciFilmsBagsPage() {
               Corrosion Inhibitor molecules from within the polyethylene. Once
               sealed around a metal part, these molecules saturate the enclosed
               air space and form a protective molecular layer on all exposed
-              metal surfaces \u2014 including hard-to-reach recesses, cavities
+              metal surfaces — including hard-to-reach recesses, cavities
               and internal passages that traditional oil-based methods cannot
               protect.
             </p>
@@ -169,7 +184,7 @@ export default function VciFilmsBagsPage() {
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
                 <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE \u2014 Cortec {product.name}]
+                  [PRODUCT IMAGE — Cortec {product.name}]
                 </div>
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
@@ -181,6 +196,17 @@ export default function VciFilmsBagsPage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-14 text-center">
+            <a
+              href="https://www.cortecvci.com/products/vpci-packaging-products/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-steel-500 hover:text-steel-600 font-semibold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-steel-300 focus:ring-offset-2 rounded"
+            >
+              Browse the full VpCI® packaging range on cortecvci.com
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </section>

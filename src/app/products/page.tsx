@@ -61,7 +61,7 @@ export default function ProductsPage() {
     <main>
       <HeroSection
         title="Cortec® VpCI® Product Range"
-        subtitle="As Ireland's exclusive authorised Cortec® distributor, we supply the complete range of VpCI® and MCI® corrosion inhibitor products. Every product is manufactured by Cortec® Corporation \u2014 the world leader in vapour phase corrosion inhibitor technology."
+        subtitle="As Ireland's exclusive authorised Cortec® distributor, we supply the complete range of VpCI® and MCI® corrosion inhibitor products. Every product is manufactured by Cortec® Corporation — the world leader in vapour phase corrosion inhibitor technology."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Full Product Catalog ↗", href: "https://www.cortecvci.com/products/" }}
       />

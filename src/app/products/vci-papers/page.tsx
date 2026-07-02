@@ -31,6 +31,21 @@ const featuredProducts = [
     description:
       "Self-adhering VpCI® paper that sticks to itself without tape or adhesive. Wraps stay in place during handling and transit. Ideal for wrapping cylindrical parts such as shafts, tubes and rolls.",
   },
+  {
+    name: "EcoBio® VpCI®-146 Paper",
+    description:
+      "Biobased, industrially compostable version of the VpCI®-146 kraft paper. Delivers the same multi-metal corrosion protection from renewable raw materials, helping organisations meet sustainability and green-procurement targets.",
+  },
+  {
+    name: "VpCI®-144 Barrier Paper",
+    description:
+      "Poly-coated VpCI® paper that combines corrosion inhibition with a moisture-barrier laminate. Suited to humid environments, long-term storage and export packaging where an additional moisture barrier is needed.",
+  },
+  {
+    name: "CorrTube® VpCI® Tubes",
+    description:
+      "Rigid VpCI® paper tubes for protecting bar stock, rods, tubing and cylindrical components. The tube walls release VpCI® molecules to protect the enclosed part along its full length.",
+  },
 ];
 
 const keyApplications = [
@@ -157,7 +172,7 @@ export default function VciPapersPage() {
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
                 <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE \u2014 Cortec {product.name}]
+                  [PRODUCT IMAGE — Cortec {product.name}]
                 </div>
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
@@ -169,6 +184,17 @@ export default function VciPapersPage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-14 text-center">
+            <a
+              href="https://www.cortecvci.com/products/vpci-packaging-products/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-steel-500 hover:text-steel-600 font-semibold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-steel-300 focus:ring-offset-2 rounded"
+            >
+              Browse the full VpCI® packaging range on cortecvci.com
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </section>

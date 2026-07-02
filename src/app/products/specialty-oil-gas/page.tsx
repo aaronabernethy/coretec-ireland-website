@@ -14,7 +14,7 @@ const featuredProducts = [
   {
     name: "VpCI®-705",
     description:
-      "Pipeline preservation additive for long-term layup and mothballing. Provides both liquid phase and vapour phase corrosion protection for carbon steel, stainless steel and multi-metal piping systems. A single fill-and-leave treatment protects the entire pipeline \u2014 including areas above the waterline that conventional liquid inhibitors cannot reach.",
+      "Pipeline preservation additive for long-term layup and mothballing. Provides both liquid phase and vapour phase corrosion protection for carbon steel, stainless steel and multi-metal piping systems. A single fill-and-leave treatment protects the entire pipeline — including areas above the waterline that conventional liquid inhibitors cannot reach.",
   },
   {
     name: "VpCI®-707",
@@ -35,6 +35,21 @@ const featuredProducts = [
     name: "Cor-Pak® VpCI® Tank Inserts",
     description:
       "Large-format VpCI® emitter devices designed to be placed inside empty tanks, vessels and large enclosures. Release VpCI® vapour continuously to protect internal surfaces during dry layup without the need for nitrogen blanketing or dehumidification equipment.",
+  },
+  {
+    name: "CorrLogic® Slurry",
+    description:
+      "Injectable VpCI® slurry for protecting the floors and hard-to-reach internals of aboveground storage tanks. Fills the tank-bottom interstitial space and releases corrosion inhibitors to protect surfaces that liquid inhibitors cannot coat.",
+  },
+  {
+    name: "CorrLogic® CUI Inhibitor",
+    description:
+      "Corrosion-under-insulation (CUI) inhibitor injected beneath insulation on pipes and vessels. Delivers VpCI® protection to hidden external surfaces where trapped moisture would otherwise cause severe, undetected corrosion.",
+  },
+  {
+    name: "EcoLine® Wire Rope Grease",
+    description:
+      "Biobased, VpCI®-enhanced grease for wire ropes, chains and open gears on rigs and offshore equipment. Penetrates strands to protect the core while resisting wash-off in wet and marine environments.",
   },
 ];
 
@@ -73,7 +88,7 @@ export default function SpecialtyOilGasPage() {
             </p>
             <p className="text-grey-600 text-base leading-relaxed mb-4">
               Cortec® VpCI® products for oil and gas provide dual-phase corrosion
-              protection \u2014 inhibiting corrosion in both the liquid phase
+              protection — inhibiting corrosion in both the liquid phase
               (where water contacts metal) and the vapour phase (where moisture
               in the air above the waterline attacks exposed surfaces). This
               means a single treatment protects the entire system, including dead
@@ -168,7 +183,7 @@ export default function SpecialtyOilGasPage() {
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
                 <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE \u2014 Cortec {product.name}]
+                  [PRODUCT IMAGE — Cortec {product.name}]
                 </div>
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
@@ -180,6 +195,17 @@ export default function SpecialtyOilGasPage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-14 text-center">
+            <a
+              href="https://www.cortecvci.com/products/vpci-for-oil-gas-and-process-industries/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-steel-500 hover:text-steel-600 font-semibold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-steel-300 focus:ring-offset-2 rounded"
+            >
+              Browse the full oil &amp; gas range on cortecvci.com
+              <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </section>
