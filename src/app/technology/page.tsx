@@ -2,6 +2,22 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import SectionHeading from "@/components/SectionHeading";
+import PhotoGallery from "@/components/PhotoGallery";
+
+const corrosionPhotos = [
+  {
+    src: "/images/applications/esb-minipillar-corrosion.webp",
+    caption: "Corroded electrical distribution cabinet in service",
+  },
+  {
+    src: "/images/applications/corroded-flange-tank.webp",
+    caption: "Pitting and scaling inside an untreated tank",
+  },
+  {
+    src: "/images/applications/corroded-steel-beams.webp",
+    caption: "Rust attacking structural steelwork",
+  },
+];
 
 export const metadata: Metadata = {
   title: "VpCI® Technology",
@@ -176,6 +192,9 @@ export default function TechnologyPage() {
                 different approach.
               </p>
             </div>
+          </div>
+          <div className="mt-14">
+            <PhotoGallery photos={corrosionPhotos} />
           </div>
         </div>
       </section>

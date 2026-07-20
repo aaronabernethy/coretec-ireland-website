@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
@@ -10,19 +11,22 @@ export const metadata: Metadata = {
     "Cortec VpCI films, bags and shrink films for corrosion-free packaging and storage of metal parts. Multi-metal protection with no oils, no residue and no cleanup. Available from Cortec Ireland.",
 };
 
-const featuredProducts = [
+const featuredProducts: { name: string; description: string; image?: string }[] = [
   {
     name: "VpCI®-126 Blue Film",
+    image: "/images/products/vpci-126-bags.webp",
     description:
       "The industry standard multi-metal VpCI film. Protects ferrous and non-ferrous metals simultaneously. Available as bags, sheeting, tubing and custom fabrications. Up to 5 years of corrosion protection in sealed packaging.",
   },
   {
     name: "VpCI®-126 HP",
+    image: "/images/products/vpci-126-hp-uv-roll.webp",
     description:
       "Heavy-duty version of the VpCI-126 for demanding applications. Thicker gauge polyethylene with enhanced puncture resistance, ideal for heavy castings, machined parts and assemblies with sharp edges.",
   },
   {
     name: "EcoShield® VpCI®-144",
+    image: "/images/products/vpci-144.webp",
     description:
       "USDA Certified Biobased film made from renewable resources. Delivers the same multi-metal VpCI protection as conventional films while meeting sustainability and environmental procurement requirements.",
   },
@@ -33,16 +37,19 @@ const featuredProducts = [
   },
   {
     name: "MilCorr® VpCI® Shrink Film",
+    image: "/images/products/milcorr-shrink-film.webp",
     description:
       "Military-grade shrink film that meets MIL-PRF-22019 requirements. Heat-shrinkable for tight, conforming enclosures around large equipment, vehicles and outdoor storage. UV-stabilised for extended outdoor exposure.",
   },
   {
     name: "EcoSonic® VpCI®-125 ESD Film & Bags",
+    image: "/images/products/vpci-125-esd.webp",
     description:
       "Static-dissipative VpCI film for packaging electronics and ESD-sensitive components. Combines electrostatic discharge protection with multi-metal corrosion inhibition in a single film, protecting circuit boards, connectors and assemblies during storage and transit.",
   },
   {
     name: "VpCI®-130 Series Foam",
+    image: "/images/products/vpci-130-foam.webp",
     description:
       "VpCI-emitting polyurethane foam that cushions delicate parts while releasing corrosion inhibitors into the surrounding space. Ideal for lining cases, trays and containers where both physical protection and corrosion protection are required.",
   },
@@ -50,6 +57,12 @@ const featuredProducts = [
     name: "EcoWeave® VpCI® Fabric",
     description:
       "Heavy-duty woven VpCI fabric with high tear and puncture resistance. Designed for wrapping large, heavy or awkwardly shaped items and for reusable protective covers in demanding storage and transport conditions.",
+  },
+  {
+    name: "CorrTainer® VpCI® Boxes",
+    image: "/images/products/corrtainer.webp",
+    description:
+      "Coated corrugated boxes with built-in VpCI protection — shipping carton and corrosion protection in one. Ideal for bearings, fasteners and machined parts that ship and store without a separate VpCI bag or wrap.",
   },
 ];
 
@@ -183,9 +196,21 @@ export default function VciFilmsBagsPage() {
                 key={product.name}
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
-                <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE — Cortec {product.name}]
-                </div>
+                {product.image ? (
+                  <div className="relative aspect-video rounded-lg overflow-hidden bg-white border border-grey-200 lg:col-span-1">
+                    <Image
+                      src={product.image}
+                      alt={`Cortec ${product.name}`}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      className="object-contain p-3"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
+                    Product image coming soon
+                  </div>
+                )}
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
                     {product.name}

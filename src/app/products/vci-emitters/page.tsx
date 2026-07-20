@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
@@ -10,14 +11,16 @@ export const metadata: Metadata = {
     "Cortec VpCI emitters and devices for corrosion protection inside enclosed spaces. No contact required — simply place inside electrical cabinets, containers, vaults and equipment housings. Available from Cortec Ireland.",
 };
 
-const featuredProducts = [
+const featuredProducts: { name: string; description: string; image?: string }[] = [
   {
     name: "VpCI®-105 Emitter Cups",
+    image: "/images/products/vpci-105.webp",
     description:
       "Self-adhesive emitter cups that mount inside enclosures and release VpCI molecules continuously. Ideal for electrical panels, junction boxes, control cabinets and instrument housings. Each cup protects up to 5 cubic feet of enclosed space for up to 2 years.",
   },
   {
     name: "VpCI®-111 Emitter Strips",
+    image: "/images/products/vpci-111.webp",
     description:
       "Flexible emitter strips that can be cut to length and placed inside narrow or irregularly shaped enclosures. Suitable for conduit boxes, cable trays, tool drawers and small storage containers. Easy to install with a peel-and-stick adhesive backing.",
   },
@@ -28,6 +31,7 @@ const featuredProducts = [
   },
   {
     name: "VpCI®-101 Device",
+    image: "/images/products/vpci-101.webp",
     description:
       "Purpose-built corrosion inhibitor device for electrical and electronic enclosures. Designed to protect sensitive electronics, circuit boards, connectors and relay contacts from corrosion without interfering with electrical performance.",
   },
@@ -38,6 +42,7 @@ const featuredProducts = [
   },
   {
     name: "VpCI®-308 Pouch",
+    image: "/images/products/vpci-308-pouch.webp",
     description:
       "Large-capacity VpCI pouch for protecting bigger enclosed volumes such as large control cabinets, crates and shipping containers. A single pouch releases VpCI molecules to protect the entire enclosed space for up to two years.",
   },
@@ -48,8 +53,21 @@ const featuredProducts = [
   },
   {
     name: "DesiCorr® VpCI® Pouches",
+    image: "/images/products/desicorr-pouches.webp",
     description:
       "Dual-action pouch combining a desiccant with VpCI protection. Absorbs excess moisture while releasing corrosion inhibitors, providing complete protection inside sealed packaging without the drawbacks of desiccant alone.",
+  },
+  {
+    name: "Cor-Pak® VpCI® Tablets",
+    image: "/images/products/cor-pak-tablets.webp",
+    description:
+      "Compact VpCI tablets that release corrosion inhibitors into small enclosed spaces such as tool boxes, instrument cases, junction boxes and packaged assemblies. A simple drop-in way to protect metals where a larger emitter will not fit.",
+  },
+  {
+    name: "VpCI®-309 Powder",
+    image: "/images/products/vpci-309.webp",
+    description:
+      "Free-flowing VpCI powder for protecting the interiors of tanks, voids, pipework and large enclosures. Sprinkled or fogged into the space, it releases vapour phase corrosion inhibitors that reach surfaces liquid treatments cannot coat.",
   },
 ];
 
@@ -179,9 +197,21 @@ export default function VciEmittersPage() {
                 key={product.name}
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
-                <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE — Cortec {product.name}]
-                </div>
+                {product.image ? (
+                  <div className="relative aspect-video rounded-lg overflow-hidden bg-white border border-grey-200 lg:col-span-1">
+                    <Image
+                      src={product.image}
+                      alt={`Cortec ${product.name}`}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      className="object-contain p-3"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
+                    Product image coming soon
+                  </div>
+                )}
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
                     {product.name}

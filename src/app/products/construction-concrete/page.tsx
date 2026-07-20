@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
     "Cortec® MCI® Migrating Corrosion Inhibitors for concrete and construction. Protect reinforcing steel in bridges, parking structures, marine infrastructure and historical buildings. Available from Cortec Ireland.",
 };
 
-const featuredProducts = [
+const featuredProducts: { name: string; description: string; image?: string }[] = [
   {
     name: "MCI®-2005",
     description:
@@ -181,9 +182,21 @@ export default function ConstructionConcretePage() {
                 key={product.name}
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
-                <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE — Cortec {product.name}]
-                </div>
+                {product.image ? (
+                  <div className="relative aspect-video rounded-lg overflow-hidden bg-white border border-grey-200 lg:col-span-1">
+                    <Image
+                      src={product.image}
+                      alt={`Cortec ${product.name}`}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      className="object-contain p-3"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
+                    Product image coming soon
+                  </div>
+                )}
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
                     {product.name}

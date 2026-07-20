@@ -6,6 +6,34 @@ import ProductCard from "@/components/ProductCard";
 import IndustryCard from "@/components/IndustryCard";
 import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
+import PhotoGallery from "@/components/PhotoGallery";
+
+const workInAction = [
+  {
+    src: "/images/applications/shrink-film-skid-crane.webp",
+    caption: "Process skid preserved with MilCorr® VpCI® shrink film",
+  },
+  {
+    src: "/images/applications/fogging-vessel-offshore.webp",
+    caption: "VpCI® fogging a vessel during offshore layup",
+  },
+  {
+    src: "/images/applications/valve-lift-onto-vpci-film.webp",
+    caption: "Subsea valve lifted onto VpCI® film for preservation",
+  },
+  {
+    src: "/images/applications/film-wrap-crew-2.webp",
+    caption: "On-site equipment wrapping in VpCI®-126 film",
+  },
+  {
+    src: "/images/applications/camshafts-vpci-biopad.webp",
+    caption: "Machined camshafts packed with VpCI® film and BioPad®",
+  },
+  {
+    src: "/images/applications/storage-tank-manway-scaffold.webp",
+    caption: "Storage tank preparation for internal preservation",
+  },
+];
 
 export const metadata: Metadata = {
   title:
@@ -362,6 +390,7 @@ export default function Home() {
         subtitle="Ireland's exclusive authorised distributor of Cortec Corporation VpCI® corrosion inhibitor products. From packaging films to pipeline protection — specialist corrosion solutions backed by ISO-accredited technical support."
         primaryCTA={{ text: "Get a Free Consultation", href: "/contact" }}
         secondaryCTA={{ text: "Browse Products", href: "/products" }}
+        backgroundImage="/images/applications/shrink-film-skid-crane.webp"
       />
 
       {/* 2. Trust Bar */}
@@ -487,15 +516,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7. Testimonials / Clients Placeholder */}
+      {/* 7. Our Work in Action */}
       <section className="bg-grey-100 py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <SectionHeading title="Trusted by Industry Leaders" />
-          <p className="mt-8 text-steel-500 text-lg italic">
-            [CLIENT LOGOS AND TESTIMONIALS — to be supplied. This section will
-            feature logos of key clients and testimonials from satisfied
-            customers across Ireland&apos;s industrial sectors.]
-          </p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            title="Corrosion Protection in Action"
+            subtitle="Real Cortec® VpCI® applications across Irish and UK industry — from offshore vessel layup to on-site equipment preservation."
+          />
+          <div className="mt-12">
+            <PhotoGallery photos={workInAction} />
+          </div>
         </div>
       </section>
 

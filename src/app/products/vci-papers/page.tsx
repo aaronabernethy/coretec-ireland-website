@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
@@ -10,9 +11,10 @@ export const metadata: Metadata = {
     "Cortec® VpCI® corrosion-inhibiting papers and wraps for interleaving, wrapping and lining applications. Multi-metal protection in kraft paper form. Available from Cortec Ireland.",
 };
 
-const featuredProducts = [
+const featuredProducts: { name: string; description: string; image?: string }[] = [
   {
     name: "VpCI®-146 Paper",
+    image: "/images/products/vpci-146-roll.webp",
     description:
       "The flagship multi-metal VpCI® kraft paper. Protects ferrous and non-ferrous metals with a single paper. Available in rolls and sheets. Ideal for wrapping individual parts, interleaving between stacked metal sheets and lining crates for shipment.",
   },
@@ -38,6 +40,7 @@ const featuredProducts = [
   },
   {
     name: "VpCI®-144 Barrier Paper",
+    image: "/images/products/vpci-144.webp",
     description:
       "Poly-coated VpCI® paper that combines corrosion inhibition with a moisture-barrier laminate. Suited to humid environments, long-term storage and export packaging where an additional moisture barrier is needed.",
   },
@@ -171,9 +174,21 @@ export default function VciPapersPage() {
                 key={product.name}
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
-                <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE — Cortec {product.name}]
-                </div>
+                {product.image ? (
+                  <div className="relative aspect-video rounded-lg overflow-hidden bg-white border border-grey-200 lg:col-span-1">
+                    <Image
+                      src={product.image}
+                      alt={`Cortec ${product.name}`}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      className="object-contain p-3"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
+                    Product image coming soon
+                  </div>
+                )}
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
                     {product.name}

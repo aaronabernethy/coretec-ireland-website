@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { tm } from "@/lib/trademark";
 
 interface HeroSectionProps {
@@ -7,6 +8,7 @@ interface HeroSectionProps {
   primaryCTA: { text: string; href: string };
   secondaryCTA?: { text: string; href: string };
   backgroundClass?: string;
+  backgroundImage?: string;
 }
 
 export default function HeroSection({
@@ -15,10 +17,27 @@ export default function HeroSection({
   primaryCTA,
   secondaryCTA,
   backgroundClass = "bg-navy-900",
+  backgroundImage,
 }: HeroSectionProps) {
   return (
     <section className={`${backgroundClass} relative overflow-hidden`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
+      {backgroundImage && (
+        <>
+          <Image
+            src={backgroundImage}
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+          <div
+            className="absolute inset-0 bg-gradient-to-r from-navy-900/95 via-navy-900/85 to-navy-900/60"
+            aria-hidden="true"
+          />
+        </>
+      )}
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
         <div className="max-w-3xl">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight tracking-tight">
             {tm(title)}

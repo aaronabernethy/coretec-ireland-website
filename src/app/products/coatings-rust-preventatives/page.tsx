@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
     "Cortec VpCI coatings and rust preventatives for long-term surface protection. Removable and permanent options in water-based and solvent-based formulations. Available from Cortec Ireland.",
 };
 
-const featuredProducts = [
+const featuredProducts: { name: string; description: string; image?: string }[] = [
   {
     name: "VpCI®-368",
     description:
@@ -38,6 +39,7 @@ const featuredProducts = [
   },
   {
     name: "EcoShield® 386 Water-Based Coating",
+    image: "/images/products/ecoshield-386.webp",
     description:
       "Water-based acrylic VpCI® topcoat that provides a tough, UV-resistant protective film for indoor and outdoor exposure. Low VOC and available in clear or coloured finishes for long-term protection of structural steel and equipment.",
   },
@@ -50,6 +52,18 @@ const featuredProducts = [
     name: "EcoAir® Tool & Die Rust Preventative",
     description:
       "Biobased aerosol rust preventative for tools, dies, moulds and machined surfaces. Uses a non-flammable, VOC-compliant air-powered spray to deposit a protective VpCI® film between production runs and during storage.",
+  },
+  {
+    name: "EcoClean® VpCI®-423 Rust Remover",
+    image: "/images/products/ecoclean-423.webp",
+    description:
+      "Biodegradable, USDA Certified Biobased rust remover that strips surface rust and tarnish from steel and other metals, then leaves a temporary corrosion-inhibiting layer to prevent flash rusting. Its gel-like consistency clings to vertical surfaces for treatment without immersion.",
+  },
+  {
+    name: "VpCI® Super Penetrant",
+    image: "/images/products/super-penetrant.webp",
+    description:
+      "Fast-acting penetrating lubricant that frees seized and corroded fasteners, threads and mechanisms. Creeps into tight tolerances to break the bond of rust, then leaves a VpCI® film that protects the freed components against future corrosion.",
   },
 ];
 
@@ -179,9 +193,21 @@ export default function CoatingsRustPreventativesPage() {
                 key={product.name}
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
-                <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE — Cortec {product.name}]
-                </div>
+                {product.image ? (
+                  <div className="relative aspect-video rounded-lg overflow-hidden bg-white border border-grey-200 lg:col-span-1">
+                    <Image
+                      src={product.image}
+                      alt={`Cortec ${product.name}`}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      className="object-contain p-3"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
+                    Product image coming soon
+                  </div>
+                )}
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
                     {product.name}

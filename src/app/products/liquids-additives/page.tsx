@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
@@ -10,14 +11,16 @@ export const metadata: Metadata = {
     "Cortec® VpCI® liquids and additives for water treatment, metalworking fluids, lubricants and industrial cleaning. Built-in corrosion inhibition for process fluids. Available from Cortec Ireland.",
 };
 
-const featuredProducts = [
+const featuredProducts: { name: string; description: string; image?: string }[] = [
   {
     name: "VpCI®-649",
+    image: "/images/products/vpci-649.webp",
     description:
       "Multi-metal corrosion inhibitor for boiler systems, closed-loop cooling water and hydrotest water. Provides vapour phase and liquid phase protection simultaneously. A single product replaces multiple individual inhibitors, simplifying treatment programmes and reducing inventory.",
   },
   {
     name: "VpCI®-337",
+    image: "/images/products/vpci-337.webp",
     description:
       "Additive for paints, coatings and primers that adds VpCI® corrosion protection to the finished coating system. Enhances the anti-corrosion performance of existing coating formulations without affecting their physical or aesthetic properties.",
   },
@@ -50,6 +53,18 @@ const featuredProducts = [
     name: "G-6 Corrosion Inhibitor",
     description:
       "General-purpose liquid corrosion inhibitor additive for water-based systems and process fluids. Builds corrosion protection directly into cleaning, cooling and treatment solutions without a separate application step.",
+  },
+  {
+    name: "EcoSpray® VpCI®-416 Cleaner & Degreaser",
+    image: "/images/products/ecospray-416.webp",
+    description:
+      "Heavy-duty, non-toxic cleaner and degreaser that lifts grease, oil and industrial soils from metal surfaces while providing multi-metal corrosion protection during cleaning. USDA-approved for use in food-processing environments.",
+  },
+  {
+    name: "Boiler Lizard®",
+    image: "/images/products/boiler-lizard.webp",
+    description:
+      "VpCI® powder pre-packed in EcoSol® water-soluble bags for the dry layup of boilers and closed water systems. Dropped straight into the boiler, it releases vapour phase corrosion inhibitors that protect tubes, internal surfaces and the vapour space during idle periods — with no messy clean-out on start-up.",
   },
 ];
 
@@ -179,9 +194,21 @@ export default function LiquidsAdditivesPage() {
                 key={product.name}
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
-                <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE — Cortec {product.name}]
-                </div>
+                {product.image ? (
+                  <div className="relative aspect-video rounded-lg overflow-hidden bg-white border border-grey-200 lg:col-span-1">
+                    <Image
+                      src={product.image}
+                      alt={`Cortec ${product.name}`}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      className="object-contain p-3"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
+                    Product image coming soon
+                  </div>
+                )}
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
                     {product.name}

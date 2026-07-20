@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
+import PhotoGallery from "@/components/PhotoGallery";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -10,7 +12,7 @@ export const metadata: Metadata = {
     "Cortec® VpCI® corrosion protection products for oil and gas applications. Pipeline preservation, vessel mothballing, hydrostatic testing and equipment layup. Available from Cortec Ireland.",
 };
 
-const featuredProducts = [
+const featuredProducts: { name: string; description: string; image?: string }[] = [
   {
     name: "VpCI®-705",
     description:
@@ -28,6 +30,7 @@ const featuredProducts = [
   },
   {
     name: "VpCI®-649",
+    image: "/images/products/vpci-649.webp",
     description:
       "Multi-metal corrosion inhibitor for closed-loop water systems, glycol systems and cooling circuits. Provides long-term protection for systems that must remain filled during idle periods. Effective on carbon steel, copper, aluminium and mixed-metal systems.",
   },
@@ -63,6 +66,33 @@ const keyApplications = [
   "Closed-loop system treatment for glycol, cooling water and fire water systems",
 ];
 
+const fieldPhotos = [
+  {
+    src: "/images/applications/vpci-337-fogging-pail-inuse.webp",
+    caption: "VpCI®-337 fogging fluid applied on site",
+  },
+  {
+    src: "/images/applications/vessel-manway-open.webp",
+    caption: "Open vessel manway prepared for internal preservation",
+  },
+  {
+    src: "/images/applications/tank-interior-manway.webp",
+    caption: "Tank interior access for VpCI® layup treatment",
+  },
+  {
+    src: "/images/applications/storage-tank-manway-scaffold.webp",
+    caption: "Storage tank preparation for mothballing",
+  },
+  {
+    src: "/images/applications/corroded-flange-tank.webp",
+    caption: "Internal corrosion VpCI® preservation is designed to prevent",
+  },
+  {
+    src: "/images/applications/gearbox-wrapped-vpci.webp",
+    caption: "Rotating equipment protected with VpCI® film during storage",
+  },
+];
+
 export default function SpecialtyOilGasPage() {
   return (
     <main>
@@ -71,6 +101,7 @@ export default function SpecialtyOilGasPage() {
         subtitle="Purpose-built corrosion protection for pipeline preservation, vessel mothballing, hydrostatic testing and equipment layup. Safe for personnel, environmentally compliant, and proven to reduce re-commissioning time and cost."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
+        backgroundImage="/images/applications/fogging-vessel-offshore.webp"
       />
 
       {/* What These Products Do */}
@@ -120,6 +151,17 @@ export default function SpecialtyOilGasPage() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* In the Field */}
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            title="In the Field"
+            subtitle="Cortec® VpCI® corrosion protection applied on live oil, gas and process sites across Ireland and the UK."
+          />
+          <PhotoGallery photos={fieldPhotos} />
         </div>
       </section>
 
@@ -182,9 +224,21 @@ export default function SpecialtyOilGasPage() {
                 key={product.name}
                 className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
               >
-                <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
-                  [PRODUCT IMAGE — Cortec {product.name}]
-                </div>
+                {product.image ? (
+                  <div className="relative aspect-video rounded-lg overflow-hidden bg-white border border-grey-200 lg:col-span-1">
+                    <Image
+                      src={product.image}
+                      alt={`Cortec ${product.name}`}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 33vw"
+                      className="object-contain p-3"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-grey-100 rounded-lg aspect-video flex items-center justify-center text-grey-600 text-sm font-medium lg:col-span-1">
+                    Product image coming soon
+                  </div>
+                )}
                 <div className="lg:col-span-2">
                   <h3 className="text-xl font-semibold text-navy-900 mb-3">
                     {product.name}
