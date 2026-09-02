@@ -99,7 +99,7 @@ export const articles: Article[] = [
       <h2>Cortec's Sustainable Alternative</h2>
       <p>Cortec Corporation, through its European manufacturing facility EcoCortec in Croatia, produces a range of VCI packaging products that deliver the same corrosion protection performance as conventional options — but with significantly better environmental credentials:</p>
       <ul>
-        <li><strong>EcoShield® VpCI-144:</strong> USDA Certified Biobased VCI film made from renewable resources</li>
+        <li><strong>EcoShield® VpCI-144:</strong> fully recyclable and repulpable VCI barrier paper that replaces polyethylene- and wax-coated papers</li>
         <li><strong>CorShield® VpCI-146:</strong> USDA Certified Biobased VCI paper</li>
         <li><strong>Compostable VCI paper:</strong> Certified compostable and biodegradable</li>
         <li><strong>EcoEmitter®:</strong> Biobased VCI emitter for enclosed spaces</li>

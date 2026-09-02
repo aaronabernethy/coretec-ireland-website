@@ -163,8 +163,8 @@ const industries = [
     ),
   },
   {
-    name: "Electronics",
-    href: "/industries/electronics",
+    name: "Electronics & Electrics",
+    href: "/products/electronics",
     description:
       "VCI emitters for control cabinets, switchgear, and sensitive electronics",
     icon: (
@@ -192,9 +192,9 @@ const industries = [
     ),
   },
   {
-    name: "Construction",
-    href: "/industries/construction",
-    description: "MCI® rebar protection and concrete admixtures",
+    name: "Transportation & Municipalities",
+    href: "/industries/transportation",
+    description: "MCI® rebar protection for bridges and public structures, fleet and infrastructure preservation",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -218,10 +218,10 @@ const industries = [
     ),
   },
   {
-    name: "Pharmaceutical & Medical",
-    href: "/industries/pharmaceutical-medical",
+    name: "Food, Beverage & Pharmaceutical",
+    href: "/industries/food-beverage-pharmaceutical",
     description:
-      "Clean-room compatible protection and medical device packaging",
+      "Food-safe, clean-room compatible protection for processing equipment",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -240,10 +240,10 @@ const industries = [
     ),
   },
   {
-    name: "Agri-Food",
-    href: "/industries/agri-food",
+    name: "Off-Road Equipment & Mining",
+    href: "/industries/mining",
     description:
-      "Equipment and machinery protection in food processing environments",
+      "Preservation of heavy machinery, spares and idle fleets in harsh conditions",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -255,11 +255,10 @@ const industries = [
         strokeLinejoin="round"
         className="w-8 h-8"
       >
-        <path d="M12 2L12 8" />
-        <path d="M8 4C8 4 8 8 12 8C16 8 16 4 16 4" />
-        <path d="M12 8v14" />
-        <path d="M6 18C6 18 8 14 12 14C16 14 18 18 18 18" />
-        <line x1="4" y1="22" x2="20" y2="22" />
+        <rect x="1" y="3" width="15" height="13" />
+        <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+        <circle cx="5.5" cy="18.5" r="2.5" />
+        <circle cx="18.5" cy="18.5" r="2.5" />
       </svg>
     ),
   },
@@ -267,26 +266,26 @@ const industries = [
 
 const featuredProducts = [
   {
-    title: "VpCI® Films & Bags",
-    href: "/products/vci-films-bags",
+    title: "VpCI® Packaging Products",
+    href: "/products/packaging",
     description:
-      "Multi-metal protection films and bags for wrapping and packaging. Biodegradable options available.",
+      "Multi-metal protection films, bags, papers and emitter devices for wrapping and packaging. Biodegradable options available.",
   },
   {
-    title: "VpCI® Emitters",
-    href: "/products/vci-emitters",
+    title: "VpCI® Products for Electronics",
+    href: "/products/electronics",
     description:
-      "Drop-in corrosion protection for enclosed spaces — electrical cabinets, containers, and storage vaults.",
+      "Drop-in corrosion protection for enclosed spaces — electrical cabinets, control panels, and sensitive electronics.",
   },
   {
-    title: "Coatings & Rust Preventatives",
-    href: "/products/coatings-rust-preventatives",
+    title: "VpCI® High Performance Coatings",
+    href: "/products/coatings",
     description:
       "Long-term surface protection sprays and Nano VpCI® coatings for metal storage and transport.",
   },
   {
-    title: "MCI® Construction Products",
-    href: "/products/construction-concrete",
+    title: "MCI® Concrete Protection Products",
+    href: "/products/mci-concrete",
     description:
       "Migrating Corrosion Inhibitors for concrete rebar protection, admixtures, and surface treatments.",
   },
