@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ReactNode } from "react";
+import { tm } from "@/lib/trademark";
 
 interface IndustryCardProps {
   title: string;
@@ -21,10 +22,10 @@ export default function IndustryCard({ title, description, href, icon }: Industr
           </div>
         )}
         <h3 className="text-lg font-semibold text-white group-hover:text-steel-200 transition-colors">
-          {title}
+          {tm(title)}
         </h3>
         <p className="mt-2 text-sm text-grey-300 leading-relaxed">
-          {description}
+          {tm(description)}
         </p>
         <span className="mt-4 inline-flex items-center text-sm font-medium text-steel-300 group-hover:text-steel-200 transition-colors">
           Explore solutions

@@ -3,63 +3,19 @@ import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
 import IndustryCard from "@/components/IndustryCard";
+import { industryCategories } from "@/data/industryCategories";
 
 export const metadata: Metadata = {
   title: "Industries We Serve | Cortec Ireland",
   description:
-    "Cortec Ireland provides tailored VpCI® corrosion protection solutions across automotive, marine, oil & gas, aerospace, electronics, construction, pharmaceutical, and agri-food industries.",
+    "Cortec Ireland provides tailored VpCI® corrosion protection solutions across aerospace, mining, marine, military, MRO, automotive, basic metals, oil & gas, desalination, transportation, food & pharmaceutical and more.",
 };
 
-const industries = [
-  {
-    title: "Automotive",
-    description:
-      "VCI packaging protects stamped parts, machined components, and assemblies from humidity and condensation during transit and storage.",
-    href: "/industries/automotive",
-  },
-  {
-    title: "Marine",
-    description:
-      "Comprehensive corrosion solutions for vessels, offshore equipment, and marine hardware exposed to saltwater and aggressive marine atmospheres.",
-    href: "/industries/marine",
-  },
-  {
-    title: "Oil & Gas",
-    description:
-      "Pipeline preservation, vessel mothballing, and equipment protection during shutdowns — without hazardous chemicals.",
-    href: "/industries/oil-gas",
-  },
-  {
-    title: "Aerospace",
-    description:
-      "Zero-residue corrosion protection for turbine blades, landing gear, avionics, and structural parts during manufacturing and transit.",
-    href: "/industries/aerospace",
-  },
-  {
-    title: "Electronics",
-    description:
-      "Contactless VpCI emitters protect circuit boards, contacts, and sensitive components inside electrical enclosures and control cabinets.",
-    href: "/industries/electronics",
-  },
-  {
-    title: "Construction",
-    description:
-      "MCI® migrating corrosion inhibitor technology extends the service life of reinforced concrete structures by 3–5 times.",
-    href: "/industries/construction",
-  },
-  {
-    title: "Pharmaceutical & Medical",
-    description:
-      "Clean-room compatible, non-toxic corrosion protection for medical devices, surgical instruments, and pharmaceutical equipment.",
-    href: "/industries/pharmaceutical-medical",
-  },
-  {
-    title: "Agri-Food",
-    description:
-      "Food-safe, non-toxic corrosion protection for agricultural machinery, food processing equipment, and storage facilities.",
-    href: "/industries/agri-food",
-  },
-];
+const industries = industryCategories.map((industry) => ({
+  title: industry.name,
+  description: industry.cardDescription,
+  href: `/industries/${industry.slug}`,
+}));
 
 const valueProps = [
   "Free initial corrosion assessment and product recommendation from our specialist engineers",

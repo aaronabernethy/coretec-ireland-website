@@ -93,13 +93,17 @@ function ComparisonCell({ value }: { value: boolean | string }) {
 }
 
 const productCategories = [
-  { label: "VCI Films & Bags", href: "/products/vci-films-bags", description: "Shrink films, stretch films, bags, and tubing infused with VpCI® molecules for packaging protection." },
-  { label: "VCI Papers", href: "/products/vci-papers", description: "Kraft papers and interleaving sheets that release VpCI® to protect metal parts during storage and shipping." },
-  { label: "VCI Emitters", href: "/products/vci-emitters", description: "Compact devices that release VpCI® into enclosed spaces such as electrical cabinets and equipment housings." },
-  { label: "Coatings & Rust Preventatives", href: "/products/coatings-rust-preventatives", description: "Liquid coatings and rust preventative sprays enhanced with VpCI® for long-term outdoor and indoor protection." },
-  { label: "Liquids & Additives", href: "/products/liquids-additives", description: "Water treatment additives, cleaning solutions, and metalworking fluids incorporating VpCI® technology." },
-  { label: "Construction & Concrete", href: "/products/construction-concrete", description: "MCI® products for protecting rebar and embedded metals in concrete structures." },
-  { label: "Specialty Oil & Gas", href: "/products/specialty-oil-gas", description: "Specialised formulations for pipelines, tanks, and equipment in the oil and gas sector." },
+  { label: "Electronics & Electrics", href: "/products/electronics", description: "Emitters, ESD films and devices that protect circuit boards, contacts, and equipment inside electrical enclosures." },
+  { label: "Packaging", href: "/products/packaging", description: "Films, bags, shrink films, papers, foams, and emitter devices infused with VpCI® molecules for packaging protection." },
+  { label: "Metalworking", href: "/products/metalworking", description: "Cutting fluids and rust preventatives that protect parts between machining operations." },
+  { label: "Powders", href: "/products/powders", description: "Free-flowing VpCI® powders for protecting tanks, pipework, voids, and enclosed spaces." },
+  { label: "Surface Preparation", href: "/products/surface-preparation", description: "Rust removers, cleaners, and degreasers that prepare metal safely and prevent flash rust." },
+  { label: "Water Treatment", href: "/products/water-treatment", description: "Boiler layup, closed-loop, and hydrotest corrosion inhibitors that protect in liquid and vapour phases." },
+  { label: "Enhanced Lubricants", href: "/products/lubricants", description: "Penetrants, greases, and oils with built-in VpCI® corrosion protection." },
+  { label: "High Performance Coatings", href: "/products/coatings", description: "Removable and permanent protective coatings enhanced with VpCI® for long-term outdoor and indoor protection." },
+  { label: "Corrosion Inhibiting Additives", href: "/products/additives", description: "Additives that build VpCI® protection into your own coatings, fluids, adhesives, and plastics." },
+  { label: "BioCortec® Sustainable Products", href: "/products/biocortec", description: "Biobased, biodegradable, and compostable corrosion protection made from renewable resources." },
+  { label: "MCI® Concrete Protection", href: "/products/mci-concrete", description: "MCI® products for protecting rebar and embedded metals in concrete structures." },
 ];
 
 export default function TechnologyPage() {
@@ -408,7 +412,7 @@ export default function TechnologyPage() {
               </div>
               <div className="mt-8">
                 <Link
-                  href="/products/construction-concrete"
+                  href="/products/mci-concrete"
                   className="inline-flex items-center px-7 py-3.5 bg-orange-500 hover:bg-orange-600 text-navy-900 font-semibold rounded-lg transition-colors text-base focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2"
                 >
                   Explore Construction Products

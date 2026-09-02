@@ -4,57 +4,19 @@ import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
 import ProductCard from "@/components/ProductCard";
 import Link from "next/link";
+import { productCategories as categoryData } from "@/data/productCategories";
 
 export const metadata: Metadata = {
   title: "Products",
   description:
-    "Explore the full range of Cortec® VpCI® and MCI® corrosion inhibitor products. Films, papers, emitters, coatings, liquids, construction solutions and specialty oil and gas products — all available from Ireland's exclusive Cortec distributor.",
+    "Explore the full range of Cortec® VpCI® and MCI® corrosion inhibitor products. Packaging, electronics, metalworking, powders, surface preparation, water treatment, lubricants, coatings, additives, BioCortec and MCI concrete protection — all available from Ireland's exclusive Cortec distributor.",
 };
 
-const productCategories = [
-  {
-    title: "VpCI® Films, Bags & Shrink Films",
-    description:
-      "High-performance polyethylene films infused with Vapour Phase Corrosion Inhibitors. Available as bags, sheeting, tubing and shrink film for wrapping, packaging and long-term storage of metal parts and assemblies.",
-    href: "/products/vci-films-bags",
-  },
-  {
-    title: "VpCI® Papers & Wraps",
-    description:
-      "Kraft-based papers treated with multi-metal VpCI® technology for interleaving, wrapping and lining applications. Ideal for protecting individual parts, stacked metal sheets and crated components during storage and transit.",
-    href: "/products/vci-papers",
-  },
-  {
-    title: "VpCI® Emitters & Devices",
-    description:
-      "Self-contained corrosion inhibitor devices that release VpCI® molecules into enclosed spaces. No surface contact required — simply place inside electrical cabinets, shipping containers, storage vaults or equipment housings.",
-    href: "/products/vci-emitters",
-  },
-  {
-    title: "Coatings & Rust Preventatives",
-    description:
-      "Spray-on, dip and brush-on coatings that provide a protective barrier against corrosion. Removable and permanent options available in both water-based and solvent-based formulations for storage, transit and outdoor exposure.",
-    href: "/products/coatings-rust-preventatives",
-  },
-  {
-    title: "VpCI® Liquids & Additives",
-    description:
-      "Corrosion-inhibiting additives for water treatment, metalworking fluids, lubricants and cleaning solutions. Drop-in protection for closed-loop systems, boilers, hydrostatic testing and industrial cleaning operations.",
-    href: "/products/liquids-additives",
-  },
-  {
-    title: "MCI® Construction & Concrete",
-    description:
-      "Migrating Corrosion Inhibitors designed to protect reinforcing steel embedded in concrete. Admixtures, surface treatments and repair mortars that extend the service life of bridges, parking structures and marine infrastructure.",
-    href: "/products/construction-concrete",
-  },
-  {
-    title: "Specialty Oil & Gas",
-    description:
-      "Purpose-built corrosion protection for pipeline preservation, vessel mothballing, equipment layup and hydrostatic testing. Environmentally compliant solutions that reduce re-commissioning time and cost across the oil and gas sector.",
-    href: "/products/specialty-oil-gas",
-  },
-];
+const productCategories = categoryData.map((category) => ({
+  title: category.name,
+  description: category.heroSubtitle,
+  href: `/products/${category.slug}`,
+}));
 
 export default function ProductsPage() {
   return (

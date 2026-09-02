@@ -15,25 +15,25 @@ const solutions = [
     name: "VpCI®-126 Films",
     description:
       "Multi-metal VCI films that protect precision aerospace components during storage and transit without leaving residue. Parts can be unpacked and installed directly — no cleaning step required. Protects ferrous metals, aluminium, copper, and their alloys simultaneously.",
-    href: "/products/vci-films-bags",
+    href: "/products/packaging",
   },
   {
     name: "MilCorr® Shrink Films",
     description:
       "Military-specification VCI shrink film for long-term outdoor storage of engines, landing gear assemblies, and airframe sections. UV-stabilised for extended outdoor exposure. Meets MIL-PRF-22019 requirements for military preservation packaging.",
-    href: "/products/vci-films-bags",
+    href: "/products/packaging",
   },
   {
     name: "VpCI® Emitters",
     description:
       "Self-adhesive emitter devices for protecting avionics bays, instrument panels, and sealed electronics compartments. The VpCI vapour reaches all metal surfaces within the enclosed space without any contact, wiring, or power source.",
-    href: "/products/vci-emitters",
+    href: "/products/electronics",
   },
   {
     name: "Nano VpCI® Coatings",
     description:
       "Ultra-thin VpCI-enhanced coatings that provide corrosion protection at coating thicknesses measured in microns. Will not affect dimensional tolerances on precision-machined components. Suitable for turbine blade roots, actuator housings, and fastener bores.",
-    href: "/products/coatings-rust-preventatives",
+    href: "/products/coatings",
   },
 ];
 
@@ -51,10 +51,10 @@ export default function AerospacePage() {
   return (
     <main>
       <HeroSection
-        title="Aerospace"
+        title="VpCI® Technology for Aircraft, Aviation, and Aerospace Industries"
         subtitle="Zero-residue corrosion protection for precision components — from turbine blades to avionics, during manufacturing, storage, and transit."
         primaryCTA={{ text: "Discuss Your Application", href: "/contact" }}
-        secondaryCTA={{ text: "View Aerospace Products", href: "/products/vci-films-bags" }}
+        secondaryCTA={{ text: "View Aerospace Products", href: "/products/packaging" }}
       />
 
       {/* The Corrosion Challenge */}

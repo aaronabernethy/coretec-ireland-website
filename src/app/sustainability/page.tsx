@@ -119,7 +119,7 @@ export default function SustainabilityPage() {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 w-2 h-2 rounded-full bg-orange-500 flex-shrink-0" />
-                    <span><strong>EcoShield VpCI-144 Films</strong> — biobased VCI stretch and shrink films for wrapping and packaging metal parts</span>
+                    <span><strong>EcoShield VpCI-144 Barrier Paper</strong> — fully recyclable and repulpable VCI paper that replaces polyethylene- and wax-coated papers</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="mt-1.5 w-2 h-2 rounded-full bg-orange-500 flex-shrink-0" />

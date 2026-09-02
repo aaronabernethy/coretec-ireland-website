@@ -1,26 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
+import { tm } from "@/lib/trademark";
+import { productCategories } from "@/data/productCategories";
+import { industryCategories } from "@/data/industryCategories";
 
-const productLinks = [
-  { label: "VCI Films & Bags", href: "/products/vci-films-bags" },
-  { label: "VCI Papers", href: "/products/vci-papers" },
-  { label: "VCI Emitters", href: "/products/vci-emitters" },
-  { label: "Coatings & Rust Preventatives", href: "/products/coatings-rust-preventatives" },
-  { label: "Liquids & Additives", href: "/products/liquids-additives" },
-  { label: "Construction & Concrete", href: "/products/construction-concrete" },
-  { label: "Specialty Oil & Gas", href: "/products/specialty-oil-gas" },
-];
+const productLinks = productCategories.map((category) => ({
+  label: category.shortLabel,
+  href: `/products/${category.slug}`,
+}));
 
-const industryLinks = [
-  { label: "Automotive", href: "/industries/automotive" },
-  { label: "Marine", href: "/industries/marine" },
-  { label: "Oil & Gas", href: "/industries/oil-gas" },
-  { label: "Aerospace", href: "/industries/aerospace" },
-  { label: "Electronics", href: "/industries/electronics" },
-  { label: "Construction", href: "/industries/construction" },
-  { label: "Pharmaceutical & Medical", href: "/industries/pharmaceutical-medical" },
-  { label: "Agri-Food", href: "/industries/agri-food" },
-];
+const industryLinks = industryCategories.map((industry) => ({
+  label: industry.shortLabel,
+  href: `/industries/${industry.slug}`,
+}));
 
 const companyLinks = [
   { label: "About", href: "/about" },
@@ -98,7 +90,7 @@ export default function Footer() {
                     href={link.href}
                     className="text-sm text-grey-400 hover:text-white transition-colors"
                   >
-                    {link.label}
+                    {tm(link.label)}
                   </Link>
                 </li>
               ))}
@@ -117,7 +109,7 @@ export default function Footer() {
                     href={link.href}
                     className="text-sm text-grey-400 hover:text-white transition-colors"
                   >
-                    {link.label}
+                    {tm(link.label)}
                   </Link>
                 </li>
               ))}
@@ -136,7 +128,7 @@ export default function Footer() {
                     href={link.href}
                     className="text-sm text-grey-400 hover:text-white transition-colors"
                   >
-                    {link.label}
+                    {tm(link.label)}
                   </Link>
                 </li>
               ))}

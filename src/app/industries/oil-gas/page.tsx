@@ -5,7 +5,7 @@ import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
-  title: "Oil & Gas Corrosion Protection | Cortec Ireland",
+  title: "Oil, Gas & Process Industries Corrosion Protection | Cortec Ireland",
   description:
     "Cortec VpCI® pipeline preservation, vessel mothballing, and equipment storage solutions for the oil and gas industry. Reduce re-commissioning time and eliminate hazardous chemicals.",
 };
@@ -15,25 +15,25 @@ const solutions = [
     name: "VpCI®-705",
     description:
       "Water-based liquid VpCI formulation for hydrotesting and wet layup of pipelines, tanks, and vessels. Provides multi-metal corrosion protection in closed systems. Compatible with existing water treatment programs and safe for later discharge with appropriate dilution.",
-    href: "/products/specialty-oil-gas",
+    href: "/products/water-treatment",
   },
   {
     name: "VpCI®-707",
     description:
       "Concentrated VpCI additive for long-term wet preservation of boilers, heat exchangers, and process vessels. Protects against oxygen pitting and under-deposit corrosion during extended shutdown periods. Significantly reduces re-commissioning time compared to nitrogen blanketing.",
-    href: "/products/specialty-oil-gas",
+    href: "/products/water-treatment",
   },
   {
     name: "VpCI®-708",
     description:
       "Dry powder VpCI product for fogging and dry layup applications. Ideal for dehumidified preservation of large-diameter pipelines, storage tanks, and pressure vessels. Applied via compressed air — coats all internal surfaces with a thin, protective VpCI film.",
-    href: "/products/specialty-oil-gas",
+    href: "/products/water-treatment",
   },
   {
     name: "VpCI®-649",
     description:
       "Multi-functional VpCI corrosion inhibitor for closed-loop cooling water systems, glycol systems, and process water. Replaces traditional chromate and nitrite-based treatments with a non-toxic, biodegradable alternative that protects ferrous and non-ferrous metals simultaneously.",
-    href: "/products/liquids-additives",
+    href: "/products/water-treatment",
   },
 ];
 
@@ -51,10 +51,10 @@ export default function OilGasPage() {
   return (
     <main>
       <HeroSection
-        title="Oil & Gas"
+        title="VpCI® for Oil, Gas and Process Industries"
         subtitle="Preserving critical infrastructure during shutdowns, hydrotesting, and storage — without hazardous chemicals or complex procedures."
         primaryCTA={{ text: "Discuss Your Application", href: "/contact" }}
-        secondaryCTA={{ text: "View Oil & Gas Products", href: "/products/specialty-oil-gas" }}
+        secondaryCTA={{ text: "View Related Products", href: "/products/water-treatment" }}
       />
 
       {/* The Corrosion Challenge */}

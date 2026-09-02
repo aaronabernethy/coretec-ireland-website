@@ -15,25 +15,25 @@ const solutions = [
     name: "VpCI®-126 Films",
     description:
       "Multi-metal VCI stretch and shrink films for wrapping automotive parts, sub-assemblies, and palletised shipments. Provides up to 24 months of corrosion protection in sealed packaging.",
-    href: "/products/vci-films-bags",
+    href: "/products/packaging",
   },
   {
     name: "VpCI®-146 Papers",
     description:
       "VCI-impregnated kraft papers for interleaving between stamped panels, wrapping machined components, and lining boxes. Ideal for protecting ferrous and non-ferrous metal parts simultaneously.",
-    href: "/products/vci-papers",
+    href: "/products/packaging",
   },
   {
     name: "VpCI® Emitters",
     description:
       "Self-adhesive VCI emitter devices for protecting parts stored in enclosed containers, tool cribs, and shipping crates. No contact with the metal surface required.",
-    href: "/products/vci-emitters",
+    href: "/products/electronics",
   },
   {
     name: "EcoShield® Biobased Films",
     description:
       "USDA-certified biobased VCI films made from renewable resources. Deliver the same corrosion protection as conventional VCI films while helping automotive manufacturers meet sustainability and carbon reduction targets.",
-    href: "/products/vci-films-bags",
+    href: "/products/packaging",
   },
 ];
 
@@ -51,10 +51,10 @@ export default function AutomotivePage() {
   return (
     <main>
       <HeroSection
-        title="Automotive"
+        title="VpCI® Technology for Automotive Industry"
         subtitle="Protecting metal parts from corrosion throughout the automotive supply chain — from stamping plant to assembly line to aftermarket warehouse."
         primaryCTA={{ text: "Get a Recommendation", href: "/contact" }}
-        secondaryCTA={{ text: "View VCI Packaging", href: "/products/vci-films-bags" }}
+        secondaryCTA={{ text: "View VCI Packaging", href: "/products/packaging" }}
       />
 
       {/* The Corrosion Challenge */}

@@ -5,7 +5,7 @@ import CTABanner from "@/components/CTABanner";
 import SectionHeading from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
-  title: "Marine Corrosion Protection | Cortec Ireland",
+  title: "Marine & Shipbuilding Corrosion Protection | Cortec Ireland",
   description:
     "Cortec VpCI® corrosion protection for marine vessels, offshore equipment, and harbour infrastructure. Solutions for layup, storage, and active service in saltwater environments.",
 };
@@ -15,25 +15,25 @@ const solutions = [
     name: "VpCI® Coatings",
     description:
       "High-performance, VpCI-enhanced coatings for above-waterline surfaces, deck machinery, and superstructure protection. These coatings combine barrier protection with vapour-phase corrosion inhibition, reaching into crevices and hard-to-coat areas that conventional coatings miss.",
-    href: "/products/coatings-rust-preventatives",
+    href: "/products/coatings",
   },
   {
     name: "VpCI®-705 Pipeline & System Protection",
     description:
       "Liquid VpCI additive for treating ballast tanks, cooling systems, and internal pipework. Provides multi-metal protection and is suitable for systems containing both ferrous and non-ferrous metals. Biocide-free formulation.",
-    href: "/products/liquids-additives",
+    href: "/products/water-treatment",
   },
   {
     name: "MilCorr® Shrink Film",
     description:
       "Military-grade VCI shrink wrap for long-term outdoor storage and layup. UV-stabilised, waterproof, and infused with VpCI molecules that protect enclosed equipment from corrosion for years. Ideal for mothballing vessels, engines, and deck equipment.",
-    href: "/products/vci-films-bags",
+    href: "/products/packaging",
   },
   {
     name: "VpCI® Emitters for Electrical Systems",
     description:
       "Self-adhesive VCI emitter cups and strips for protecting switchboards, navigation electronics, and control panels. Place inside the enclosure — no wiring or power required. The VCI vapour protects all metal surfaces within the enclosed space.",
-    href: "/products/vci-emitters",
+    href: "/products/electronics",
   },
 ];
 
@@ -51,10 +51,10 @@ export default function MarinePage() {
   return (
     <main>
       <HeroSection
-        title="Marine"
+        title="VpCI® Technology for Marine and Shipbuilding Industries"
         subtitle="Defending vessels, offshore assets, and marine infrastructure against the most aggressive corrosion environment on earth."
         primaryCTA={{ text: "Discuss Your Application", href: "/contact" }}
-        secondaryCTA={{ text: "View Marine Products", href: "/products/coatings-rust-preventatives" }}
+        secondaryCTA={{ text: "View Marine Products", href: "/products/coatings" }}
       />
 
       {/* The Corrosion Challenge */}
