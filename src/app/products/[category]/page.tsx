@@ -113,16 +113,39 @@ export default function ProductCategoryPage({
             subtitle="We supply the complete Cortec® range in this category — including:"
             centered={false}
           />
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl">
-            {category.alsoInRange.map((product) => (
-              <li key={product} className="flex items-start gap-3">
-                <span className="mt-1.5 h-2 w-2 rounded-full bg-orange-500 flex-shrink-0" />
-                <span className="text-grey-600 text-base leading-relaxed">
-                  {tm(product)}
-                </span>
-              </li>
-            ))}
-          </ul>
+          <div
+            className={
+              category.rangeImage
+                ? "grid lg:grid-cols-3 gap-10 items-start"
+                : undefined
+            }
+          >
+            <ul
+              className={`grid grid-cols-1 md:grid-cols-2 gap-4 ${
+                category.rangeImage ? "lg:col-span-2" : "max-w-4xl"
+              }`}
+            >
+              {category.alsoInRange.map((product) => (
+                <li key={product} className="flex items-start gap-3">
+                  <span className="mt-1.5 h-2 w-2 rounded-full bg-orange-500 flex-shrink-0" />
+                  <span className="text-grey-600 text-base leading-relaxed">
+                    {tm(product)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            {category.rangeImage && (
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-grey-200 bg-white">
+                <Image
+                  src={category.rangeImage.src}
+                  alt={category.rangeImage.alt}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 33vw"
+                  className="object-contain p-3"
+                />
+              </div>
+            )}
+          </div>
           <div className="mt-12">
             <a
               href={category.cortecUrl}

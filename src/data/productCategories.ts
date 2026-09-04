@@ -19,6 +19,8 @@ export interface ProductCategory {
   alsoInRange: string[];
   /** Link to the complete range on cortecvci.com */
   cortecUrl: string;
+  /** Optional decorative image shown beside the "Also in This Range" list */
+  rangeImage?: { src: string; alt: string };
 }
 
 export const productCategories: ProductCategory[] = [
@@ -74,6 +76,10 @@ export const productCategories: ProductCategory[] = [
   },
   {
     slug: "packaging",
+    rangeImage: {
+      src: "/images/products/vpci-146-paper-wrap.webp",
+      alt: "Machined flange wrapped in Cortec VpCI paper",
+    },
     name: "VpCI® Packaging Products",
     shortLabel: "Packaging",
     metaDescription:
