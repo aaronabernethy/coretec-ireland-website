@@ -56,16 +56,6 @@ export const industryCategories: IndustryCategory[] = [
       "EcoLine® wire rope grease and enhanced lubricants for draglines, winches and cranes",
       "Rust removal and surface preparation for refurbishment programmes",
     ],
-    images: [
-      {
-        src: "/images/applications/shrink-film-skid-crane.webp",
-        alt: "Equipment skid wrapped in VpCI shrink film being lifted by crane",
-      },
-      {
-        src: "/images/applications/gearbox-wrapped-vpci.webp",
-        alt: "Industrial gearbox preserved in VpCI packaging",
-      },
-    ],
     relatedCategories: [
       { label: "VpCI® Packaging Products", href: "/products/packaging" },
       { label: "VpCI® Enhanced Lubricant Products", href: "/products/lubricants" },
@@ -137,16 +127,6 @@ export const industryCategories: IndustryCategory[] = [
       "Fogging fluids for preserving tanks, vessels and voids during shutdowns",
       "Preservation of standby and seasonal equipment between operating periods",
       "Environmentally responsible EcoLine® and EcoAir® maintenance products",
-    ],
-    images: [
-      {
-        src: "/images/applications/esb-minipillar-corrosion.webp",
-        alt: "Corroded ESB minipillar electrical enclosure",
-      },
-      {
-        src: "/images/applications/vpci-337-fogging-pail-inuse.webp",
-        alt: "VpCI-337 fogging application from pail",
-      },
     ],
     relatedCategories: [
       { label: "VpCI® Surface Preparation Products", href: "/products/surface-preparation" },

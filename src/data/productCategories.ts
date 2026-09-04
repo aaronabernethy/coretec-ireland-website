@@ -133,12 +133,6 @@ export const productCategories: ProductCategory[] = [
         description:
           "Coated corrugated boxes with built-in VpCI protection — shipping carton and corrosion protection in one. Ideal for bearings, fasteners and machined parts that ship and store without a separate VpCI bag or wrap.",
       },
-      {
-        name: "VpCI®-337 Fogging Fluid",
-        image: "/images/products/vpci-337.webp",
-        description:
-          "Water-based corrosion inhibitor that is fogged or sprayed into packaging, containers, tanks and void spaces before sealing. The VpCI® vapour reaches every internal surface, making it ideal for preserving large or complex volumes that cannot be wrapped.",
-      },
     ],
     alsoInRange: [
       "EcoShield® VpCI®-144 barrier paper — recyclable replacement for polyethylene- and wax-coated papers",
@@ -183,6 +177,12 @@ export const productCategories: ProductCategory[] = [
         name: "BioCorr® Rust Preventative",
         description:
           "Ready-to-use, water-based rust preventative that is a biobased alternative to oil-based products. Leaves a thin, dry, non-greasy film that protects parts in storage and transit — with no oily residue to clean off before the next operation.",
+      },
+      {
+        name: "VpCI®-337 Fogging Fluid",
+        image: "/images/products/vpci-337.webp",
+        description:
+          "Water-based corrosion inhibitor that is fogged or sprayed into packaging, containers, tanks and void spaces before sealing. The VpCI® vapour reaches every internal surface, making it ideal for preserving large or complex volumes that cannot be wrapped.",
       },
     ],
     alsoInRange: [
