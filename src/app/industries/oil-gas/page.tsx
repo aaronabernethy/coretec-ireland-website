@@ -2,6 +2,10 @@ import { Metadata } from "next";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
+import BrochureCTA from "@/components/BrochureCTA";
+
+const BROCHURE_URL =
+  "https://www.cortecvci.com/Publications/Brochures/Oil&Gas_Brochure.pdf";
 import SectionHeading from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
@@ -144,6 +148,12 @@ export default function OilGasPage() {
           </ul>
         </div>
       </section>
+
+      <BrochureCTA
+        title="VpCI® Technology for the Oil & Gas Industry"
+        description="Read Cortec®'s full technical brochure for this sector, covering products, applications and performance data."
+        href={BROCHURE_URL}
+      />
 
       <CTABanner
         title="Tell Us About Your Corrosion Challenge"

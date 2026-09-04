@@ -19,6 +19,8 @@ export interface IndustryCategory {
   relatedCategories?: { label: string; href: string }[];
   /** Link to the complete range on cortecvci.com */
   cortecUrl?: string;
+  /** Cortec® PDF brochure for this sector */
+  brochureUrl?: string;
 }
 
 export const industryCategories: IndustryCategory[] = [
@@ -32,6 +34,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "mining",
+    brochureUrl:
+      "https://www.cortecvci.com/whats_new/announcements/Mining_Brochure.pdf",
     name: "VpCI® Technology for Off-Road Equipment and Mining Industries",
     shortLabel: "Off-Road Equipment & Mining",
     cardDescription:
@@ -72,6 +76,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "marine",
+    brochureUrl:
+      "https://www.cortecvci.com/Publications/Brochures/Marine-Shipbuilding-Brochure.pdf",
     name: "VpCI® Technology for Marine and Shipbuilding Industries",
     shortLabel: "Marine & Shipbuilding",
     cardDescription:
@@ -80,6 +86,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "military",
+    brochureUrl:
+      "https://www.cortecvci.com/Publications/Brochures/Military/MilCorr%20Broch.pdf",
     name: "VpCI® for Military Preservation Worldwide",
     shortLabel: "Military Preservation",
     cardDescription:
@@ -149,6 +157,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "automotive",
+    brochureUrl:
+      "https://www.cortecvci.com/Publications/Brochures/Automotive_Brochure.pdf",
     name: "VpCI® Technology for Automotive Industry",
     shortLabel: "Automotive",
     cardDescription:
@@ -157,6 +167,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "basic-metals",
+    brochureUrl:
+      "https://www.cortecvci.com/Publications/Brochures/Steel%20Broch.pdf",
     name: "VpCI® for Basic Metals Industries",
     shortLabel: "Basic Metals",
     cardDescription:
@@ -187,6 +199,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "oil-gas",
+    brochureUrl:
+      "https://www.cortecvci.com/Publications/Brochures/Oil&Gas_Brochure.pdf",
     name: "VpCI® for Oil, Gas and Process Industries",
     shortLabel: "Oil, Gas & Process",
     cardDescription:
@@ -195,6 +209,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "desalination",
+    brochureUrl:
+      "https://www.cortecvci.com/Publications/Brochures/Desalination_Brochure.pdf",
     name: "VpCI® Technology for Desalination Industry",
     shortLabel: "Desalination",
     cardDescription:
@@ -225,6 +241,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "transportation",
+    brochureUrl:
+      "https://www.cortecvci.com/Publications/Brochures/Transportation_Municipality_Brochure.pdf",
     name: "VpCI® Technology for Transportation and Municipalities",
     shortLabel: "Transportation & Municipalities",
     cardDescription:
@@ -255,6 +273,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "food-beverage-pharmaceutical",
+    brochureUrl:
+      "https://www.cortecvci.com/Publications/Brochures/Food_and_Beverage_Brochure_03-2016.pdf",
     name: "VpCI® Technology for Food, Beverage, and Pharmaceutical Industries",
     shortLabel: "Food, Beverage & Pharmaceutical",
     cardDescription:
@@ -285,6 +305,8 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "eco-flow",
+    brochureUrl:
+      "https://www.cortecvci.com/Publications/Brochures/ecoflow_brochure.pdf",
     name: "ECO FLOW® SYSTEM — Reduce Cost & Increase Production",
     shortLabel: "ECO FLOW® System",
     cardDescription:

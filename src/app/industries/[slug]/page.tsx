@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import HeroSection from "@/components/HeroSection";
 import CTABanner from "@/components/CTABanner";
+import BrochureCTA from "@/components/BrochureCTA";
 import SectionHeading from "@/components/SectionHeading";
 import ProductCard from "@/components/ProductCard";
 import { industryCategories, getIndustryCategory } from "@/data/industryCategories";
@@ -137,6 +138,14 @@ export default function IndustryCategoryPage({
           )}
         </div>
       </section>
+
+      {industry.brochureUrl && (
+        <BrochureCTA
+          title={industry.name}
+          description="Read Cortec®'s full technical brochure for this sector, covering products, applications and performance data."
+          href={industry.brochureUrl}
+        />
+      )}
 
       <CTABanner
         title="Discuss Your Corrosion Challenge"

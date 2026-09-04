@@ -221,10 +221,14 @@ export const productCategories: ProductCategory[] = [
         description:
           "VpCI powder pre-packed in breathable pouches for protecting enclosed volumes such as large control cabinets, crates and shipping containers. A single pouch releases VpCI molecules to protect the entire enclosed space for up to two years.",
       },
+      {
+        name: "VpCI®-609 Powder for Ferrous Metals",
+        description:
+          "Water-soluble Vapour Phase Corrosion Inhibiting powder for wet or dry protection of ferrous metals and aluminium. Used in tubular structures, pipes and vessels, the internal surfaces of compressors, turbines, engines, tanks, boilers and heat exchangers, steam condensate lines and closed-circuit heating and cooling systems, and equipment during and after hydrostatic testing. Provides up to 24 months of continuous protection. Supplied in 5 lb (2.3 kg), 50 lb (23 kg) and 100 lb (45 kg) moisture-barrier bags packed in fibre-lined drums. Patented.",
+      },
     ],
     alsoInRange: [
       "VpCI®-608 powder for ferrous metals and aluminium",
-      "VpCI®-609 water-soluble powder for ferrous metals",
       "VpCI®-609 S with silica for extra moisture control",
       "VpCI®-611 powder for wet corrosion protection",
       "VpCI®-644 powder for salt water and brine systems",
@@ -257,15 +261,23 @@ export const productCategories: ProductCategory[] = [
         description:
           "Heavy-duty, non-toxic cleaner and degreaser that lifts grease, oil and industrial soils from metal surfaces while providing multi-metal corrosion protection during cleaning. USDA-approved for use in food-processing environments.",
       },
+      {
+        name: "Corwipe® 500",
+        description:
+          "A multi-purpose wipe that removes light rust, grease, oil and dust while leaving behind a thin protective antistatic VpCI® film. The static-dissipative film drains charges when properly grounded, reducing triboelectric voltage to less than 300 volts. Patented.",
+      },
+      {
+        name: "VpCI®-426 Gel Rust/Scale Remover",
+        description:
+          "Multimetal rust and scale remover in a gel formulation, designed for use on vertical and other hard-to-reach surfaces where a liquid would run off. Supplied in 5 gallon (19 litre) pails, 55 gallon (208 litre) drums, totes and bulk.",
+      },
     ],
     alsoInRange: [
       "VpCI®-414 cleaner & corrosion inhibitor for interoperational cleaning",
       "VpCI®-415 heavy-duty alkaline cleaner",
       "VpCI®-417 powdered cleaner concentrate",
       "VpCI®-422 organic rust remover",
-      "VpCI®-426 rust, stain and scale remover",
       "VpCI®-432 / 433 paint strippers",
-      "Corwipe® 300 & 500 multi-purpose wipes",
       "EcoClean® Silver tarnish remover",
     ],
     cortecUrl:
@@ -296,11 +308,24 @@ export const productCategories: ProductCategory[] = [
         description:
           "Multi-metal corrosion inhibitor for boiler systems, closed-loop cooling water and hydrotest water. Provides vapour phase and liquid phase protection simultaneously. A single product replaces multiple individual inhibitors, simplifying treatment programmes and reducing inventory.",
       },
+      {
+        name: "Cooling Loop Gator®",
+        description:
+          "VpCI®-based powder supplied in polyvinyl-alcohol (PVA) water-soluble bags for the seasonal, short or long-term layup of cooling towers. Supplied as four 2.2 lb (1 kg) bags per box. Patented.",
+      },
+      {
+        name: "Cooling Tower Frog®",
+        description:
+          "Vapour phase corrosion inhibitor powder in polyvinyl-alcohol (PVA) water-soluble bags, developed specifically for the dry layup of cooling towers and effective for up to 12 months. Once the bag is opened the inhibitors vaporise and adsorb onto all metal surfaces, reaching recessed areas and interior cavities to form a strong, self-replenishing protective layer. Provides three-phase multimetal protection across the vapour phase, liquid phase and the vapour-liquid interface, and requires no special preparation before start-up. Supplied as two 4 lb (1.8 kg) bags per box. Patented.",
+      },
+      {
+        name: "CorrBlock™",
+        description:
+          "A solid block formulated from renewable soybean-based wax and proven VpCI® technology. Immersed in water it dissolves slowly, releasing a calculated dose of inhibitors and providing multimetal protection for ferrous metals, galvanised steel, aluminium and yellow metals in place of chromates, nitrites and other restricted inhibitors. Suitable for open-loop recirculating cooling systems, waste water systems and water-cooled metalworking machines. Each block weighs approximately 400 g and treats around 4,000 litres of running water, typically replaced every one to two months. Conforms to NACE RP0487-2000, NACE TM0208-2008 and MIL-I-22110C.",
+      },
     ],
     alsoInRange: [
       "Closed Loop Toad® for closed-loop layup",
-      "Cooling Loop Gator® for cooling water systems",
-      "Cooling Tower Frog® for cooling tower layup",
       "VpCI®-641 corrosion inhibitor for fresh water systems",
       "VpCI®-644 for salt water and brine systems",
       "VpCI®-645 for salt and fresh water",
