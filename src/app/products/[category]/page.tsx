@@ -154,8 +154,12 @@ export default function ProductCategoryPage({
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-steel-500 hover:text-steel-600 font-semibold text-base transition-colors focus:outline-none focus:ring-2 focus:ring-steel-300 focus:ring-offset-2 rounded"
             >
-              {tm("View the complete range on cortecvci.com")}
-              <span aria-hidden="true">↗</span>
+              {category.cortecUrl.toLowerCase().endsWith(".pdf")
+                ? "Download a PDF of the product range"
+                : tm("View the complete range on cortecvci.com")}
+              <span aria-hidden="true">
+                {category.cortecUrl.toLowerCase().endsWith(".pdf") ? "↓" : "↗"}
+              </span>
             </a>
           </div>
         </div>
