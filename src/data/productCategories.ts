@@ -19,6 +19,8 @@ export interface ProductCategory {
   alsoInRange: string[];
   /** Link to the complete range on cortecvci.com */
   cortecUrl: string;
+  /** Background photo for the page hero */
+  heroImage?: string;
   /** Optional decorative image shown beside the "Also in This Range" list */
   rangeImage?: { src: string; alt: string };
 }
@@ -26,6 +28,7 @@ export interface ProductCategory {
 export const productCategories: ProductCategory[] = [
   {
     slug: "electronics",
+    heroImage: "/images/heroes/hero-electronics.webp",
     name: "VpCI® Products for Electronics and Electrics",
     shortLabel: "Electronics & Electrics",
     metaDescription:
@@ -63,19 +66,24 @@ export const productCategories: ProductCategory[] = [
       },
     ],
     alsoInRange: [
-      "VpCI®-110 Emitter",
       "EcoEmitter® — biobased VpCI® emitter",
       "ElectriCorr® VpCI®-238 electronic cleaner & corrosion inhibitor",
       "ElectriCorr® VpCI®-239 for outdoor electrical applications",
       "ElectriCorr® VpCI®-286 conformal coating",
       "Corrosorber® corrosive-gas absorbers",
       "VpCI®-130 Series emitting foams",
+      "Cor-Pak® 1-MUL",
+      "Corwipe® multi-purpose wipes, patented",
+      "DesiCorr® VpCI® pouches",
+      "VpCI®-125 clean room film",
+      "VpCI®-150 / VpCI®-170 adhesive backed foam tape",
     ],
     cortecUrl:
-      "https://www.cortecvci.com/products/vpci-products-for-electronics-and-electrics/",
+      "https://www.cortecvci.com/products/vpci-products-for-protection-of-electronics-and-electrics/",
   },
   {
     slug: "packaging",
+    heroImage: "/images/heroes/hero-packaging.webp",
     rangeImage: {
       src: "/images/products/vpci-146-paper-wrap.webp",
       alt: "Machined flange wrapped in Cortec VpCI paper",
@@ -158,6 +166,7 @@ export const productCategories: ProductCategory[] = [
   },
   {
     slug: "metalworking",
+    heroImage: "/images/heroes/hero-metalworking.webp",
     name: "VpCI® Metalworking Products",
     shortLabel: "Metalworking",
     metaDescription:
@@ -204,6 +213,7 @@ export const productCategories: ProductCategory[] = [
   },
   {
     slug: "powders",
+    heroImage: "/images/heroes/hero-powders.webp",
     name: "VpCI® Powder Products",
     shortLabel: "Powders",
     metaDescription:
@@ -240,10 +250,11 @@ export const productCategories: ProductCategory[] = [
       "VpCI®-644 powder for salt water and brine systems",
       "Boiler Lizard® — powder in a water-soluble bag for boiler layup (see Water Treatment)",
     ],
-    cortecUrl: "https://www.cortecvci.com/products/vpci-powder-products/",
+    cortecUrl: "https://www.cortecvci.com/products/vapor-phase-corrosion-inhibitor-vpci-powder-products/",
   },
   {
     slug: "surface-preparation",
+    heroImage: "/images/heroes/hero-surface-preparation.webp",
     name: "VpCI® Surface Preparation Products",
     shortLabel: "Surface Preparation",
     metaDescription:
@@ -287,10 +298,11 @@ export const productCategories: ProductCategory[] = [
       "EcoClean® Silver tarnish remover",
     ],
     cortecUrl:
-      "https://www.cortecvci.com/products/vpci-surface-preparation-products/",
+      "https://www.cortecvci.com/products/surface-preparation-products/",
   },
   {
     slug: "water-treatment",
+    heroImage: "/images/heroes/hero-water-treatment.webp",
     name: "VpCI® Water Treatment Products",
     shortLabel: "Water Treatment",
     metaDescription:
@@ -344,6 +356,7 @@ export const productCategories: ProductCategory[] = [
   },
   {
     slug: "lubricants",
+    heroImage: "/images/heroes/hero-lubricants.webp",
     name: "VpCI® Enhanced Lubricant Products",
     shortLabel: "Enhanced Lubricants",
     metaDescription:
@@ -377,10 +390,11 @@ export const productCategories: ProductCategory[] = [
       "EcoLine® Cutting Fluids (see Metalworking)",
     ],
     cortecUrl:
-      "https://www.cortecvci.com/products/vpci-enhanced-lubricant-products/",
+      "https://www.cortecvci.com/Publications/Brochures/Lubricants-Brochure.pdf",
   },
   {
     slug: "coatings",
+    heroImage: "/images/heroes/hero-coatings.webp",
     name: "VpCI® High Performance Coatings",
     shortLabel: "High Performance Coatings",
     metaDescription:
@@ -428,6 +442,7 @@ export const productCategories: ProductCategory[] = [
   },
   {
     slug: "additives",
+    heroImage: "/images/heroes/hero-additives.webp",
     name: "Corrosion Inhibiting Additives for Coatings, Fluids, Adhesives and Plastic",
     shortLabel: "Corrosion Inhibiting Additives",
     metaDescription:
@@ -465,10 +480,11 @@ export const productCategories: ProductCategory[] = [
       "M-381 additive for water-based systems",
       "M-408 additive",
     ],
-    cortecUrl: "https://www.cortecvci.com/products/",
+    cortecUrl: "https://www.cortecvci.com/products/corrosion-inhibiting-additives-for-coatings-fluids-adhesives-and-plastics-2/",
   },
   {
     slug: "biocortec",
+    heroImage: "/images/heroes/hero-biocortec.webp",
     name: "BioCortec® — Sustainable Environmentally Friendly Resources",
     shortLabel: "BioCortec® Sustainable Products",
     metaDescription:
@@ -508,10 +524,11 @@ export const productCategories: ProductCategory[] = [
       "EcoEmitter® biobased emitter",
       "EcoAir® non-flammable air-powered aerosols",
     ],
-    cortecUrl: "https://www.cortecvci.com/products/",
+    cortecUrl: "https://www.cortecvci.com/products/biocortec-sustainable-environmentally-friendly-resources/",
   },
   {
     slug: "mci-concrete",
+    heroImage: "/images/heroes/hero-mci-concrete.webp",
     name: "MCI® Concrete Protection Products",
     shortLabel: "MCI® Concrete Protection",
     metaDescription:
@@ -547,7 +564,7 @@ export const productCategories: ProductCategory[] = [
       "MCI®-309 powder for voids, ducts and post-tensioning systems",
       "MCI® Grenades — water-soluble MCI® powder dosing for the concrete mixer",
     ],
-    cortecUrl: "https://www.cortecvci.com/products/concrete/",
+    cortecUrl: "https://www.cortecmci.com/",
   },
 ];
 

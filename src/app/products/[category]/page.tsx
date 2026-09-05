@@ -42,6 +42,7 @@ export default function ProductCategoryPage({
         subtitle={category.heroSubtitle}
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Request Datasheet", href: "/contact?subject=datasheet" }}
+        backgroundImage={category.heroImage}
       />
 
       {/* Intro */}

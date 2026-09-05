@@ -95,6 +95,7 @@ export default async function CaseHistoriesPage() {
         subtitle="Real-world corrosion protection projects across Ireland — from Belfast shipyards to utility infrastructure. See how Cortec® VpCI® technology delivers results."
         primaryCTA={{ text: "Discuss Your Project", href: "/contact" }}
         secondaryCTA={{ text: "Global Case Library ↗", href: "https://www.corteccasehistories.com/" }}
+        backgroundImage="/images/heroes/hero-case-histories.webp"
       />
 
       {/* Local Case Histories */}

@@ -26,6 +26,7 @@ export default function ContactPage() {
         subtitle="Whether you need a product recommendation, a quote, or technical support — our corrosion protection specialists are here to help."
         primaryCTA={{ text: "Call Belfast", href: "tel:+447752498985" }}
         secondaryCTA={{ text: "Call Dublin", href: "tel:+353872637278" }}
+        backgroundImage="/images/heroes/hero-contact.webp"
       />
 
       {/* Two-column layout: Form + Contact Info */}
