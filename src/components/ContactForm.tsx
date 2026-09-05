@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, useRef, useEffect, FormEvent } from "react";
 
 const industryOptions = [
   "Automotive",
@@ -26,6 +26,11 @@ export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const loadedAt = useRef<number>(0);
+
+  useEffect(() => {
+    loadedAt.current = Date.now();
+  }, []);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -35,9 +40,12 @@ export default function ContactForm() {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    // Honeypot check
-    if (formData.get("_gotcha")) {
+    // Spam traps: hidden honeypot field, plus a form filled impossibly fast.
+    // Both report success so bots get no signal that they were caught.
+    const tooFast = Date.now() - loadedAt.current < 2500;
+    if (formData.get("_gotcha") || tooFast) {
       setSubmitting(false);
+      setSubmitted(true);
       return;
     }
 
@@ -109,7 +117,7 @@ export default function ContactForm() {
       noValidate
     >
       {/* Honeypot field for spam prevention */}
-      <div className="hidden" aria-hidden="true">
+      <div className="absolute left-[-9999px] top-auto h-px w-px overflow-hidden" aria-hidden="true">
         <label htmlFor="contact-gotcha">Do not fill this out</label>
         <input
           type="text"
