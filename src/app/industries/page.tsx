@@ -32,6 +32,7 @@ export default function IndustriesPage() {
         subtitle="Corrosion affects every sector differently. We provide tailored Cortec VpCI® solutions for your specific industry challenges — backed by ISO-accredited testing and specialist technical support."
         primaryCTA={{ text: "Talk to an Engineer", href: "/contact" }}
         secondaryCTA={{ text: "View All Products", href: "/products" }}
+        backgroundImage="/images/applications/film-wrap-crew-2.webp"
       />
 
       {/* Industries Grid */}

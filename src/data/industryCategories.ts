@@ -19,6 +19,8 @@ export interface IndustryCategory {
   relatedCategories?: { label: string; href: string }[];
   /** Link to the complete range on cortecvci.com */
   cortecUrl?: string;
+  /** Background photo for the page hero */
+  heroImage?: string;
   /** Cortec® PDF brochure for this sector */
   brochureUrl?: string;
 }
@@ -26,6 +28,7 @@ export interface IndustryCategory {
 export const industryCategories: IndustryCategory[] = [
   {
     slug: "aerospace",
+    heroImage: "/images/applications/film-wrap-crew-3.webp",
     name: "VpCI® Technology for Aircraft, Aviation, and Aerospace Industries",
     shortLabel: "Aircraft, Aviation & Aerospace",
     cardDescription:
@@ -34,6 +37,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "mining",
+    heroImage: "/images/applications/gearbox-wrapped-vpci.webp",
     brochureUrl:
       "https://www.cortecvci.com/whats_new/announcements/Mining_Brochure.pdf",
     name: "VpCI® Technology for Off-Road Equipment and Mining Industries",
@@ -66,6 +70,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "marine",
+    heroImage: "/images/applications/fogging-vessel-offshore.webp",
     brochureUrl:
       "https://www.cortecvci.com/Publications/Brochures/Marine-Shipbuilding-Brochure.pdf",
     name: "VpCI® Technology for Marine and Shipbuilding Industries",
@@ -76,6 +81,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "military",
+    heroImage: "/images/applications/shrink-film-skid-crane.webp",
     brochureUrl:
       "https://www.cortecvci.com/Publications/Brochures/Military/MilCorr%20Broch.pdf",
     name: "VpCI® for Military Preservation Worldwide",
@@ -108,6 +114,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "eco-mro",
+    heroImage: "/images/applications/heat-sealing-vpci-bag.webp",
     name: "VpCI® Eco & MRO Products — Repair and Maintenance",
     shortLabel: "Eco & MRO — Repair & Maintenance",
     cardDescription:
@@ -137,6 +144,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "automotive",
+    heroImage: "/images/applications/film-wrap-pallet.webp",
     brochureUrl:
       "https://www.cortecvci.com/Publications/Brochures/Automotive_Brochure.pdf",
     name: "VpCI® Technology for Automotive Industry",
@@ -147,6 +155,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "basic-metals",
+    heroImage: "/images/applications/corroded-steel-beams.webp",
     brochureUrl:
       "https://www.cortecvci.com/Publications/Brochures/Steel%20Broch.pdf",
     name: "VpCI® for Basic Metals Industries",
@@ -179,6 +188,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "oil-gas",
+    heroImage: "/images/applications/storage-tank-manway-scaffold.webp",
     brochureUrl:
       "https://www.cortecvci.com/Publications/Brochures/Oil&Gas_Brochure.pdf",
     name: "VpCI® for Oil, Gas and Process Industries",
@@ -189,6 +199,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "desalination",
+    heroImage: "/images/applications/vessel-manway-open.webp",
     brochureUrl:
       "https://www.cortecvci.com/Publications/Brochures/Desalination_Brochure.pdf",
     name: "VpCI® Technology for Desalination Industry",
@@ -221,6 +232,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "transportation",
+    heroImage: "/images/applications/corroded-steel-structure.webp",
     brochureUrl:
       "https://www.cortecvci.com/Publications/Brochures/Transportation_Municipality_Brochure.pdf",
     name: "VpCI® Technology for Transportation and Municipalities",
@@ -253,6 +265,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "food-beverage-pharmaceutical",
+    heroImage: "/images/applications/valve-wrapped-pallet.webp",
     brochureUrl:
       "https://www.cortecvci.com/Publications/Brochures/Food_and_Beverage_Brochure_03-2016.pdf",
     name: "VpCI® Technology for Food, Beverage, and Pharmaceutical Industries",
@@ -285,6 +298,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "eco-flow",
+    heroImage: "/images/applications/film-rollout-crew.webp",
     brochureUrl:
       "https://www.cortecvci.com/Publications/Brochures/ecoflow_brochure.pdf",
     name: "ECO FLOW® SYSTEM — Reduce Cost & Increase Production",
@@ -314,6 +328,7 @@ export const industryCategories: IndustryCategory[] = [
   },
   {
     slug: "field-services",
+    heroImage: "/images/applications/film-wrap-crew-1.webp",
     name: "Corrosion Engineering and Field Services",
     shortLabel: "Corrosion Engineering & Field Services",
     cardDescription:

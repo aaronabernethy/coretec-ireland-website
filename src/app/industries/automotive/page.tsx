@@ -59,6 +59,7 @@ export default function AutomotivePage() {
         subtitle="Protecting metal parts from corrosion throughout the automotive supply chain — from stamping plant to assembly line to aftermarket warehouse."
         primaryCTA={{ text: "Get a Recommendation", href: "/contact" }}
         secondaryCTA={{ text: "View VCI Packaging", href: "/products/packaging" }}
+        backgroundImage="/images/applications/film-wrap-pallet.webp"
       />
 
       {/* The Corrosion Challenge */}

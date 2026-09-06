@@ -59,6 +59,7 @@ export default function OilGasPage() {
         subtitle="Preserving critical infrastructure during shutdowns, hydrotesting, and storage — without hazardous chemicals or complex procedures."
         primaryCTA={{ text: "Discuss Your Application", href: "/contact" }}
         secondaryCTA={{ text: "View Related Products", href: "/products/water-treatment" }}
+        backgroundImage="/images/applications/storage-tank-manway-scaffold.webp"
       />
 
       {/* The Corrosion Challenge */}

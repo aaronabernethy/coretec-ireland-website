@@ -45,6 +45,7 @@ export default function IndustryCategoryPage({
         subtitle={industry.heroSubtitle ?? ""}
         primaryCTA={{ text: "Talk to an Engineer", href: "/contact" }}
         secondaryCTA={{ text: "View Products", href: "/products" }}
+        backgroundImage={industry.heroImage}
       />
 
       {/* Intro */}

@@ -59,6 +59,7 @@ export default function MarinePage() {
         subtitle="Defending vessels, offshore assets, and marine infrastructure against the most aggressive corrosion environment on earth."
         primaryCTA={{ text: "Discuss Your Application", href: "/contact" }}
         secondaryCTA={{ text: "View Marine Products", href: "/products/coatings" }}
+        backgroundImage="/images/applications/fogging-vessel-offshore.webp"
       />
 
       {/* The Corrosion Challenge */}

@@ -55,6 +55,7 @@ export default function AerospacePage() {
         subtitle="Zero-residue corrosion protection for precision components — from turbine blades to avionics, during manufacturing, storage, and transit."
         primaryCTA={{ text: "Discuss Your Application", href: "/contact" }}
         secondaryCTA={{ text: "View Aerospace Products", href: "/products/packaging" }}
+        backgroundImage="/images/applications/film-wrap-crew-3.webp"
       />
 
       {/* The Corrosion Challenge */}

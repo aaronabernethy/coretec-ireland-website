@@ -115,6 +115,7 @@ export default function TechnologyPage() {
         subtitle="How Cortec®'s Vapour Phase Corrosion Inhibitors protect metals more effectively, more safely, and more sustainably than traditional methods."
         primaryCTA={{ text: "Talk to an Expert", href: "/contact" }}
         secondaryCTA={{ text: "How VCI Works ↗", href: "https://www.cortecvci.com/how-vci-works/" }}
+        backgroundImage="/images/applications/corrosion-pitting-closeup.webp"
       />
 
       {/* The Cost of Corrosion */}

@@ -26,6 +26,7 @@ export default function ProductsPage() {
         subtitle="As Ireland's exclusive authorised Cortec® distributor, we supply the complete range of VpCI® and MCI® corrosion inhibitor products. Every product is manufactured by Cortec® Corporation — the world leader in vapour phase corrosion inhibitor technology."
         primaryCTA={{ text: "Request a Quote", href: "/contact" }}
         secondaryCTA={{ text: "Full Product Catalog ↗", href: "https://www.cortecvci.com/products/" }}
+        backgroundImage="/images/applications/vpci-126-flat-bags-warehouse.webp"
       />
 
       {/* Product Categories Grid */}

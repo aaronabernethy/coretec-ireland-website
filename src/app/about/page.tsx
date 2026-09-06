@@ -19,6 +19,7 @@ export default function AboutPage() {
         subtitle="As the exclusive authorised distributor of Cortec® Corporation products throughout Ireland, we bring decades of specialist corrosion engineering expertise to every project we undertake."
         primaryCTA={{ text: "Get in Touch", href: "/contact" }}
         secondaryCTA={{ text: "Explore Our Products", href: "/products" }}
+        backgroundImage="/images/applications/valve-lift-onto-vpci-film.webp"
       />
 
       {/* Our Story */}

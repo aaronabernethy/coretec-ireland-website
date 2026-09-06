@@ -61,6 +61,7 @@ export default function SustainabilityPage() {
         subtitle="Cortec's biobased, biodegradable, and compostable products help you protect metal assets while protecting the planet."
         primaryCTA={{ text: "Get in Touch", href: "/contact" }}
         secondaryCTA={{ text: "Browse Products", href: "/products" }}
+        backgroundImage="/images/applications/camshafts-vpci-biopad.webp"
       />
 
       {/* The Environmental Challenge */}

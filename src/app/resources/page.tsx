@@ -72,6 +72,7 @@ export default function ResourcesPage() {
         subtitle="Access product datasheets, safety data sheets, and technical specifications. Our team is here to help you find the right information."
         primaryCTA={{ text: "Request Documentation", href: "/contact" }}
         secondaryCTA={{ text: "Browse Products", href: "/products" }}
+        backgroundImage="/images/applications/corroded-flange-tank.webp"
       />
 
       {/* Available Documentation */}

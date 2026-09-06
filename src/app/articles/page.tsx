@@ -22,6 +22,7 @@ export default function ArticlesPage() {
         title="Articles & Insights"
         subtitle="Technical guidance, industry news, and expert perspectives on corrosion protection from the Cortec Ireland team."
         primaryCTA={{ text: "Get in Touch", href: "/contact" }}
+        backgroundImage="/images/applications/esb-minipillar-corrosion.webp"
       />
 
       <section className="py-16 md:py-24">
