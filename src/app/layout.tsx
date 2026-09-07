@@ -30,6 +30,11 @@ export const metadata: Metadata = {
     "corrosion consultancy Ireland",
   ],
   metadataBase: new URL("https://cortecireland.com"),
+  // Self-referencing canonical on every page, resolved against metadataBase.
+  // Ensures corrosioneng.com cannot be indexed as duplicate content.
+  alternates: {
+    canonical: "./",
+  },
   openGraph: {
     type: "website",
     locale: "en_IE",
