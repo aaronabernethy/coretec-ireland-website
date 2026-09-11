@@ -12,6 +12,10 @@ const openSans = Open_Sans({
   weight: ["400", "600", "700", "800"],
 });
 
+const GOOGLE_SITE_VERIFICATION =
+  process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+
 export const metadata: Metadata = {
   title: {
     default: "Corrosion Engineering – Cortec Ireland Ltd | Ireland's Exclusive Cortec VpCI® Specialists",
@@ -35,6 +39,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "./",
   },
+  // Proves ownership of the domain to Google Search Console, which is what lets
+  // us submit the sitemap and request indexing. Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+  // to the token Search Console provides; the tag is omitted entirely when unset.
+  ...(GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: GOOGLE_SITE_VERIFICATION } }
+    : {}),
   openGraph: {
     type: "website",
     locale: "en_IE",
@@ -58,22 +68,27 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
 
-        {/* Google Analytics 4 — replace GA_MEASUREMENT_ID with your actual ID */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
+        {/* Google Analytics 4. Loads only when NEXT_PUBLIC_GA_ID is set, so we
+            never request gtag.js with a placeholder ID that collects nothing. */}
+        {GA_ID ? (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('consent', 'default', {
               'analytics_storage': 'denied'
             });
-            gtag('config', 'GA_MEASUREMENT_ID');
+            gtag('config', '${GA_ID}');
           `}
-        </Script>
+            </Script>
+          </>
+        ) : null}
       </body>
     </html>
   );
