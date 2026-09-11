@@ -523,7 +523,7 @@ export default function Home() {
             subtitle="Real Cortec® VpCI® applications across Irish and UK industry — from offshore vessel layup to on-site equipment preservation."
           />
           <div className="mt-12">
-            <PhotoGallery photos={workInAction} />
+            <PhotoGallery photos={workInAction} showCaptions={false} />
           </div>
         </div>
       </section>

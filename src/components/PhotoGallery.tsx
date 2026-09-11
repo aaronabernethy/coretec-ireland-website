@@ -7,9 +7,17 @@ export interface Photo {
 
 interface PhotoGalleryProps {
   photos: Photo[];
+  /**
+   * Show the caption overlay on each image. Captions are always used as the
+   * image alt text for accessibility and SEO, even when hidden.
+   */
+  showCaptions?: boolean;
 }
 
-export default function PhotoGallery({ photos }: PhotoGalleryProps) {
+export default function PhotoGallery({
+  photos,
+  showCaptions = true,
+}: PhotoGalleryProps) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {photos.map((photo) => (
@@ -26,9 +34,11 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
               className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
-          <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-900/90 via-navy-900/50 to-transparent p-4 pt-12 text-sm font-medium text-white">
-            {photo.caption}
-          </figcaption>
+          {showCaptions && (
+            <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-900/90 via-navy-900/50 to-transparent p-4 pt-12 text-sm font-medium text-white">
+              {photo.caption}
+            </figcaption>
+          )}
         </figure>
       ))}
     </div>
