@@ -46,7 +46,12 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: "Corrosion Engineering Cortec Ireland Ltd",
+  // Helps Google tie the site, the Companies House record and the trading name
+  // together as one business entity rather than three unrelated mentions.
+  alternateName: ["Cortec Ireland", "Corrosion Engineering"],
   url: "https://cortecireland.com",
+  logo: "https://cortecireland.com/images/logo.png",
+  image: "https://cortecireland.com/images/logo.png",
   telephone: "+447752498985",
   description:
     "Ireland's exclusive authorised distributor of Cortec Corporation VpCI® corrosion inhibitor products. Specialist corrosion protection solutions backed by ISO 9001 quality management, ISO 14001 environmental management, and ISO/IEC 17025 laboratory testing accreditation.",
