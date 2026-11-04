@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Images in /public are already optimised WebP; serve them as-is on Cloudflare
+  // rather than paying for on-the-fly image resizing.
+  images: { unoptimized: true },
   async redirects() {
     return [
       // Old product category URLs → new Cortec-aligned categories
@@ -20,3 +23,7 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
+// Lets `next dev` use Cloudflare bindings locally.
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+initOpenNextCloudflareForDev();
