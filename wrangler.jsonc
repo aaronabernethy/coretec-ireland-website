@@ -8,6 +8,11 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
+  // Contact form. RESEND_API_KEY is set separately as a secret (never in this file).
+  "vars": {
+    "CONTACT_TO": "aaron.abernethy@gmail.com",
+    "CONTACT_FROM": "Cortec Ireland Website <website@cortecireland.com>"
+  },
   "r2_buckets": [
     {
       "binding": "NEXT_INC_CACHE_R2_BUCKET",
